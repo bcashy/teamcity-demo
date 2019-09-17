@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="5e5858189aa5c5c"
+		totalerrorcount="1"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="BrianCashman"
+		rxversion="9.1.1.0"
+		host="DESKTOP-LUI4H5C"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="5206x1091"
+		timestamp="12/09/2019 10:37:10"
+		timestampiso="2019-09-12T09:37:10"
+		endtime="12/09/2019 10:37:23"
+		timeoutfactor="1"
+		module="AddNewItemImportSingle">
+		<detail>
+			AddNewItemImportSingle
+		</detail>
+		<errormessage>
+			Failed to wait for item to exist.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.956"
+			timeRelativeToTestModuleStartTime="00:02.956"
+			timeWallClock="10:37:13"
+			time="00:02.956"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FrmMain.MasterData' at 43;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='FrmMain']/element[@controlname='ribbon']/?/?/tabpage[@accessiblename='Master Data']"
+				itempath="element[@controlname='ribbon']/?/?/tabpage[@accessiblename='Master Data']"
+				fullname="Genesis_Desktop_TestSuite_MasterDataRepository.FrmMain.MasterData"
+				id="ec1fa4c54e684b1c9005e671df7b13f4"
+				timeout="60000"
+				codefile="c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.MasterData\Recordings\AddNewItemImportSingle.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.301"
+			timeRelativeToTestModuleStartTime="00:05.301"
+			timeWallClock="10:37:16"
+			time="00:05.301"
+			level="Warn"
+			category="WinForms">
+			<message>
+				Something is limiting object recognition for WinForms. Missing privileges are a common cause of this. Try starting all Ranorex tools and the AUT with the same privileges, preferably as an administrator. <br/>Process: 'GenesisAutomation' (pid 19416)<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v9.1/interfaces-connectivity/technology-instrumentation/general-troubleshooting/#DotNetWinForms<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="PotentiallyWinForms"
+				showInProgressDialog="False"
+				codefile="c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.MasterData\Recordings\AddNewItemImportSingle.cs"
+				codeline="83"
+				loglvl="Warn"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.905"
+			timeRelativeToTestModuleStartTime="00:05.905"
+			timeWallClock="10:37:16"
+			time="00:05.905"
+			level="Warn"
+			category="WinForms"
+			errimg="images_AddNewIt_fe8c9b48\AddNewIt_fe8c9b48_0ff4a390_trace.jpg"
+			errthumb="images_AddNewIt_fe8c9b48\AddNewIt_fe8c9b48_0ff4a390_trace_thumb.jpg">
+			<message>
+				Something is limiting object recognition for WinForms. This is caused by one of the following:<br/>- Your AUT uses obfuscated controls or is a mixed-mode executable.<br/>- Your AUT and the test executable target different platforms/processors. This causes issues on 64-bit OS.<br/>Process: 'Flow' (pid 18016)<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v9.1/interfaces-connectivity/technology-instrumentation/general-troubleshooting/#DotNetWinForms<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="WinFormsResolving"
+				showInProgressDialog="False"
+				codefile="c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.MasterData\Recordings\AddNewItemImportSingle.cs"
+				codeline="83"
+				loglvl="Warn"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.019"
+			timeRelativeToTestModuleStartTime="00:07.019"
+			timeWallClock="10:37:17"
+			time="00:07.019"
+			level="Info"
+			category="Wait"
+			errimg="images_AddNewIt_fe8c9b48\AddNewIt_fe8c9b48_0e4af23f_trace.jpg"
+			errthumb="images_AddNewIt_fe8c9b48\AddNewIt_fe8c9b48_0e4af23f_trace_thumb.jpg">
+			<message>
+				Waiting 5s to exist. Associated repository item: 'FrmMain1.Items'
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controltypename='FrmMain']/element[@controlname='ribbon']//toolbar[@accessiblename='Inventory']/button[@accessiblename='Items']"
+				itempath="element[@controlname='ribbon']//toolbar[@accessiblename='Inventory']/button[@accessiblename='Items']"
+				fullname="Genesis_Desktop_TestSuite_MasterDataRepository.FrmMain1.Items"
+				id="7168c425fbc247cc9d64f6dcceb3ab1d"
+				timeout="5000"
+				codefile="c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.MasterData\Recordings\AddNewItemImportSingle.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.446"
+			timeRelativeToTestModuleStartTime="00:12.446"
+			timeWallClock="10:37:23"
+			time="00:12.446"
+			level="Error"
+			category="Module"
+			errimg="images_AddNewIt_fe8c9b48\AddNewIt_fe8c9b48_2ef7425d_trace.jpg"
+			errthumb="images_AddNewIt_fe8c9b48\AddNewIt_fe8c9b48_2ef7425d_trace_thumb.jpg">
+			<message>
+				Failed to wait for item to exist.<br/>Failed to find item 'Genesis_Desktop_TestSuite_MasterDataRepository.FrmMain1.Items'.<br/>No element found for path '/form[@controltypename='FrmMain']/element[@controlname='ribbon']//toolbar[@accessiblename='Inventory']/button[@accessiblename='Items']' at step 'descendant-or-self::toolbar[@accessiblename='Inventory']' after 14 attempts within 5s.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.WaitForExists(Duration waitTimeout)
+   at Genesis.Desktop.TestSuite.MasterData.Recordings.AddNewItemImportSingle.Ranorex.Core.Testing.ITestModule.Run() in c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.MasterData\Recordings\AddNewItemImportSingle.cs:line 87
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.MasterData\Recordings\AddNewItemImportSingle.cs"
+				codeline="87"
+				loglvl="Error"
+				id="7168c425fbc247cc9d64f6dcceb3ab1d"
+				path="/form[@controltypename='FrmMain']/element[@controlname='ribbon']//toolbar[@accessiblename='Inventory']/button[@accessiblename='Items']"
+				fullname="Genesis_Desktop_TestSuite_MasterDataRepository.FrmMain1.Items"
+				itemindex="1">
+			</metainfo>
+		</item>
+	</activity>
+</report>

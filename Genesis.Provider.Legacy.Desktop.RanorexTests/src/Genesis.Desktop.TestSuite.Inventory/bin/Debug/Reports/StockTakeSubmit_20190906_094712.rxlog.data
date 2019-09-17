@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="24.27s"
+		durationms="24269"
+		type="root"
+		rid="5092b55ebf31288"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="BrianCashman"
+		rxversion="9.1.1.0"
+		host="DESKTOP-LUI4H5C"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="5206x1091"
+		timestamp="06/09/2019 09:47:15"
+		timestampiso="2019-09-06T08:47:15"
+		endtime="06/09/2019 09:47:40"
+		timeoutfactor="1"
+		module="StockTakeSubmit">
+		<detail>
+			StockTakeSubmit
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.809"
+			timeRelativeToTestModuleStartTime="00:02.809"
+			timeWallClock="09:47:18"
+			time="00:02.809"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'GenesisAutomation1.StockTake' at 25;14.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Genesis Automation']/element[@controlname='ribbon']//toolbar[@accessiblename='Stock']/button[@accessiblename='Stock Take']"
+				itempath="element[@controlname='ribbon']//toolbar[@accessiblename='Stock']/button[@accessiblename='Stock Take']"
+				fullname="Genesis_Desktop_TestSuite_InventoryRepository.GenesisAutomation1.StockTake"
+				id="3c2fd9689f914e96a00c288785657c7f"
+				timeout="60000"
+				codefile="c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.Inventory\Recordings\StockTakeSubmit.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.275"
+			timeRelativeToTestModuleStartTime="00:04.275"
+			timeWallClock="09:47:20"
+			time="00:04.275"
+			level="Warn"
+			category="WinForms">
+			<message>
+				Something is limiting object recognition for WinForms. This is caused by one of the following:<br/>- Your AUT uses obfuscated controls or is a mixed-mode executable.<br/>- Your AUT and the test executable target different platforms/processors. This causes issues on 64-bit OS.<br/>Process: 'Flow' (pid 14736)<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v9.1/interfaces-connectivity/technology-instrumentation/general-troubleshooting/#DotNetWinForms<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="WinFormsResolving"
+				showInProgressDialog="False"
+				codefile="c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.Inventory\Recordings\StockTakeSubmit.cs"
+				codeline="83"
+				loglvl="Warn"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.094"
+			timeRelativeToTestModuleStartTime="00:05.094"
+			timeWallClock="09:47:20"
+			time="00:05.094"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'GenesisAutomation1.AmendRow0' at 25;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Genesis Automation']/?/?/form[@controlname='FrmStockTake']/?/?/element[@controlname='gcStockTake']//row[@accessiblename='Row 1']/cell[@accessiblename='Amend row 0']"
+				itempath="?/?/form[@controlname='FrmStockTake']/?/?/element[@controlname='gcStockTake']//row[@accessiblename='Row 1']/cell[@accessiblename='Amend row 0']"
+				fullname="Genesis_Desktop_TestSuite_InventoryRepository.GenesisAutomation1.AmendRow0"
+				id="5e86d4696de94bd987a8813ef09b7df5"
+				timeout="60000"
+				codefile="c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.Inventory\Recordings\StockTakeSubmit.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.776"
+			timeRelativeToTestModuleStartTime="00:06.776"
+			timeWallClock="09:47:22"
+			time="00:06.776"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 3s.
+			</message>
+			<metainfo
+				itemindex="2"
+				codefile="c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.Inventory\Recordings\StockTakeSubmit.cs"
+				codeline="90"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.784"
+			timeRelativeToTestModuleStartTime="00:09.784"
+			timeWallClock="09:47:25"
+			time="00:09.784"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'GenesisAutomation1.MdiClient' at 143;15.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Genesis Automation']/element[@controltypename='MdiClient']"
+				itempath="element[@controltypename='MdiClient']"
+				fullname="Genesis_Desktop_TestSuite_InventoryRepository.GenesisAutomation1.MdiClient"
+				id="45210290a91c4ff9b66ba9cd64644438"
+				timeout="60000"
+				codefile="c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.Inventory\Recordings\StockTakeSubmit.cs"
+				codeline="93"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.260"
+			timeRelativeToTestModuleStartTime="00:10.260"
+			timeWallClock="09:47:26"
+			time="00:10.260"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'GenesisAutomation1.MdiClient' at 161;15.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Genesis Automation']/element[@controltypename='MdiClient']"
+				itempath="element[@controltypename='MdiClient']"
+				fullname="Genesis_Desktop_TestSuite_InventoryRepository.GenesisAutomation1.MdiClient"
+				id="45210290a91c4ff9b66ba9cd64644438"
+				timeout="60000"
+				codefile="c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.Inventory\Recordings\StockTakeSubmit.cs"
+				codeline="97"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.727"
+			timeRelativeToTestModuleStartTime="00:10.727"
+			timeWallClock="09:47:26"
+			time="00:10.727"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'GenesisAutomation1.MdiClient' at 42;17.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Genesis Automation']/element[@controltypename='MdiClient']"
+				itempath="element[@controltypename='MdiClient']"
+				fullname="Genesis_Desktop_TestSuite_InventoryRepository.GenesisAutomation1.MdiClient"
+				id="45210290a91c4ff9b66ba9cd64644438"
+				timeout="60000"
+				codefile="c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.Inventory\Recordings\StockTakeSubmit.cs"
+				codeline="101"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.228"
+			timeRelativeToTestModuleStartTime="00:11.228"
+			timeWallClock="09:47:27"
+			time="00:11.228"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'GenesisAutomation1.MdiClient' at 67;18.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Genesis Automation']/element[@controltypename='MdiClient']"
+				itempath="element[@controltypename='MdiClient']"
+				fullname="Genesis_Desktop_TestSuite_InventoryRepository.GenesisAutomation1.MdiClient"
+				id="45210290a91c4ff9b66ba9cd64644438"
+				timeout="60000"
+				codefile="c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.Inventory\Recordings\StockTakeSubmit.cs"
+				codeline="105"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.744"
+			timeRelativeToTestModuleStartTime="00:11.744"
+			timeWallClock="09:47:27"
+			time="00:11.744"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'GenesisAutomation1.FrmStockTakeAmend.TextMaskBox' at 28;7.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Genesis Automation']/?/?/form[@controlname='FrmStockTakeAmend']/container[@controlname='layoutControl1']/element[@controlname='txtStatus']/text[@controlname='_maskBox']"
+				itempath="container[@controlname='layoutControl1']/element[@controlname='txtStatus']/text[@controlname='_maskBox']"
+				fullname="Genesis_Desktop_TestSuite_InventoryRepository.GenesisAutomation1.FrmStockTakeAmend.TextMaskBox"
+				id="3abf9bcc2694450e8928742cb3c94805"
+				timeout="90000"
+				codefile="c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.Inventory\Recordings\StockTakeSubmit.cs"
+				codeline="109"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.762"
+			timeRelativeToTestModuleStartTime="00:12.762"
+			timeWallClock="09:47:28"
+			time="00:12.762"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Tab}{Tab}{Tab}{Tab}{Tab}{Tab}{Tab}{Tab}{Tab}{Tab}{Tab}{Tab}' with focus on 'GenesisAutomation1.FrmStockTakeAmend.TextMaskBox'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Genesis Automation']/?/?/form[@controlname='FrmStockTakeAmend']/container[@controlname='layoutControl1']/element[@controlname='txtStatus']/text[@controlname='_maskBox']"
+				itempath="container[@controlname='layoutControl1']/element[@controlname='txtStatus']/text[@controlname='_maskBox']"
+				fullname="Genesis_Desktop_TestSuite_InventoryRepository.GenesisAutomation1.FrmStockTakeAmend.TextMaskBox"
+				id="3abf9bcc2694450e8928742cb3c94805"
+				timeout="90000"
+				codefile="c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.Inventory\Recordings\StockTakeSubmit.cs"
+				codeline="113"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.486"
+			timeRelativeToTestModuleStartTime="00:13.486"
+			timeWallClock="09:47:29"
+			time="00:13.486"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Right}' with focus on 'GenesisAutomation1.AmendRow0'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Genesis Automation']/?/?/form[@controlname='FrmStockTake']/?/?/element[@controlname='gcStockTake']//row[@accessiblename='Row 1']/cell[@accessiblename='Amend row 0']"
+				itempath="?/?/form[@controlname='FrmStockTake']/?/?/element[@controlname='gcStockTake']//row[@accessiblename='Row 1']/cell[@accessiblename='Amend row 0']"
+				fullname="Genesis_Desktop_TestSuite_InventoryRepository.GenesisAutomation1.AmendRow0"
+				id="5e86d4696de94bd987a8813ef09b7df5"
+				timeout="60000"
+				codefile="c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.Inventory\Recordings\StockTakeSubmit.cs"
+				codeline="117"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.244"
+			timeRelativeToTestModuleStartTime="00:14.244"
+			timeWallClock="09:47:30"
+			time="00:14.244"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'GenesisAutomation1.FrmStockTakeAmend.CountedQtyRow0' at 37;14.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Genesis Automation']/?/?/form[@controlname='FrmStockTakeAmend']/container[@controlname='layoutControl1']//row[@accessiblename='Row 1']/cell[@accessiblename='Counted Qty row 0']"
+				itempath="container[@controlname='layoutControl1']//row[@accessiblename='Row 1']/cell[@accessiblename='Counted Qty row 0']"
+				fullname="Genesis_Desktop_TestSuite_InventoryRepository.GenesisAutomation1.FrmStockTakeAmend.CountedQtyRow0"
+				id="9890cfc714214842b24989a09e967ee7"
+				timeout="90000"
+				codefile="c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.Inventory\Recordings\StockTakeSubmit.cs"
+				codeline="121"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:24.270"
+			timeRelativeToTestModuleStartTime="00:24.270"
+			timeWallClock="09:47:40"
+			time="00:24.270"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

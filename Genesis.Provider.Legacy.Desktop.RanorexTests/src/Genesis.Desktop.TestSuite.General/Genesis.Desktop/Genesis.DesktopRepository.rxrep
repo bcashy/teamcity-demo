@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<repository
+name="Genesis.DesktopRepository"
+id="5c40ac37-5e2e-44e4-8df6-2cee09d5a074">
+  <codegen
+  classname="Genesis.DesktopRepository"
+  namespace="Genesis.Desktop"/>
+  <rootfolder
+  name="Root"
+  id="4c050442-7a9f-46bf-bfaf-2c1b4f0c601f"
+  searchtimeout="30000ms"
+  capname="unknown"
+  isrooted="True"
+  usecache="True">
+    <basepath/>
+  </rootfolder>
+  <variables/>
+</repository>

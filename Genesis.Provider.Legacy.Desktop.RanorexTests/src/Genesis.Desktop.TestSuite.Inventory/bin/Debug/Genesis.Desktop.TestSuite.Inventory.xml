@@ -1,0 +1,2630 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Genesis.Desktop.TestSuite.Inventory</name>
+    </assembly>
+    <members>
+        <member name="T:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepository">
+            <summary>
+            The class representing the Genesis_Desktop_TestSuite_InventoryRepository element repository.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the Genesis_Desktop_TestSuite_InventoryRepository element repository.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepository.FrmLogin">
+            <summary>
+            The FrmLogin folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepository.FrmMain">
+            <summary>
+            The FrmMain folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepository.FrmCreateRequisition">
+            <summary>
+            The FrmCreateRequisition folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepository.GenesisAutomation">
+            <summary>
+            The GenesisAutomation folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepository.GenesisAutomation1">
+            <summary>
+            The GenesisAutomation1 folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepository.PurchaseOrder">
+            <summary>
+            The PurchaseOrder folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepository.Explorer">
+            <summary>
+            The Explorer folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepository.TheTestSuiteStructureRanorexStudi">
+            <summary>
+            The TheTestSuiteStructureRanorexStudi folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepository.JumpListForGenesisAutomation">
+            <summary>
+            The JumpListForGenesisAutomation folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepository.Cortana">
+            <summary>
+            The Cortana folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepository.Explorer1">
+            <summary>
+            The Explorer1 folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepository.NewTab">
+            <summary>
+            The NewTab folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepository.WebDocumentPRVDSK2793GoodsReceipt">
+            <summary>
+            The WebDocumentPRVDSK2793GoodsReceipt folder.
+            </summary>
+        </member>
+        <member name="T:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmLoginAppFolder">
+            <summary>
+            The FrmLoginAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmLoginAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new FrmLogin  folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmLoginAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmLoginAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmLoginAppFolder.NoCapsMsgTextBoxMaskBox">
+            <summary>
+            The NoCapsMsgTextBoxMaskBox item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmLoginAppFolder.NoCapsMsgTextBoxMaskBoxInfo">
+            <summary>
+            The NoCapsMsgTextBoxMaskBox item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmLoginAppFolder.SignIn">
+            <summary>
+            The SignIn item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmLoginAppFolder.SignInInfo">
+            <summary>
+            The SignIn item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmLoginAppFolder.TextMaskBox">
+            <summary>
+            The TextMaskBox item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmLoginAppFolder.TextMaskBoxInfo">
+            <summary>
+            The TextMaskBox item info.
+            </summary>
+        </member>
+        <member name="T:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmMainAppFolder">
+            <summary>
+            The FrmMainAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmMainAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new FrmMain  folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmMainAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmMainAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmMainAppFolder.CreateRequisition">
+            <summary>
+            The CreateRequisition item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmMainAppFolder.CreateRequisitionInfo">
+            <summary>
+            The CreateRequisition item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmMainAppFolder.NewOrders">
+            <summary>
+            The NewOrders item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmMainAppFolder.NewOrdersInfo">
+            <summary>
+            The NewOrders item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmMainAppFolder.ReleaseRow0">
+            <summary>
+            The ReleaseRow0 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmMainAppFolder.ReleaseRow0Info">
+            <summary>
+            The ReleaseRow0 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmMainAppFolder.Ribbon">
+            <summary>
+            The Ribbon item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmMainAppFolder.RibbonInfo">
+            <summary>
+            The Ribbon item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmMainAppFolder.ChartBarTransactions">
+            <summary>
+            The ChartBarTransactions item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmMainAppFolder.ChartBarTransactionsInfo">
+            <summary>
+            The ChartBarTransactions item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmMainAppFolder.MasterData">
+            <summary>
+            The MasterData item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmMainAppFolder.MasterDataInfo">
+            <summary>
+            The MasterData item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmMainAppFolder.Tasks">
+            <summary>
+            The Tasks item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmMainAppFolder.TasksInfo">
+            <summary>
+            The Tasks item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmMainAppFolder.TextBoxMaskBox">
+            <summary>
+            The TextBoxMaskBox item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmMainAppFolder.TextBoxMaskBoxInfo">
+            <summary>
+            The TextBoxMaskBox item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmMainAppFolder.SplitControl">
+            <summary>
+            The SplitControl folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmMainAppFolder.LayoutControl1">
+            <summary>
+            The LayoutControl1 folder.
+            </summary>
+        </member>
+        <member name="T:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.SplitControlFolder">
+            <summary>
+            The SplitControlFolder folder.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.SplitControlFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new SplitControl  folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.SplitControlFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.SplitControlFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.SplitControlFolder.OutstandingOrders">
+            <summary>
+            The OutstandingOrders item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.SplitControlFolder.OutstandingOrdersInfo">
+            <summary>
+            The OutstandingOrders item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.SplitControlFolder.DataPanel">
+            <summary>
+            The DataPanel item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.SplitControlFolder.DataPanelInfo">
+            <summary>
+            The DataPanel item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.SplitControlFolder.GoodsReceiptRow0">
+            <summary>
+            The GoodsReceiptRow0 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.SplitControlFolder.GoodsReceiptRow0Info">
+            <summary>
+            The GoodsReceiptRow0 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.SplitControlFolder.PriorityRow0">
+            <summary>
+            The PriorityRow0 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.SplitControlFolder.PriorityRow0Info">
+            <summary>
+            The PriorityRow0 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.SplitControlFolder.EditingControl">
+            <summary>
+            The EditingControl item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.SplitControlFolder.EditingControlInfo">
+            <summary>
+            The EditingControl item info.
+            </summary>
+        </member>
+        <member name="T:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.LayoutControl1Folder">
+            <summary>
+            The LayoutControl1Folder folder.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.LayoutControl1Folder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new LayoutControl1  folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.LayoutControl1Folder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.LayoutControl1Folder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.LayoutControl1Folder.Close">
+            <summary>
+            The Close item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.LayoutControl1Folder.CloseInfo">
+            <summary>
+            The Close item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.LayoutControl1Folder.Open">
+            <summary>
+            The Open item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.LayoutControl1Folder.OpenInfo">
+            <summary>
+            The Open item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.LayoutControl1Folder.DeleteRow0">
+            <summary>
+            The DeleteRow0 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.LayoutControl1Folder.DeleteRow0Info">
+            <summary>
+            The DeleteRow0 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.LayoutControl1Folder.ResetFilters">
+            <summary>
+            The ResetFilters item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.LayoutControl1Folder.ResetFiltersInfo">
+            <summary>
+            The ResetFilters item info.
+            </summary>
+        </member>
+        <member name="T:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmCreateRequisitionAppFolder">
+            <summary>
+            The FrmCreateRequisitionAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmCreateRequisitionAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new FrmCreateRequisition  folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmCreateRequisitionAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmCreateRequisitionAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmCreateRequisitionAppFolder.Open">
+            <summary>
+            The Open item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmCreateRequisitionAppFolder.OpenInfo">
+            <summary>
+            The Open item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmCreateRequisitionAppFolder.Open1">
+            <summary>
+            The Open1 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmCreateRequisitionAppFolder.Open1Info">
+            <summary>
+            The Open1 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmCreateRequisitionAppFolder.AddRequisition">
+            <summary>
+            The AddRequisition item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmCreateRequisitionAppFolder.AddRequisitionInfo">
+            <summary>
+            The AddRequisition item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmCreateRequisitionAppFolder.Confirm">
+            <summary>
+            The Confirm item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmCreateRequisitionAppFolder.ConfirmInfo">
+            <summary>
+            The Confirm item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmCreateRequisitionAppFolder.Close">
+            <summary>
+            The Close item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmCreateRequisitionAppFolder.CloseInfo">
+            <summary>
+            The Close item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmCreateRequisitionAppFolder.Item">
+            <summary>
+            The Item item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmCreateRequisitionAppFolder.ItemInfo">
+            <summary>
+            The Item item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmCreateRequisitionAppFolder.Close1">
+            <summary>
+            The Close1 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmCreateRequisitionAppFolder.Close1Info">
+            <summary>
+            The Close1 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmCreateRequisitionAppFolder.Items">
+            <summary>
+            The Items item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmCreateRequisitionAppFolder.ItemsInfo">
+            <summary>
+            The Items item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmCreateRequisitionAppFolder.Open2">
+            <summary>
+            The Open2 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmCreateRequisitionAppFolder.Open2Info">
+            <summary>
+            The Open2 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmCreateRequisitionAppFolder.TextSelectItem">
+            <summary>
+            The TextSelectItem item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmCreateRequisitionAppFolder.TextSelectItemInfo">
+            <summary>
+            The TextSelectItem item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmCreateRequisitionAppFolder.ReplenishFromSupplier">
+            <summary>
+            The ReplenishFromSupplier item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmCreateRequisitionAppFolder.ReplenishFromSupplierInfo">
+            <summary>
+            The ReplenishFromSupplier item info.
+            </summary>
+        </member>
+        <member name="T:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomationAppFolder">
+            <summary>
+            The GenesisAutomationAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomationAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new GenesisAutomation  folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomationAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomationAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomationAppFolder.DescriptionRow9">
+            <summary>
+            The DescriptionRow9 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomationAppFolder.DescriptionRow9Info">
+            <summary>
+            The DescriptionRow9 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomationAppFolder.DescriptionRow0">
+            <summary>
+            The DescriptionRow0 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomationAppFolder.DescriptionRow0Info">
+            <summary>
+            The DescriptionRow0 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomationAppFolder.DescriptionRow1">
+            <summary>
+            The DescriptionRow1 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomationAppFolder.DescriptionRow1Info">
+            <summary>
+            The DescriptionRow1 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomationAppFolder.Row2">
+            <summary>
+            The Row2 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomationAppFolder.Row2Info">
+            <summary>
+            The Row2 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomationAppFolder.Row1">
+            <summary>
+            The Row1 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomationAppFolder.Row1Info">
+            <summary>
+            The Row1 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomationAppFolder.TextMaskBox">
+            <summary>
+            The TextMaskBox item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomationAppFolder.TextMaskBoxInfo">
+            <summary>
+            The TextMaskBox item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomationAppFolder.TextMaskBox1">
+            <summary>
+            The TextMaskBox1 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomationAppFolder.TextMaskBox1Info">
+            <summary>
+            The TextMaskBox1 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomationAppFolder.Find">
+            <summary>
+            The Find item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomationAppFolder.FindInfo">
+            <summary>
+            The Find item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomationAppFolder.Delete">
+            <summary>
+            The Delete item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomationAppFolder.DeleteInfo">
+            <summary>
+            The Delete item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomationAppFolder.GenesisAutomationMasterDataImport">
+            <summary>
+            The GenesisAutomationMasterDataImport item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomationAppFolder.GenesisAutomationMasterDataImportInfo">
+            <summary>
+            The GenesisAutomationMasterDataImport item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomationAppFolder.SelectionRow0">
+            <summary>
+            The SelectionRow0 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomationAppFolder.SelectionRow0Info">
+            <summary>
+            The SelectionRow0 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomationAppFolder.Cancel">
+            <summary>
+            The Cancel item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomationAppFolder.CancelInfo">
+            <summary>
+            The Cancel item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomationAppFolder.LineDown">
+            <summary>
+            The LineDown item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomationAppFolder.LineDownInfo">
+            <summary>
+            The LineDown item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomationAppFolder.Description">
+            <summary>
+            The Description item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomationAppFolder.DescriptionInfo">
+            <summary>
+            The Description item info.
+            </summary>
+        </member>
+        <member name="T:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomation1AppFolder">
+            <summary>
+            The GenesisAutomation1AppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomation1AppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new GenesisAutomation1  folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomation1AppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomation1AppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomation1AppFolder.ButtonOK">
+            <summary>
+            The ButtonOK item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomation1AppFolder.ButtonOKInfo">
+            <summary>
+            The ButtonOK item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomation1AppFolder.ButtonYes">
+            <summary>
+            The ButtonYes item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomation1AppFolder.ButtonYesInfo">
+            <summary>
+            The ButtonYes item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomation1AppFolder.DetailsRow0">
+            <summary>
+            The DetailsRow0 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomation1AppFolder.DetailsRow0Info">
+            <summary>
+            The DetailsRow0 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomation1AppFolder.RibbonStatusBar">
+            <summary>
+            The RibbonStatusBar item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomation1AppFolder.RibbonStatusBarInfo">
+            <summary>
+            The RibbonStatusBar item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomation1AppFolder.FooterPanel">
+            <summary>
+            The FooterPanel item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomation1AppFolder.FooterPanelInfo">
+            <summary>
+            The FooterPanel item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomation1AppFolder.EditingControl">
+            <summary>
+            The EditingControl item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomation1AppFolder.EditingControlInfo">
+            <summary>
+            The EditingControl item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomation1AppFolder.ButtonNo">
+            <summary>
+            The ButtonNo item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomation1AppFolder.ButtonNoInfo">
+            <summary>
+            The ButtonNo item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomation1AppFolder.RefreshTasks">
+            <summary>
+            The RefreshTasks item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomation1AppFolder.RefreshTasksInfo">
+            <summary>
+            The RefreshTasks item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomation1AppFolder.ImportData">
+            <summary>
+            The ImportData item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomation1AppFolder.ImportDataInfo">
+            <summary>
+            The ImportData item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomation1AppFolder.StockTake">
+            <summary>
+            The StockTake item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomation1AppFolder.StockTakeInfo">
+            <summary>
+            The StockTake item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomation1AppFolder.NewStockTake">
+            <summary>
+            The NewStockTake item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomation1AppFolder.NewStockTakeInfo">
+            <summary>
+            The NewStockTake item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomation1AppFolder.AmendRow0">
+            <summary>
+            The AmendRow0 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomation1AppFolder.AmendRow0Info">
+            <summary>
+            The AmendRow0 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomation1AppFolder.Open">
+            <summary>
+            The Open item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomation1AppFolder.OpenInfo">
+            <summary>
+            The Open item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomation1AppFolder.Submitted">
+            <summary>
+            The Submitted item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomation1AppFolder.SubmittedInfo">
+            <summary>
+            The Submitted item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomation1AppFolder.ReferenceRow0">
+            <summary>
+            The ReferenceRow0 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomation1AppFolder.ReferenceRow0Info">
+            <summary>
+            The ReferenceRow0 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomation1AppFolder.DataPanel">
+            <summary>
+            The DataPanel item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomation1AppFolder.DataPanelInfo">
+            <summary>
+            The DataPanel item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomation1AppFolder.MdiClient">
+            <summary>
+            The MdiClient item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomation1AppFolder.MdiClientInfo">
+            <summary>
+            The MdiClient item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.GenesisAutomation1AppFolder.FrmStockTakeAmend">
+            <summary>
+            The FrmStockTakeAmend folder.
+            </summary>
+        </member>
+        <member name="T:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmStockTakeAmendFolder">
+            <summary>
+            The FrmStockTakeAmendFolder folder.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmStockTakeAmendFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new FrmStockTakeAmend  folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmStockTakeAmendFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmStockTakeAmendFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmStockTakeAmendFolder.LciProgressPanel">
+            <summary>
+            The LciProgressPanel item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmStockTakeAmendFolder.LciProgressPanelInfo">
+            <summary>
+            The LciProgressPanel item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmStockTakeAmendFolder.HeaderPanel">
+            <summary>
+            The HeaderPanel item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmStockTakeAmendFolder.HeaderPanelInfo">
+            <summary>
+            The HeaderPanel item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmStockTakeAmendFolder.CountedQtyRow0">
+            <summary>
+            The CountedQtyRow0 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmStockTakeAmendFolder.CountedQtyRow0Info">
+            <summary>
+            The CountedQtyRow0 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmStockTakeAmendFolder.Submit8Items">
+            <summary>
+            The Submit8Items item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmStockTakeAmendFolder.Submit8ItemsInfo">
+            <summary>
+            The Submit8Items item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmStockTakeAmendFolder.CountedQtyRow1">
+            <summary>
+            The CountedQtyRow1 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmStockTakeAmendFolder.CountedQtyRow1Info">
+            <summary>
+            The CountedQtyRow1 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmStockTakeAmendFolder.Submit5Items">
+            <summary>
+            The Submit5Items item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmStockTakeAmendFolder.Submit5ItemsInfo">
+            <summary>
+            The Submit5Items item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmStockTakeAmendFolder.CloseWindow">
+            <summary>
+            The CloseWindow item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmStockTakeAmendFolder.CloseWindowInfo">
+            <summary>
+            The CloseWindow item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmStockTakeAmendFolder.Refresh">
+            <summary>
+            The Refresh item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmStockTakeAmendFolder.RefreshInfo">
+            <summary>
+            The Refresh item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmStockTakeAmendFolder.Breakdown">
+            <summary>
+            The Breakdown item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmStockTakeAmendFolder.BreakdownInfo">
+            <summary>
+            The Breakdown item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmStockTakeAmendFolder.Submit3Items">
+            <summary>
+            The Submit3Items item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmStockTakeAmendFolder.Submit3ItemsInfo">
+            <summary>
+            The Submit3Items item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmStockTakeAmendFolder.SerialNumberRow2">
+            <summary>
+            The SerialNumberRow2 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmStockTakeAmendFolder.SerialNumberRow2Info">
+            <summary>
+            The SerialNumberRow2 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmStockTakeAmendFolder.Submit7Items">
+            <summary>
+            The Submit7Items item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmStockTakeAmendFolder.Submit7ItemsInfo">
+            <summary>
+            The Submit7Items item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmStockTakeAmendFolder.TextMaskBox">
+            <summary>
+            The TextMaskBox item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.FrmStockTakeAmendFolder.TextMaskBoxInfo">
+            <summary>
+            The TextMaskBox item info.
+            </summary>
+        </member>
+        <member name="T:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder">
+            <summary>
+            The PurchaseOrderAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new PurchaseOrder  folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.ButtonOK">
+            <summary>
+            The ButtonOK item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.ButtonOKInfo">
+            <summary>
+            The ButtonOK item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.CloseWindow">
+            <summary>
+            The CloseWindow item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.CloseWindowInfo">
+            <summary>
+            The CloseWindow item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.ReceiptRow0">
+            <summary>
+            The ReceiptRow0 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.ReceiptRow0Info">
+            <summary>
+            The ReceiptRow0 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.TextMaskBox">
+            <summary>
+            The TextMaskBox item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.TextMaskBoxInfo">
+            <summary>
+            The TextMaskBox item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.Receive">
+            <summary>
+            The Receive item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.ReceiveInfo">
+            <summary>
+            The Receive item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.Close">
+            <summary>
+            The Close item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.CloseInfo">
+            <summary>
+            The Close item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.CloseWindow1">
+            <summary>
+            The CloseWindow1 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.CloseWindow1Info">
+            <summary>
+            The CloseWindow1 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.Close1">
+            <summary>
+            The Close1 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.Close1Info">
+            <summary>
+            The Close1 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.GenesisAccount">
+            <summary>
+            The GenesisAccount item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.GenesisAccountInfo">
+            <summary>
+            The GenesisAccount item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.GenesisE2e">
+            <summary>
+            The GenesisE2e item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.GenesisE2eInfo">
+            <summary>
+            The GenesisE2e item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.TestConnection">
+            <summary>
+            The TestConnection item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.TestConnectionInfo">
+            <summary>
+            The TestConnection item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.Save">
+            <summary>
+            The Save item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.SaveInfo">
+            <summary>
+            The Save item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.Text">
+            <summary>
+            The Text item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.TextInfo">
+            <summary>
+            The Text item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.Exit">
+            <summary>
+            The Exit item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.ExitInfo">
+            <summary>
+            The Exit item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.TextMaskBox1">
+            <summary>
+            The TextMaskBox1 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.TextMaskBox1Info">
+            <summary>
+            The TextMaskBox1 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.TextMaskBox2">
+            <summary>
+            The TextMaskBox2 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.TextMaskBox2Info">
+            <summary>
+            The TextMaskBox2 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.ReceiveAll">
+            <summary>
+            The ReceiveAll item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.ReceiveAllInfo">
+            <summary>
+            The ReceiveAll item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.GetTemplate">
+            <summary>
+            The GetTemplate item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.GetTemplateInfo">
+            <summary>
+            The GetTemplate item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.ButtonSave">
+            <summary>
+            The ButtonSave item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.ButtonSaveInfo">
+            <summary>
+            The ButtonSave item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.ButtonYes">
+            <summary>
+            The ButtonYes item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.ButtonYesInfo">
+            <summary>
+            The ButtonYes item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.ButtonYes1">
+            <summary>
+            The ButtonYes1 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.ButtonYes1Info">
+            <summary>
+            The ButtonYes1 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.Cell5">
+            <summary>
+            The Cell5 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.Cell5Info">
+            <summary>
+            The Cell5 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.ItemImportTemplate">
+            <summary>
+            The ItemImportTemplate item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.ItemImportTemplateInfo">
+            <summary>
+            The ItemImportTemplate item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.Position">
+            <summary>
+            The Position item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.PositionInfo">
+            <summary>
+            The Position item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.Save1">
+            <summary>
+            The Save1 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.Save1Info">
+            <summary>
+            The Save1 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.Continue">
+            <summary>
+            The Continue item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.ContinueInfo">
+            <summary>
+            The Continue item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.Close2">
+            <summary>
+            The Close2 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.Close2Info">
+            <summary>
+            The Close2 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.PushButton">
+            <summary>
+            The PushButton item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.PushButtonInfo">
+            <summary>
+            The PushButton item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.Text1148">
+            <summary>
+            The Text1148 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.Text1148Info">
+            <summary>
+            The Text1148 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.ButtonOK1">
+            <summary>
+            The ButtonOK1 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.ButtonOK1Info">
+            <summary>
+            The ButtonOK1 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.Import">
+            <summary>
+            The Import item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.ImportInfo">
+            <summary>
+            The Import item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.TextBoxMaskBox">
+            <summary>
+            The TextBoxMaskBox item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.TextBoxMaskBoxInfo">
+            <summary>
+            The TextBoxMaskBox item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.Close3">
+            <summary>
+            The Close3 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.Close3Info">
+            <summary>
+            The Close3 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.Font">
+            <summary>
+            The Font item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.FontInfo">
+            <summary>
+            The Font item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.FormulaBar">
+            <summary>
+            The FormulaBar item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.FormulaBarInfo">
+            <summary>
+            The FormulaBar item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.Minimise">
+            <summary>
+            The Minimise item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.MinimiseInfo">
+            <summary>
+            The Minimise item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.Part">
+            <summary>
+            The Part item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.PartInfo">
+            <summary>
+            The Part item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.DdlSublocationsMulti">
+            <summary>
+            The DdlSublocationsMulti item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.DdlSublocationsMultiInfo">
+            <summary>
+            The DdlSublocationsMulti item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.EmptySpaceItem2">
+            <summary>
+            The EmptySpaceItem2 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.EmptySpaceItem2Info">
+            <summary>
+            The EmptySpaceItem2 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.LineDown">
+            <summary>
+            The LineDown item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.LineDownInfo">
+            <summary>
+            The LineDown item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.Maximise">
+            <summary>
+            The Maximise item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.MaximiseInfo">
+            <summary>
+            The Maximise item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.WizardControl1">
+            <summary>
+            The WizardControl1 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.WizardControl1Info">
+            <summary>
+            The WizardControl1 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.ItemImportTemplate1">
+            <summary>
+            The ItemImportTemplate1 folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.PurchaseOrderAppFolder.LayoutControl1">
+            <summary>
+            The LayoutControl1 folder.
+            </summary>
+        </member>
+        <member name="T:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.ItemImportTemplate1Folder">
+            <summary>
+            The ItemImportTemplate1Folder folder.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.ItemImportTemplate1Folder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ItemImportTemplate1  folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.ItemImportTemplate1Folder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.ItemImportTemplate1Folder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.ItemImportTemplate1Folder.CellD3">
+            <summary>
+            The CellD3 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.ItemImportTemplate1Folder.CellD3Info">
+            <summary>
+            The CellD3 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.ItemImportTemplate1Folder.CellC4">
+            <summary>
+            The CellC4 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.ItemImportTemplate1Folder.CellC4Info">
+            <summary>
+            The CellC4 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.ItemImportTemplate1Folder.CellE4">
+            <summary>
+            The CellE4 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.ItemImportTemplate1Folder.CellE4Info">
+            <summary>
+            The CellE4 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.ItemImportTemplate1Folder.CellF4">
+            <summary>
+            The CellF4 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.ItemImportTemplate1Folder.CellF4Info">
+            <summary>
+            The CellF4 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.ItemImportTemplate1Folder.CellJ4">
+            <summary>
+            The CellJ4 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.ItemImportTemplate1Folder.CellJ4Info">
+            <summary>
+            The CellJ4 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.ItemImportTemplate1Folder.CellL4">
+            <summary>
+            The CellL4 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.ItemImportTemplate1Folder.CellL4Info">
+            <summary>
+            The CellL4 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.ItemImportTemplate1Folder.CellM4">
+            <summary>
+            The CellM4 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.ItemImportTemplate1Folder.CellM4Info">
+            <summary>
+            The CellM4 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.ItemImportTemplate1Folder.CellN4">
+            <summary>
+            The CellN4 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.ItemImportTemplate1Folder.CellN4Info">
+            <summary>
+            The CellN4 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.ItemImportTemplate1Folder.CellO4">
+            <summary>
+            The CellO4 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.ItemImportTemplate1Folder.CellO4Info">
+            <summary>
+            The CellO4 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.ItemImportTemplate1Folder.CellA5">
+            <summary>
+            The CellA5 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.ItemImportTemplate1Folder.CellA5Info">
+            <summary>
+            The CellA5 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.ItemImportTemplate1Folder.CellB5">
+            <summary>
+            The CellB5 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.ItemImportTemplate1Folder.CellB5Info">
+            <summary>
+            The CellB5 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.ItemImportTemplate1Folder.CellB6">
+            <summary>
+            The CellB6 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.ItemImportTemplate1Folder.CellB6Info">
+            <summary>
+            The CellB6 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.ItemImportTemplate1Folder.CellF5">
+            <summary>
+            The CellF5 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.ItemImportTemplate1Folder.CellF5Info">
+            <summary>
+            The CellF5 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.ItemImportTemplate1Folder.CellC5">
+            <summary>
+            The CellC5 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.ItemImportTemplate1Folder.CellC5Info">
+            <summary>
+            The CellC5 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.ItemImportTemplate1Folder.CellC6">
+            <summary>
+            The CellC6 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.ItemImportTemplate1Folder.CellC6Info">
+            <summary>
+            The CellC6 item info.
+            </summary>
+        </member>
+        <member name="T:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.LayoutControl1Folder1">
+            <summary>
+            The LayoutControl1Folder1 folder.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.LayoutControl1Folder1.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new LayoutControl1  folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.LayoutControl1Folder1.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.LayoutControl1Folder1.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.LayoutControl1Folder1.ButtonFinish">
+            <summary>
+            The ButtonFinish item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.LayoutControl1Folder1.ButtonFinishInfo">
+            <summary>
+            The ButtonFinish item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.LayoutControl1Folder1.ButtonNext">
+            <summary>
+            The ButtonNext item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.LayoutControl1Folder1.ButtonNextInfo">
+            <summary>
+            The ButtonNext item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.LayoutControl1Folder1.MarkRow0">
+            <summary>
+            The MarkRow0 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.LayoutControl1Folder1.MarkRow0Info">
+            <summary>
+            The MarkRow0 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.LayoutControl1Folder1.MarkRow2">
+            <summary>
+            The MarkRow2 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.LayoutControl1Folder1.MarkRow2Info">
+            <summary>
+            The MarkRow2 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.LayoutControl1Folder1.MarkRow3">
+            <summary>
+            The MarkRow3 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.LayoutControl1Folder1.MarkRow3Info">
+            <summary>
+            The MarkRow3 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.LayoutControl1Folder1.MarkRow4">
+            <summary>
+            The MarkRow4 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.LayoutControl1Folder1.MarkRow4Info">
+            <summary>
+            The MarkRow4 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.LayoutControl1Folder1.AddSelected">
+            <summary>
+            The AddSelected item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.LayoutControl1Folder1.AddSelectedInfo">
+            <summary>
+            The AddSelected item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.LayoutControl1Folder1.TextBoxMaskBox1">
+            <summary>
+            The TextBoxMaskBox1 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.LayoutControl1Folder1.TextBoxMaskBox1Info">
+            <summary>
+            The TextBoxMaskBox1 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.LayoutControl1Folder1.ChooseItems">
+            <summary>
+            The ChooseItems item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.LayoutControl1Folder1.ChooseItemsInfo">
+            <summary>
+            The ChooseItems item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.LayoutControl1Folder1.Mark">
+            <summary>
+            The Mark item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.LayoutControl1Folder1.MarkInfo">
+            <summary>
+            The Mark item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.LayoutControl1Folder1.LineDown">
+            <summary>
+            The LineDown item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.LayoutControl1Folder1.LineDownInfo">
+            <summary>
+            The LineDown item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.LayoutControl1Folder1.MarkRow5">
+            <summary>
+            The MarkRow5 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.LayoutControl1Folder1.MarkRow5Info">
+            <summary>
+            The MarkRow5 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.LayoutControl1Folder1.MarkRow6">
+            <summary>
+            The MarkRow6 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.LayoutControl1Folder1.MarkRow6Info">
+            <summary>
+            The MarkRow6 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.LayoutControl1Folder1.EditingControl">
+            <summary>
+            The EditingControl item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.LayoutControl1Folder1.EditingControlInfo">
+            <summary>
+            The EditingControl item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.LayoutControl1Folder1.MarkRow8">
+            <summary>
+            The MarkRow8 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.LayoutControl1Folder1.MarkRow8Info">
+            <summary>
+            The MarkRow8 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.LayoutControl1Folder1.MarkRow11">
+            <summary>
+            The MarkRow11 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.LayoutControl1Folder1.MarkRow11Info">
+            <summary>
+            The MarkRow11 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.LayoutControl1Folder1.TextBoxMaskBox">
+            <summary>
+            The TextBoxMaskBox item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.LayoutControl1Folder1.TextBoxMaskBoxInfo">
+            <summary>
+            The TextBoxMaskBox item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.LayoutControl1Folder1.Fvi3040">
+            <summary>
+            The Fvi3040 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.LayoutControl1Folder1.Fvi3040Info">
+            <summary>
+            The Fvi3040 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.LayoutControl1Folder1.Ucb455">
+            <summary>
+            The Ucb455 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.LayoutControl1Folder1.Ucb455Info">
+            <summary>
+            The Ucb455 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.LayoutControl1Folder1.Umf514">
+            <summary>
+            The Umf514 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.LayoutControl1Folder1.Umf514Info">
+            <summary>
+            The Umf514 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.LayoutControl1Folder1.Aeb181">
+            <summary>
+            The Aeb181 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.LayoutControl1Folder1.Aeb181Info">
+            <summary>
+            The Aeb181 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.LayoutControl1Folder1.Cancel">
+            <summary>
+            The Cancel item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.LayoutControl1Folder1.CancelInfo">
+            <summary>
+            The Cancel item info.
+            </summary>
+        </member>
+        <member name="T:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.ExplorerAppFolder">
+            <summary>
+            The ExplorerAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.ExplorerAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Explorer  folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.ExplorerAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.ExplorerAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.ExplorerAppFolder.Text4101">
+            <summary>
+            The Text4101 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.ExplorerAppFolder.Text4101Info">
+            <summary>
+            The Text4101 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.ExplorerAppFolder.RunningApplications">
+            <summary>
+            The RunningApplications folder.
+            </summary>
+        </member>
+        <member name="T:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.RunningApplicationsFolder">
+            <summary>
+            The RunningApplicationsFolder folder.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.RunningApplicationsFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new RunningApplications  folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.RunningApplicationsFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.RunningApplicationsFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.RunningApplicationsFolder.GenesisAutomation">
+            <summary>
+            The GenesisAutomation item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.RunningApplicationsFolder.GenesisAutomationInfo">
+            <summary>
+            The GenesisAutomation item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.RunningApplicationsFolder.GenesisAutomation1RunningWindow">
+            <summary>
+            The GenesisAutomation1RunningWindow item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.RunningApplicationsFolder.GenesisAutomation1RunningWindowInfo">
+            <summary>
+            The GenesisAutomation1RunningWindow item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.RunningApplicationsFolder.GenesisAutomation2RunningWindows">
+            <summary>
+            The GenesisAutomation2RunningWindows item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.RunningApplicationsFolder.GenesisAutomation2RunningWindowsInfo">
+            <summary>
+            The GenesisAutomation2RunningWindows item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.RunningApplicationsFolder.GenesisAutomation1RunningWindow1">
+            <summary>
+            The GenesisAutomation1RunningWindow1 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.RunningApplicationsFolder.GenesisAutomation1RunningWindow1Info">
+            <summary>
+            The GenesisAutomation1RunningWindow1 item info.
+            </summary>
+        </member>
+        <member name="T:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.TheTestSuiteStructureRanorexStudiAppFolder">
+            <summary>
+            The TheTestSuiteStructureRanorexStudiAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.TheTestSuiteStructureRanorexStudiAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new TheTestSuiteStructureRanorexStudi  folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.TheTestSuiteStructureRanorexStudiAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.TheTestSuiteStructureRanorexStudiAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.TheTestSuiteStructureRanorexStudiAppFolder.AddingTestSuiteItemsUsingDragdrop">
+            <summary>
+            The AddingTestSuiteItemsUsingDragdrop item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.TheTestSuiteStructureRanorexStudiAppFolder.AddingTestSuiteItemsUsingDragdropInfo">
+            <summary>
+            The AddingTestSuiteItemsUsingDragdrop item info.
+            </summary>
+        </member>
+        <member name="T:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.JumpListForGenesisAutomationAppFolder">
+            <summary>
+            The JumpListForGenesisAutomationAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.JumpListForGenesisAutomationAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new JumpListForGenesisAutomation  folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.JumpListForGenesisAutomationAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.JumpListForGenesisAutomationAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.JumpListForGenesisAutomationAppFolder.DisplayNameTextBlock">
+            <summary>
+            The DisplayNameTextBlock item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.JumpListForGenesisAutomationAppFolder.DisplayNameTextBlockInfo">
+            <summary>
+            The DisplayNameTextBlock item info.
+            </summary>
+        </member>
+        <member name="T:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.CortanaAppFolder">
+            <summary>
+            The CortanaAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.CortanaAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Cortana  folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.CortanaAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.CortanaAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.CortanaAppFolder.GenesisAutomation">
+            <summary>
+            The GenesisAutomation item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.CortanaAppFolder.GenesisAutomationInfo">
+            <summary>
+            The GenesisAutomation item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.CortanaAppFolder.RunAs">
+            <summary>
+            The RunAs item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.CortanaAppFolder.RunAsInfo">
+            <summary>
+            The RunAs item info.
+            </summary>
+        </member>
+        <member name="T:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.Explorer1AppFolder">
+            <summary>
+            The Explorer1AppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.Explorer1AppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Explorer1  folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.Explorer1AppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.Explorer1AppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.Explorer1AppFolder.List1">
+            <summary>
+            The List1 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.Explorer1AppFolder.List1Info">
+            <summary>
+            The List1 item info.
+            </summary>
+        </member>
+        <member name="T:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.NewTabAppFolder">
+            <summary>
+            The NewTabAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.NewTabAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new NewTab  folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.NewTabAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.NewTabAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.WebDocumentPRVDSK2793GoodsReceiptAppFolder">
+            <summary>
+            The WebDocumentPRVDSK2793GoodsReceiptAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.WebDocumentPRVDSK2793GoodsReceiptAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new WebDocumentPRVDSK2793GoodsReceipt  folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.WebDocumentPRVDSK2793GoodsReceiptAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepositoryFolders.WebDocumentPRVDSK2793GoodsReceiptAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:Genesis.Desktop.TestSuite.Inventory.Recordings.StockTakeSubmit">
+             <summary>
+            The StockTakeSubmit recording.
+             </summary>
+        </member>
+        <member name="F:Genesis.Desktop.TestSuite.Inventory.Recordings.StockTakeSubmit.repo">
+            <summary>
+            Holds an instance of the global::Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepository repository.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Recordings.StockTakeSubmit.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Recordings.StockTakeSubmit.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Genesis.Desktop.TestSuite.Inventory.Recordings.StockTakeSubmit.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Recordings.StockTakeSubmit.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Recordings.StockTakeSubmit.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Recordings.StockTakeSubmit.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Genesis.Desktop.TestSuite.Inventory.Recordings.StockTakeAdd">
+             <summary>
+            The StockTakeAdd recording.
+             </summary>
+        </member>
+        <member name="F:Genesis.Desktop.TestSuite.Inventory.Recordings.StockTakeAdd.repo">
+            <summary>
+            Holds an instance of the global::Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepository repository.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Recordings.StockTakeAdd.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Recordings.StockTakeAdd.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Genesis.Desktop.TestSuite.Inventory.Recordings.StockTakeAdd.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Recordings.StockTakeAdd.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Recordings.StockTakeAdd.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Recordings.StockTakeAdd.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Genesis.Desktop.TestSuite.Inventory.Recordings.CreateReleasePOTeardown">
+             <summary>
+            The CreateReleasePOTeardown recording.
+             </summary>
+        </member>
+        <member name="F:Genesis.Desktop.TestSuite.Inventory.Recordings.CreateReleasePOTeardown.repo">
+            <summary>
+            Holds an instance of the global::Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepository repository.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Recordings.CreateReleasePOTeardown.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Recordings.CreateReleasePOTeardown.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Genesis.Desktop.TestSuite.Inventory.Recordings.CreateReleasePOTeardown.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Recordings.CreateReleasePOTeardown.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Recordings.CreateReleasePOTeardown.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Recordings.CreateReleasePOTeardown.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Genesis.Desktop.TestSuite.Inventory.Recordings.CreateRequisition">
+             <summary>
+            The CreateRequisition recording.
+             </summary>
+        </member>
+        <member name="F:Genesis.Desktop.TestSuite.Inventory.Recordings.CreateRequisition.repo">
+            <summary>
+            Holds an instance of the global::Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepository repository.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Recordings.CreateRequisition.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Recordings.CreateRequisition.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Genesis.Desktop.TestSuite.Inventory.Recordings.CreateRequisition.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Recordings.CreateRequisition.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Recordings.CreateRequisition.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Recordings.CreateRequisition.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Genesis.Desktop.TestSuite.Inventory.Recordings.GoodsReceiptNonRecall">
+             <summary>
+            The GoodsReceiptNonRecall recording.
+             </summary>
+        </member>
+        <member name="F:Genesis.Desktop.TestSuite.Inventory.Recordings.GoodsReceiptNonRecall.repo">
+            <summary>
+            Holds an instance of the global::Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepository repository.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Recordings.GoodsReceiptNonRecall.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Recordings.GoodsReceiptNonRecall.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Genesis.Desktop.TestSuite.Inventory.Recordings.GoodsReceiptNonRecall.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Recordings.GoodsReceiptNonRecall.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Recordings.GoodsReceiptNonRecall.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Recordings.GoodsReceiptNonRecall.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Genesis.Desktop.TestSuite.Inventory.Recordings.GoodsReceiptRecalled">
+             <summary>
+            The GoodsReceiptRecalled recording.
+             </summary>
+        </member>
+        <member name="F:Genesis.Desktop.TestSuite.Inventory.Recordings.GoodsReceiptRecalled.repo">
+            <summary>
+            Holds an instance of the global::Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepository repository.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Recordings.GoodsReceiptRecalled.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Recordings.GoodsReceiptRecalled.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Genesis.Desktop.TestSuite.Inventory.Recordings.GoodsReceiptRecalled.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Recordings.GoodsReceiptRecalled.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Recordings.GoodsReceiptRecalled.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Recordings.GoodsReceiptRecalled.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Genesis.Desktop.TestSuite.Inventory.Recordings.GoodsReceiptRecalledAllLotNumbers">
+             <summary>
+            The GoodsReceiptRecalledAllLotNumbers recording.
+             </summary>
+        </member>
+        <member name="F:Genesis.Desktop.TestSuite.Inventory.Recordings.GoodsReceiptRecalledAllLotNumbers.repo">
+            <summary>
+            Holds an instance of the global::Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepository repository.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Recordings.GoodsReceiptRecalledAllLotNumbers.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Recordings.GoodsReceiptRecalledAllLotNumbers.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Genesis.Desktop.TestSuite.Inventory.Recordings.GoodsReceiptRecalledAllLotNumbers.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Recordings.GoodsReceiptRecalledAllLotNumbers.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Recordings.GoodsReceiptRecalledAllLotNumbers.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Recordings.GoodsReceiptRecalledAllLotNumbers.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Genesis.Desktop.TestSuite.Inventory.Recordings.GoodsReceiptReceiveAll">
+             <summary>
+            The GoodsReceiptReceiveAll recording.
+             </summary>
+        </member>
+        <member name="F:Genesis.Desktop.TestSuite.Inventory.Recordings.GoodsReceiptReceiveAll.repo">
+            <summary>
+            Holds an instance of the global::Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepository repository.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Recordings.GoodsReceiptReceiveAll.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Recordings.GoodsReceiptReceiveAll.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Genesis.Desktop.TestSuite.Inventory.Recordings.GoodsReceiptReceiveAll.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Recordings.GoodsReceiptReceiveAll.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Recordings.GoodsReceiptReceiveAll.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Recordings.GoodsReceiptReceiveAll.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Genesis.Desktop.TestSuite.Inventory.Recordings.GoodsReceiptSameItemLotDifferentSupplier">
+             <summary>
+            The GoodsReceiptSameItemLotDifferentSupplier recording.
+             </summary>
+        </member>
+        <member name="F:Genesis.Desktop.TestSuite.Inventory.Recordings.GoodsReceiptSameItemLotDifferentSupplier.repo">
+            <summary>
+            Holds an instance of the global::Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepository repository.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Recordings.GoodsReceiptSameItemLotDifferentSupplier.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Recordings.GoodsReceiptSameItemLotDifferentSupplier.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Genesis.Desktop.TestSuite.Inventory.Recordings.GoodsReceiptSameItemLotDifferentSupplier.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Recordings.GoodsReceiptSameItemLotDifferentSupplier.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Recordings.GoodsReceiptSameItemLotDifferentSupplier.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Recordings.GoodsReceiptSameItemLotDifferentSupplier.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Genesis.Desktop.TestSuite.Inventory.Recordings.GoodsReceiptTeardown">
+             <summary>
+            The GoodsReceiptTeardown recording.
+             </summary>
+        </member>
+        <member name="F:Genesis.Desktop.TestSuite.Inventory.Recordings.GoodsReceiptTeardown.repo">
+            <summary>
+            Holds an instance of the global::Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepository repository.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Recordings.GoodsReceiptTeardown.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Recordings.GoodsReceiptTeardown.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Genesis.Desktop.TestSuite.Inventory.Recordings.GoodsReceiptTeardown.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Recordings.GoodsReceiptTeardown.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Recordings.GoodsReceiptTeardown.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Recordings.GoodsReceiptTeardown.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Genesis.Desktop.TestSuite.Inventory.Recordings.ReleaseRequisition">
+             <summary>
+            The ReleaseRequisition recording.
+             </summary>
+        </member>
+        <member name="F:Genesis.Desktop.TestSuite.Inventory.Recordings.ReleaseRequisition.repo">
+            <summary>
+            Holds an instance of the global::Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepository repository.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Recordings.ReleaseRequisition.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Recordings.ReleaseRequisition.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Genesis.Desktop.TestSuite.Inventory.Recordings.ReleaseRequisition.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Recordings.ReleaseRequisition.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Recordings.ReleaseRequisition.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Recordings.ReleaseRequisition.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Genesis.Desktop.TestSuite.Inventory.Recordings.StockTakeTeardown">
+             <summary>
+            The StockTakeTeardown recording.
+             </summary>
+        </member>
+        <member name="F:Genesis.Desktop.TestSuite.Inventory.Recordings.StockTakeTeardown.repo">
+            <summary>
+            Holds an instance of the global::Genesis.Desktop.TestSuite.Inventory.Genesis_Desktop_TestSuite_InventoryRepository repository.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Recordings.StockTakeTeardown.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Recordings.StockTakeTeardown.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Genesis.Desktop.TestSuite.Inventory.Recordings.StockTakeTeardown.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Recordings.StockTakeTeardown.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Genesis.Desktop.TestSuite.Inventory.Recordings.StockTakeTeardown.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.TestSuite.Inventory.Recordings.StockTakeTeardown.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="Genesis.Desktop.TestSuite.MasterData"
+      id="28cd66e4-49d0-4d52-a342-03498cb364ca"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="Genesis.Desktop.TestSuite.MasterData"
+      id="28cd66e4-49d0-4d52-a342-03498cb364ca"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

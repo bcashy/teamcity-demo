@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+# Ranorex Studio 9.1.0
+VisualStudioVersion = 12.0.20827.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{ECC2C09E-05E8-48B0-904A-1506E85EEF6A}"
+	ProjectSection(SolutionItems) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Genesis.Desktop.TestSuite.General", "src\Genesis.Desktop.TestSuite.General\Genesis.Desktop.TestSuite.General.csproj", "{CF923D48-4661-4FED-AC0D-E56017E49FA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Genesis.Desktop.TestSuite.Inventory", "src\Genesis.Desktop.TestSuite.Inventory\Genesis.Desktop.TestSuite.Inventory.csproj", "{E5825879-185C-45A9-8E23-7461756B50E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Genesis.Desktop.TestSuite.MasterData", "src\Genesis.Desktop.TestSuite.MasterData\Genesis.Desktop.TestSuite.MasterData.csproj", "{975ADDA0-3BBA-4CBB-AE03-A31A172C1401}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF923D48-4661-4FED-AC0D-E56017E49FA6}.Debug|x86.Build.0 = Debug|x86
+		{CF923D48-4661-4FED-AC0D-E56017E49FA6}.Debug|x86.ActiveCfg = Debug|x86
+		{CF923D48-4661-4FED-AC0D-E56017E49FA6}.Release|x86.Build.0 = Release|x86
+		{CF923D48-4661-4FED-AC0D-E56017E49FA6}.Release|x86.ActiveCfg = Release|x86
+		{E5825879-185C-45A9-8E23-7461756B50E7}.Debug|x86.Build.0 = Debug|x86
+		{E5825879-185C-45A9-8E23-7461756B50E7}.Debug|x86.ActiveCfg = Debug|x86
+		{E5825879-185C-45A9-8E23-7461756B50E7}.Release|x86.Build.0 = Release|x86
+		{E5825879-185C-45A9-8E23-7461756B50E7}.Release|x86.ActiveCfg = Release|x86
+		{975ADDA0-3BBA-4CBB-AE03-A31A172C1401}.Debug|x86.Build.0 = Debug|x86
+		{975ADDA0-3BBA-4CBB-AE03-A31A172C1401}.Debug|x86.ActiveCfg = Debug|x86
+		{975ADDA0-3BBA-4CBB-AE03-A31A172C1401}.Release|x86.Build.0 = Release|x86
+		{975ADDA0-3BBA-4CBB-AE03-A31A172C1401}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CF923D48-4661-4FED-AC0D-E56017E49FA6} = {ECC2C09E-05E8-48B0-904A-1506E85EEF6A}
+		{E5825879-185C-45A9-8E23-7461756B50E7} = {ECC2C09E-05E8-48B0-904A-1506E85EEF6A}
+		{975ADDA0-3BBA-4CBB-AE03-A31A172C1401} = {ECC2C09E-05E8-48B0-904A-1506E85EEF6A}
+	EndGlobalSection
+EndGlobal

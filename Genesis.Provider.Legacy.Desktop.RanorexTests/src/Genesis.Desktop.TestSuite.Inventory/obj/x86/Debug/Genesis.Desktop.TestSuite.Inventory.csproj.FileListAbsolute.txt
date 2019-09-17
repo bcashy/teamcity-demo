@@ -1,0 +1,17 @@
+C:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.Inventory\bin\Debug\Genesis_Desktop_TestSuite_General.rxsqc
+C:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.Inventory\bin\Debug\Genesis_Desktop_TestSuite_General.rxtmg
+C:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.Inventory\bin\Debug\Genesis.Desktop.TestSuite.Inventory.rxtmg
+C:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.Inventory\bin\Debug\Genesis.Desktop.TestSuite.Inventory.exe.config
+C:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.Inventory\bin\Debug\Genesis.Desktop.TestSuite.Inventory.xml
+C:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.Inventory\bin\Debug\Genesis.Desktop.TestSuite.Inventory.exe
+C:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.Inventory\bin\Debug\Genesis.Desktop.TestSuite.Inventory.pdb
+C:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.Inventory\bin\Debug\Genesis.Desktop.TestSuite.General.exe
+C:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.Inventory\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.Inventory\bin\Debug\Genesis.Desktop.TestSuite.General.pdb
+C:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.Inventory\bin\Debug\Genesis.Desktop.TestSuite.General.xml
+C:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.Inventory\obj\x86\Debug\Genesis.Desktop.TestSuite.Inventory.csprojResolveAssemblyReference.cache
+C:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.Inventory\obj\x86\Debug\Genesis.Desktop.TestSuite.Inventory.exe
+C:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.Inventory\obj\x86\Debug\Genesis.Desktop.TestSuite.Inventory.pdb
+C:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.Inventory\bin\Debug\Genesis_Desktop_TestSuite_Inventory_StockTake.rxtst
+C:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.Inventory\bin\Debug\Genesis.Desktop.TestSuite.Inventory.rxsqc
+C:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.Inventory\bin\Debug\Genesis_Desktop_TestSuite_InventoryTasks.rxtst

@@ -1,0 +1,12 @@
+﻿<Properties>
+  <Array name="active" />
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <Array name="bookmarks" />
+  <Array name="files" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution Genesis.Provider.Legacy.Desktop.RanorexTests[src[Genesis.Desktop.TestSuite.Inventory[Genesis.Desktop.TestSuite.InventoryRepository.rxrep[]]Genesis.Desktop.TestSuite.MasterData[Recordings[]Genesis.Desktop.TestSuite.MasterDataRepository.rxrep[]]]]]&#xD;&#xA;Solution Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.MasterData\Recordings\CreateNewItemWizardConsumables.rxrec&#xD;&#xA;Solution Genesis.Provider.Legacy.Desktop.RanorexTests" />
+  <StartupProject value="{E5825879-185C-45A9-8E23-7461756B50E7}" />
+</Properties>

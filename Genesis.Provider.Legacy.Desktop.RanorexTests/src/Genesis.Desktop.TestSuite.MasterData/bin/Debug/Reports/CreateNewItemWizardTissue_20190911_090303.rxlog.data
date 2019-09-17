@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="21ddc19c66add018"
+		totalerrorcount="1"
+		totalwarningcount="3"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="BrianCashman"
+		rxversion="9.1.1.0"
+		host="DESKTOP-LUI4H5C"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="5206x1091"
+		timestamp="11/09/2019 09:03:06"
+		timestampiso="2019-09-11T08:03:06"
+		endtime="11/09/2019 09:03:27"
+		timeoutfactor="1"
+		module="CreateNewItemWizardTissue">
+		<detail>
+			CreateNewItemWizardTissue
+		</detail>
+		<errormessage>
+			Failed to find item 'Genesis_Desktop_TestSuite_MasterDataRepository.GenesisAutomation1.NewItemWizard'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.886"
+			timeRelativeToTestModuleStartTime="00:02.886"
+			timeWallClock="09:03:09"
+			time="00:02.886"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>NewVariable
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.917"
+			timeRelativeToTestModuleStartTime="00:02.917"
+			timeWallClock="09:03:09"
+			time="00:02.917"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'GenesisAutomation1.Orders' at 12;17.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Genesis Automation']/element[@controlname='ribbon']/?/?/tabpage[@accessiblename='Orders']"
+				itempath="element[@controlname='ribbon']/?/?/tabpage[@accessiblename='Orders']"
+				fullname="Genesis_Desktop_TestSuite_MasterDataRepository.GenesisAutomation1.Orders"
+				id="fe6ff9094384444c811c14e51f80df95"
+				timeout="60000"
+				codefile="c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.MasterData\Recordings\CreateNewItemWizardTissue.cs"
+				codeline="95"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.171"
+			timeRelativeToTestModuleStartTime="00:05.171"
+			timeWallClock="09:03:11"
+			time="00:05.171"
+			level="Warn"
+			category="WinForms">
+			<message>
+				Something is limiting object recognition for WinForms. Missing privileges are a common cause of this. Try starting all Ranorex tools and the AUT with the same privileges, preferably as an administrator. <br/>Process: 'GenesisAutomation' (pid 8632)<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v9.1/interfaces-connectivity/technology-instrumentation/general-troubleshooting/#DotNetWinForms<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="PotentiallyWinForms"
+				showInProgressDialog="False"
+				codefile="c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.MasterData\Recordings\CreateNewItemWizardTissue.cs"
+				codeline="96"
+				loglvl="Warn"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.787"
+			timeRelativeToTestModuleStartTime="00:05.787"
+			timeWallClock="09:03:12"
+			time="00:05.787"
+			level="Warn"
+			category="WinForms"
+			errimg="images_CreateNe_d988d024\CreateNe_d988d024_72e15047_trace.jpg"
+			errthumb="images_CreateNe_d988d024\CreateNe_d988d024_72e15047_trace_thumb.jpg">
+			<message>
+				Something is limiting object recognition for WinForms. This is caused by one of the following:<br/>- Your AUT uses obfuscated controls or is a mixed-mode executable.<br/>- Your AUT and the test executable target different platforms/processors. This causes issues on 64-bit OS.<br/>Process: 'Flow' (pid 9976)<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v9.1/interfaces-connectivity/technology-instrumentation/general-troubleshooting/#DotNetWinForms<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="WinFormsResolving"
+				showInProgressDialog="False"
+				codefile="c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.MasterData\Recordings\CreateNewItemWizardTissue.cs"
+				codeline="96"
+				loglvl="Warn"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.924"
+			timeRelativeToTestModuleStartTime="00:06.924"
+			timeWallClock="09:03:13"
+			time="00:06.924"
+			level="Info"
+			category="Mouse"
+			errimg="images_CreateNe_d988d024\CreateNe_d988d024_3251f099_trace.jpg"
+			errthumb="images_CreateNe_d988d024\CreateNe_d988d024_3251f099_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'GenesisAutomation1.NewItemWizard' at 47;56.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Genesis Automation']/element[@controlname='ribbon']//toolbar[@accessiblename='Inventory']/button[@accessiblename='New Item Wizard']"
+				itempath="element[@controlname='ribbon']//toolbar[@accessiblename='Inventory']/button[@accessiblename='New Item Wizard']"
+				fullname="Genesis_Desktop_TestSuite_MasterDataRepository.GenesisAutomation1.NewItemWizard"
+				id="cfc3e79ee7d8421aa21a33384edfa7c6"
+				timeout="60000"
+				codefile="c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.MasterData\Recordings\CreateNewItemWizardTissue.cs"
+				codeline="99"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.759"
+			timeRelativeToTestModuleStartTime="00:20.759"
+			timeWallClock="09:03:27"
+			time="00:20.759"
+			level="Error"
+			category="Module"
+			errimg="images_CreateNe_d988d024\CreateNe_d988d024_ae840125_trace.jpg"
+			errthumb="images_CreateNe_d988d024\CreateNe_d988d024_ae840125_trace_thumb.jpg">
+			<message>
+				Failed to find item 'Genesis_Desktop_TestSuite_MasterDataRepository.GenesisAutomation1.NewItemWizard'.<br/>No element found for path 'element[@controlname='ribbon']//toolbar[@accessiblename='Inventory']/button[@accessiblename='New Item Wizard']' at step 'descendant-or-self::toolbar[@accessiblename='Inventory']' after 64 attempts within 30s.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass75_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at Genesis.Desktop.TestSuite.MasterData.Genesis_Desktop_TestSuite_MasterDataRepositoryFolders.GenesisAutomation1AppFolder.get_NewItemWizard() in c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.MasterData\Genesis.Desktop.TestSuite.MasterDataRepository.cs:line 1916&#13;&#10;   at Genesis.Desktop.TestSuite.MasterData.Recordings.CreateNewItemWizardTissue.Ranorex.Core.Testing.ITestModule.Run() in c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.MasterData\Recordings\CreateNewItemWizardTissue.cs:line 100&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.MasterData\Recordings\CreateNewItemWizardTissue.cs"
+				codeline="100"
+				type="repoitem"
+				path="/form[@title='Genesis Automation']/element[@controlname='ribbon']//toolbar[@accessiblename='Inventory']/button[@accessiblename='New Item Wizard']"
+				itempath="element[@controlname='ribbon']//toolbar[@accessiblename='Inventory']/button[@accessiblename='New Item Wizard']"
+				fullname="Genesis_Desktop_TestSuite_MasterDataRepository.GenesisAutomation1.NewItemWizard"
+				id="cfc3e79ee7d8421aa21a33384edfa7c6"
+				timeout="60000"
+				failedStep="descendant-or-self::toolbar[@accessiblename='Inventory']"
+				bestPathPrefix="element[@controlname='ribbon']"
+				loglvl="Error"
+				itemindex="1">
+			</metainfo>
+		</item>
+	</activity>
+</report>

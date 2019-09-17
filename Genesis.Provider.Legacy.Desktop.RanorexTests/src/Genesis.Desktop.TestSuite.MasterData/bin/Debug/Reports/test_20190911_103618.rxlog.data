@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="8b43c9db887bae0"
+		totalerrorcount="0"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="BrianCashman"
+		rxversion="9.1.1.0"
+		host="DESKTOP-LUI4H5C"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="5206x1091"
+		timestamp="11/09/2019 10:36:21"
+		timestampiso="2019-09-11T09:36:21"
+		endtime="11/09/2019 10:36:34"
+		timeoutfactor="1"
+		module="test">
+		<detail>
+			test
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.325"
+			timeRelativeToTestModuleStartTime="00:03.325"
+			timeWallClock="10:36:24"
+			time="00:03.325"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FrmMain.MasterData' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='FrmMain']/element[@controlname='ribbon']/?/?/tabpage[@accessiblename='Master Data']"
+				itempath="element[@controlname='ribbon']/?/?/tabpage[@accessiblename='Master Data']"
+				fullname="Genesis_Desktop_TestSuite_MasterDataRepository.FrmMain.MasterData"
+				id="ec1fa4c54e684b1c9005e671df7b13f4"
+				timeout="60000"
+				codefile="c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.MasterData\Recordings\test.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.004"
+			timeRelativeToTestModuleStartTime="00:06.004"
+			timeWallClock="10:36:27"
+			time="00:06.004"
+			level="Warn"
+			category="WinForms">
+			<message>
+				Something is limiting object recognition for WinForms. Missing privileges are a common cause of this. Try starting all Ranorex tools and the AUT with the same privileges, preferably as an administrator. <br/>Process: 'GenesisAutomation' (pid 4524)<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v9.1/interfaces-connectivity/technology-instrumentation/general-troubleshooting/#DotNetWinForms<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="PotentiallyWinForms"
+				showInProgressDialog="False"
+				codefile="c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.MasterData\Recordings\test.cs"
+				codeline="83"
+				loglvl="Warn"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.646"
+			timeRelativeToTestModuleStartTime="00:06.646"
+			timeWallClock="10:36:28"
+			time="00:06.646"
+			level="Warn"
+			category="WinForms">
+			<message>
+				Something is limiting object recognition for WinForms. This is caused by one of the following:<br/>- Your AUT uses obfuscated controls or is a mixed-mode executable.<br/>- Your AUT and the test executable target different platforms/processors. This causes issues on 64-bit OS.<br/>Process: 'Flow' (pid 9976)<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v9.1/interfaces-connectivity/technology-instrumentation/general-troubleshooting/#DotNetWinForms<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="WinFormsResolving"
+				showInProgressDialog="False"
+				codefile="c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.MasterData\Recordings\test.cs"
+				codeline="83"
+				loglvl="Warn"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.677"
+			timeRelativeToTestModuleStartTime="00:07.677"
+			timeWallClock="10:36:29"
+			time="00:07.677"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 5s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.MasterData\Recordings\test.cs"
+				codeline="86"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

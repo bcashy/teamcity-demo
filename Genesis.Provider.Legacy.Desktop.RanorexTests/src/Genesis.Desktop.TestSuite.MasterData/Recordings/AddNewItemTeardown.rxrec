@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="ef615e45-b340-4bba-bb17-45ae1fca6289"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="AddNewItemTeardown"
+	namespace="Genesis.Desktop.TestSuite.MasterData.Recordings">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="5000ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="789aea86-93ac-4db3-bcd8-dca9b13222eb">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="e7abae49-b4f3-44f2-8a52-0744be4e628c"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/form[@controlname='FrmMain']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="d68483fe-b81e-4ba6-8351-cc556cd8a55e"
+	name="Genesis_Desktop_TestSuite_MasterDataRepository"
+	relativepath="..\Genesis.Desktop.TestSuite.MasterDataRepository.rxrep">
+		<codegen
+		classname="Genesis_Desktop_TestSuite_MasterDataRepository"
+		namespace="Genesis.Desktop.TestSuite.MasterData">
+		</codegen>
+		<rootfolder
+		id="22c71c66-ff48-4f2a-a8d6-4a2c39b25220"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		AddNewItemTeardown.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

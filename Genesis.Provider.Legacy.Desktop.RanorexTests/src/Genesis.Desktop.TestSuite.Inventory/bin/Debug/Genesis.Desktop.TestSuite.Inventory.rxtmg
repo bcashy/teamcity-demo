@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="Genesis.Desktop.TestSuite.Inventory"
+      id="15fa5e6f-8ae3-4180-a8f7-e404e782cf2a"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="Genesis.Desktop.TestSuite.Inventory"
+      id="15fa5e6f-8ae3-4180-a8f7-e404e782cf2a"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

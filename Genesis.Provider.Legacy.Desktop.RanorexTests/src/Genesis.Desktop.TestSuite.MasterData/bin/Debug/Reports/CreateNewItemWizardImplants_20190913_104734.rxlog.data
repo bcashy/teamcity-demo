@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="19841f4a8f5fd84a"
+		totalerrorcount="1"
+		totalwarningcount="3"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="BrianCashman"
+		rxversion="9.1.1.0"
+		host="DESKTOP-LUI4H5C"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="5206x1091"
+		timestamp="13/09/2019 10:47:37"
+		timestampiso="2019-09-13T09:47:37"
+		endtime="13/09/2019 10:47:46"
+		timeoutfactor="1"
+		module="CreateNewItemWizardImplants">
+		<detail>
+			CreateNewItemWizardImplants
+		</detail>
+		<errormessage>
+			Failed to wait for item to exist.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.140"
+			timeRelativeToTestModuleStartTime="00:03.140"
+			timeWallClock="10:47:40"
+			time="00:03.140"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>NewVariable
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.163"
+			timeRelativeToTestModuleStartTime="00:03.163"
+			timeWallClock="10:47:40"
+			time="00:03.163"
+			level="Info"
+			category="Wait">
+			<message>
+				Waiting 5s to exist. Associated repository item: 'FrmMain1.MasterData'
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controltypename='FrmMain']/?/?/tabpagelist/tabpage[@accessiblename='Master Data']"
+				itempath="?/?/tabpagelist/tabpage[@accessiblename='Master Data']"
+				fullname="Genesis_Desktop_TestSuite_MasterDataRepository.FrmMain1.MasterData"
+				id="9410d3702c8144d68d557798c5513c71"
+				timeout="5000"
+				codefile="c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.MasterData\Recordings\CreateNewItemWizardImplants.cs"
+				codeline="95"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.662"
+			timeRelativeToTestModuleStartTime="00:05.662"
+			timeWallClock="10:47:43"
+			time="00:05.662"
+			level="Warn"
+			category="WinForms"
+			errimg="images_CreateNe_ed124fc7\CreateNe_ed124fc7_e418e3c6_trace.jpg"
+			errthumb="images_CreateNe_ed124fc7\CreateNe_ed124fc7_e418e3c6_trace_thumb.jpg">
+			<message>
+				Something is limiting object recognition for WinForms. Missing privileges are a common cause of this. Try starting all Ranorex tools and the AUT with the same privileges, preferably as an administrator. <br/>Process: 'GenesisAutomation' (pid 3036)<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v9.1/interfaces-connectivity/technology-instrumentation/general-troubleshooting/#DotNetWinForms<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="PotentiallyWinForms"
+				showInProgressDialog="False"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.103"
+			timeRelativeToTestModuleStartTime="00:06.103"
+			timeWallClock="10:47:43"
+			time="00:06.103"
+			level="Warn"
+			category="WinForms"
+			errimg="images_CreateNe_ed124fc7\CreateNe_ed124fc7_9f3595de_trace.jpg"
+			errthumb="images_CreateNe_ed124fc7\CreateNe_ed124fc7_9f3595de_trace_thumb.jpg">
+			<message>
+				Something is limiting object recognition for WinForms. This is caused by one of the following:<br/>- Your AUT uses obfuscated controls or is a mixed-mode executable.<br/>- Your AUT and the test executable target different platforms/processors. This causes issues on 64-bit OS.<br/>Process: 'Flow' (pid 17804)<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v9.1/interfaces-connectivity/technology-instrumentation/general-troubleshooting/#DotNetWinForms<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="WinFormsResolving"
+				showInProgressDialog="False"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.539"
+			timeRelativeToTestModuleStartTime="00:08.539"
+			timeWallClock="10:47:46"
+			time="00:08.539"
+			level="Error"
+			category="Module"
+			errimg="images_CreateNe_ed124fc7\CreateNe_ed124fc7_1dbfbfdc_trace.jpg"
+			errthumb="images_CreateNe_ed124fc7\CreateNe_ed124fc7_1dbfbfdc_trace_thumb.jpg">
+			<message>
+				Failed to wait for item to exist.<br/>Failed to find item 'Genesis_Desktop_TestSuite_MasterDataRepository.FrmMain1.MasterData'.<br/>No element found for path '/form[@controltypename='FrmMain']/?/?/tabpagelist/tabpage[@accessiblename='Master Data']' at step 'form[@controltypename='FrmMain']' after 11 attempts within 5s.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.WaitForExists(Duration waitTimeout)
+   at Genesis.Desktop.TestSuite.MasterData.Recordings.CreateNewItemWizardImplants.Ranorex.Core.Testing.ITestModule.Run() in c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.MasterData\Recordings\CreateNewItemWizardImplants.cs:line 96
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.MasterData\Recordings\CreateNewItemWizardImplants.cs"
+				codeline="96"
+				loglvl="Error"
+				id="9410d3702c8144d68d557798c5513c71"
+				path="/form[@controltypename='FrmMain']/?/?/tabpagelist/tabpage[@accessiblename='Master Data']"
+				fullname="Genesis_Desktop_TestSuite_MasterDataRepository.FrmMain1.MasterData"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

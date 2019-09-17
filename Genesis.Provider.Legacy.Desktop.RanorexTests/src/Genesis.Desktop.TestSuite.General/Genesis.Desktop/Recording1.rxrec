@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="90f2c48b-afad-4f0a-ad03-cc700b26fb2d"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording1"
+	namespace="Genesis.Desktop">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="5c40ac37-5e2e-44e4-8df6-2cee09d5a074"
+	name="Genesis_DesktopRepository"
+	relativepath="Genesis.DesktopRepository.rxrep">
+		<codegen
+		classname="Genesis_DesktopRepository"
+		namespace="Genesis.Desktop">
+		</codegen>
+		<rootfolder
+		id="4c050442-7a9f-46bf-bfaf-2c1b4f0c601f"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording1.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

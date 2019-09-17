@@ -1,0 +1,187 @@
+{
+  "RanorexSuites": [
+    {
+      "Id": "975adda0-3bba-4cbb-ae03-a31a172c1401/90b327b4-970a-4ddb-b2f0-ea366077e314",
+      "Pid": "40bcda6e-258a-4b63-93fe-a9bf41a591bd/975adda0-3bba-4cbb-ae03-a31a172c1401",
+      "Name": "Genesis.Desktop.TestSuite.MasterData"
+    },
+    {
+      "Id": "e5825879-185c-45a9-8e23-7461756b50e7/a1faa438-2c5a-4497-afb0-3ba9c4dacd93",
+      "Pid": "40bcda6e-258a-4b63-93fe-a9bf41a591bd/e5825879-185c-45a9-8e23-7461756b50e7",
+      "Name": "Genesis.Desktop.TestSuite.Inventory"
+    }
+  ],
+  "CaseFields": [],
+  "ResultFields": [],
+  "TestRailProject": {
+    "Id": "P9",
+    "Pid": null,
+    "Name": "Genesis.Desktop.TestSuite.General",
+    "BaseUri": "https://genesisvmi.testrail.com/",
+    "ProjectSuiteMode": 3,
+    "ProjectCustomizations": {
+      "TemplateId": 1,
+      "CaseTypeId": 3
+    }
+  },
+  "Projects": [
+    {
+      "Rx": {
+        "Id": "40bcda6e-258a-4b63-93fe-a9bf41a591bd/975adda0-3bba-4cbb-ae03-a31a172c1401",
+        "Pid": "40bcda6e-258a-4b63-93fe-a9bf41a591bd/40bcda6e-258a-4b63-93fe-a9bf41a591bd",
+        "Name": "Genesis.Desktop.TestSuite.MasterData"
+      },
+      "Tr": null
+    },
+    {
+      "Rx": {
+        "Id": "40bcda6e-258a-4b63-93fe-a9bf41a591bd/e5825879-185c-45a9-8e23-7461756b50e7",
+        "Pid": "40bcda6e-258a-4b63-93fe-a9bf41a591bd/40bcda6e-258a-4b63-93fe-a9bf41a591bd",
+        "Name": "Genesis.Desktop.TestSuite.Inventory"
+      },
+      "Tr": null
+    }
+  ],
+  "TestSuites": [
+    {
+      "Rx": {
+        "Id": "975adda0-3bba-4cbb-ae03-a31a172c1401/90b327b4-970a-4ddb-b2f0-ea366077e314",
+        "Pid": "40bcda6e-258a-4b63-93fe-a9bf41a591bd/975adda0-3bba-4cbb-ae03-a31a172c1401",
+        "Name": "Genesis.Desktop.TestSuite.MasterData"
+      },
+      "Tr": {
+        "Id": "S9",
+        "Pid": "P9",
+        "Name": "Genesis.Desktop.TestSuite.MasterData"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "e5825879-185c-45a9-8e23-7461756b50e7/a1faa438-2c5a-4497-afb0-3ba9c4dacd93",
+        "Pid": "40bcda6e-258a-4b63-93fe-a9bf41a591bd/e5825879-185c-45a9-8e23-7461756b50e7",
+        "Name": "Genesis.Desktop.TestSuite.Inventory"
+      },
+      "Tr": {
+        "Id": "S10",
+        "Pid": "P9",
+        "Name": "Genesis.Desktop.TestSuite.Inventory"
+      }
+    }
+  ],
+  "Sections": [
+    {
+      "Rx": null,
+      "Tr": {
+        "Id": "G376",
+        "Pid": "S9",
+        "Name": "Genesis.Desktop.TestSuite.MasterData"
+      }
+    },
+    {
+      "Rx": null,
+      "Tr": {
+        "Id": "G377",
+        "Pid": "S10",
+        "Name": "Genesis.Desktop.TestSuite.Inventory"
+      }
+    }
+  ],
+  "Cases": [
+    {
+      "Rx": {
+        "Id": "90b327b4-970a-4ddb-b2f0-ea366077e314/820931bf-0fa6-43af-9251-7d61e79c3c56",
+        "Pid": "975adda0-3bba-4cbb-ae03-a31a172c1401/90b327b4-970a-4ddb-b2f0-ea366077e314",
+        "Name": "AddNewItem-Import(Single)"
+      },
+      "Tr": {
+        "Id": "C1753",
+        "Pid": "G376",
+        "Name": "AddNewItem-Import(Single)"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "90b327b4-970a-4ddb-b2f0-ea366077e314/ce627776-eb3c-4fea-827d-74b268ae8056",
+        "Pid": "975adda0-3bba-4cbb-ae03-a31a172c1401/90b327b4-970a-4ddb-b2f0-ea366077e314",
+        "Name": "AddNewItem-Import(Multiple)"
+      },
+      "Tr": {
+        "Id": "C1754",
+        "Pid": "G376",
+        "Name": "AddNewItem-Import(Multiple)"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "a1faa438-2c5a-4497-afb0-3ba9c4dacd93/87f7817d-db46-4df2-aac7-77ab36a8f229",
+        "Pid": "e5825879-185c-45a9-8e23-7461756b50e7/a1faa438-2c5a-4497-afb0-3ba9c4dacd93",
+        "Name": "CreateReleasePO(Stock_Requisition)"
+      },
+      "Tr": {
+        "Id": "C1755",
+        "Pid": "G377",
+        "Name": "CreateReleasePO(Stock_Requisition)"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "a1faa438-2c5a-4497-afb0-3ba9c4dacd93/0936751d-2110-49bd-b89c-b4e326a53d66",
+        "Pid": "e5825879-185c-45a9-8e23-7461756b50e7/a1faa438-2c5a-4497-afb0-3ba9c4dacd93",
+        "Name": "GoodsReceipt(NonRecall)"
+      },
+      "Tr": {
+        "Id": "C1756",
+        "Pid": "G377",
+        "Name": "GoodsReceipt(NonRecall)"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "a1faa438-2c5a-4497-afb0-3ba9c4dacd93/e474f144-6ed0-4047-9463-5e5c67868fd2",
+        "Pid": "e5825879-185c-45a9-8e23-7461756b50e7/a1faa438-2c5a-4497-afb0-3ba9c4dacd93",
+        "Name": "GoodsReceiptRecalled"
+      },
+      "Tr": {
+        "Id": "C1757",
+        "Pid": "G377",
+        "Name": "GoodsReceiptRecalled"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "a1faa438-2c5a-4497-afb0-3ba9c4dacd93/33df758c-421b-4e64-83be-092399c6ff01",
+        "Pid": "e5825879-185c-45a9-8e23-7461756b50e7/a1faa438-2c5a-4497-afb0-3ba9c4dacd93",
+        "Name": "GoodsReceiptRecalledAllLotNumbers"
+      },
+      "Tr": {
+        "Id": "C1758",
+        "Pid": "G377",
+        "Name": "GoodsReceiptRecalledAllLotNumbers"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "a1faa438-2c5a-4497-afb0-3ba9c4dacd93/94df7e13-8bdf-408d-a9aa-13ec72acb318",
+        "Pid": "e5825879-185c-45a9-8e23-7461756b50e7/a1faa438-2c5a-4497-afb0-3ba9c4dacd93",
+        "Name": "GoodsReceiptSameItem/LotDifferentSupplier"
+      },
+      "Tr": {
+        "Id": "C1759",
+        "Pid": "G377",
+        "Name": "GoodsReceiptSameItem/LotDifferentSupplier"
+      }
+    },
+    {
+      "Rx": {
+        "Id": "a1faa438-2c5a-4497-afb0-3ba9c4dacd93/f589f541-ba75-4712-97b8-27ae88812d62",
+        "Pid": "e5825879-185c-45a9-8e23-7461756b50e7/a1faa438-2c5a-4497-afb0-3ba9c4dacd93",
+        "Name": "GoodsReceiptReceiveAll"
+      },
+      "Tr": {
+        "Id": "C1760",
+        "Pid": "G377",
+        "Name": "GoodsReceiptReceiveAll"
+      }
+    }
+  ]
+}

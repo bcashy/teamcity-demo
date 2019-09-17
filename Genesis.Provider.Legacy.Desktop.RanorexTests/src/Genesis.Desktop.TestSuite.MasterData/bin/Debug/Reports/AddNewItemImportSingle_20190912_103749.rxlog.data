@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="11.25s"
+		durationms="11251"
+		type="root"
+		rid="7ac88d65f9c0880"
+		totalerrorcount="1"
+		totalwarningcount="3"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="BrianCashman"
+		rxversion="9.1.1.0"
+		host="DESKTOP-LUI4H5C"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="5206x1091"
+		timestamp="12/09/2019 10:37:53"
+		timestampiso="2019-09-12T09:37:53"
+		endtime="12/09/2019 10:38:04"
+		timeoutfactor="1"
+		module="AddNewItemImportSingle">
+		<detail>
+			AddNewItemImportSingle
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.908"
+			timeRelativeToTestModuleStartTime="00:02.908"
+			timeWallClock="10:37:55"
+			time="00:02.908"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FrmMain.MasterData' at 43;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='FrmMain']/element[@controlname='ribbon']/?/?/tabpage[@accessiblename='Master Data']"
+				itempath="element[@controlname='ribbon']/?/?/tabpage[@accessiblename='Master Data']"
+				fullname="Genesis_Desktop_TestSuite_MasterDataRepository.FrmMain.MasterData"
+				id="ec1fa4c54e684b1c9005e671df7b13f4"
+				timeout="60000"
+				codefile="c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.MasterData\Recordings\AddNewItemImportSingle.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.149"
+			timeRelativeToTestModuleStartTime="00:04.149"
+			timeWallClock="10:37:57"
+			time="00:04.149"
+			level="Warn"
+			category="WinForms">
+			<message>
+				Something is limiting object recognition for WinForms. Missing privileges are a common cause of this. Try starting all Ranorex tools and the AUT with the same privileges, preferably as an administrator. <br/>Process: 'GenesisAutomation' (pid 19416)<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v9.1/interfaces-connectivity/technology-instrumentation/general-troubleshooting/#DotNetWinForms<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="PotentiallyWinForms"
+				showInProgressDialog="False"
+				codefile="c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.MasterData\Recordings\AddNewItemImportSingle.cs"
+				codeline="83"
+				loglvl="Warn"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.690"
+			timeRelativeToTestModuleStartTime="00:04.690"
+			timeWallClock="10:37:57"
+			time="00:04.690"
+			level="Warn"
+			category="WinForms">
+			<message>
+				Something is limiting object recognition for WinForms. This is caused by one of the following:<br/>- Your AUT uses obfuscated controls or is a mixed-mode executable.<br/>- Your AUT and the test executable target different platforms/processors. This causes issues on 64-bit OS.<br/>Process: 'Flow' (pid 18016)<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v9.1/interfaces-connectivity/technology-instrumentation/general-troubleshooting/#DotNetWinForms<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="WinFormsResolving"
+				showInProgressDialog="False"
+				codefile="c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.MasterData\Recordings\AddNewItemImportSingle.cs"
+				codeline="83"
+				loglvl="Warn"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.762"
+			timeRelativeToTestModuleStartTime="00:05.762"
+			timeWallClock="10:37:58"
+			time="00:05.762"
+			level="Info"
+			category="Wait">
+			<message>
+				Waiting 5s to exist. Associated repository item: 'GenesisAutomation1.RefreshTasks'
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Genesis Automation']/element[@controlname='ribbon']//toolbar[@accessiblename='Notifications']/button[@accessiblename='Refresh Tasks']"
+				itempath="element[@controlname='ribbon']//toolbar[@accessiblename='Notifications']/button[@accessiblename='Refresh Tasks']"
+				fullname="Genesis_Desktop_TestSuite_MasterDataRepository.GenesisAutomation1.RefreshTasks"
+				id="5fa1b8ab181e403ab7a63727f0fa204d"
+				timeout="5000"
+				codefile="c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.MasterData\Recordings\AddNewItemImportSingle.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.120"
+			timeRelativeToTestModuleStartTime="00:06.120"
+			timeWallClock="10:37:59"
+			time="00:06.120"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'GenesisAutomation1.RefreshTasks' at 24;28.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Genesis Automation']/element[@controlname='ribbon']//toolbar[@accessiblename='Notifications']/button[@accessiblename='Refresh Tasks']"
+				itempath="element[@controlname='ribbon']//toolbar[@accessiblename='Notifications']/button[@accessiblename='Refresh Tasks']"
+				fullname="Genesis_Desktop_TestSuite_MasterDataRepository.GenesisAutomation1.RefreshTasks"
+				id="5fa1b8ab181e403ab7a63727f0fa204d"
+				timeout="60000"
+				codefile="c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.MasterData\Recordings\AddNewItemImportSingle.cs"
+				codeline="89"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.662"
+			timeRelativeToTestModuleStartTime="00:06.662"
+			timeWallClock="10:37:59"
+			time="00:06.662"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'GenesisAutomation1.ImportData' at 95;14.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Genesis Automation']/?/?/form[@controlname='FrmItem']/container[@controlname='layoutControl1']/?/?/button[@accessiblename='Import Data']"
+				itempath="?/?/form[@controlname='FrmItem']/container[@controlname='layoutControl1']/?/?/button[@accessiblename='Import Data']"
+				fullname="Genesis_Desktop_TestSuite_MasterDataRepository.GenesisAutomation1.ImportData"
+				id="7600732e055b418eb6f6a6705dabd2bb"
+				timeout="60000"
+				codefile="c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.MasterData\Recordings\AddNewItemImportSingle.cs"
+				codeline="93"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.946"
+			timeRelativeToTestModuleStartTime="00:08.946"
+			timeWallClock="10:38:01"
+			time="00:08.946"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'PurchaseOrder.GetTemplate' at 102;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form/?/?/element[@controlname='btnGetTemplate']/button[@accessiblename='Get Template']"
+				itempath="?/?/element[@controlname='btnGetTemplate']/button[@accessiblename='Get Template']"
+				fullname="Genesis_Desktop_TestSuite_MasterDataRepository.PurchaseOrder.GetTemplate"
+				id="ba703880148c4fa99631c4f144508c6e"
+				timeout="33000"
+				codefile="c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.MasterData\Recordings\AddNewItemImportSingle.cs"
+				codeline="97"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.991"
+			timeRelativeToTestModuleStartTime="00:09.991"
+			timeWallClock="10:38:03"
+			time="00:09.991"
+			level="Warn"
+			category="CEF">
+			<message>
+				UI elements in your CEF AUT can&#8217;t be identified because the remote debugging port isn&#8217;t enabled in your AUT or can&#8217;t be found. Make sure you&#8217;ve enabled it and set it to 8081.<br/>Process: 'GitHubDesktop' (pid 7428)<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v9.1/interfaces-connectivity/technology-instrumentation/testing-cef-applications/<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="cef-chrome-debug-protocol-NotFound"
+				showInProgressDialog="False"
+				codefile="c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.MasterData\Recordings\AddNewItemImportSingle.cs"
+				codeline="98"
+				loglvl="Warn"
+				itemindex="4">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.252"
+			timeRelativeToTestModuleStartTime="00:11.252"
+			timeWallClock="10:38:04"
+			time="00:11.252"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

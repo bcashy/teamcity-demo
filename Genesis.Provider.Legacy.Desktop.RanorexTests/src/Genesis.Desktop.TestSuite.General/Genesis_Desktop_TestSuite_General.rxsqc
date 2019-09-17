@@ -1,0 +1,12 @@
+[
+  {
+    "Enabled": "True",
+    "TestSuite": "InventoryTestSuite",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "MasterDataTestSuite",
+    "RunConfig": "TestRun"
+  }
+]

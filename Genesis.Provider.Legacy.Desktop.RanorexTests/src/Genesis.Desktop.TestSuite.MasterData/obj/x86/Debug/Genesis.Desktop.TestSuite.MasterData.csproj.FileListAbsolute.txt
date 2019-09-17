@@ -1,0 +1,15 @@
+C:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.MasterData\bin\Debug\Genesis_Desktop_TestSuite_General.rxsqc
+C:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.MasterData\bin\Debug\Genesis_Desktop_TestSuite_General.rxtmg
+C:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.MasterData\bin\Debug\Genesis.Desktop.TestSuite.MasterData.rxtmg
+C:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.MasterData\bin\Debug\Genesis.Desktop.TestSuite.MasterData.rxtst
+C:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.MasterData\bin\Debug\Genesis.Desktop.TestSuite.MasterData.exe.config
+C:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.MasterData\bin\Debug\Genesis.Desktop.TestSuite.MasterData.xml
+C:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.MasterData\bin\Debug\Genesis.Desktop.TestSuite.MasterData.exe
+C:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.MasterData\bin\Debug\Genesis.Desktop.TestSuite.MasterData.pdb
+C:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.MasterData\bin\Debug\Genesis.Desktop.TestSuite.General.exe
+C:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.MasterData\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.MasterData\bin\Debug\Genesis.Desktop.TestSuite.General.pdb
+C:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.MasterData\bin\Debug\Genesis.Desktop.TestSuite.General.xml
+C:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.MasterData\obj\x86\Debug\Genesis.Desktop.TestSuite.MasterData.csprojResolveAssemblyReference.cache
+C:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.MasterData\obj\x86\Debug\Genesis.Desktop.TestSuite.MasterData.exe
+C:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.MasterData\obj\x86\Debug\Genesis.Desktop.TestSuite.MasterData.pdb

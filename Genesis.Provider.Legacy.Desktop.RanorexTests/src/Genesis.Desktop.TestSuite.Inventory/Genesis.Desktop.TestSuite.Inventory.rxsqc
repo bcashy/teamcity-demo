@@ -1,0 +1,12 @@
+[
+  {
+    "Enabled": "True",
+    "TestSuite": "Genesis_Desktop_TestSuite_InventoryTasks",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "Genesis_Desktop_TestSuite_Inventory_StockTake",
+    "RunConfig": "TestRun"
+  }
+]

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="Genesis.Desktop"
+      id="75b0c793-2c4f-457d-bd33-647071dfee37"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="Genesis.Desktop"
+      id="75b0c793-2c4f-457d-bd33-647071dfee37"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

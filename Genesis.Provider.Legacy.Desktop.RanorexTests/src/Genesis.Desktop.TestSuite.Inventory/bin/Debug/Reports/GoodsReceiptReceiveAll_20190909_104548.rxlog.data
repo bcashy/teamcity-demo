@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="4.89s"
+		durationms="4885"
+		type="root"
+		rid="173476891511db16"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="BrianCashman"
+		rxversion="9.1.1.0"
+		host="DESKTOP-LUI4H5C"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="5206x1091"
+		timestamp="09/09/2019 10:45:51"
+		timestampiso="2019-09-09T09:45:51"
+		endtime="09/09/2019 10:45:56"
+		timeoutfactor="1"
+		module="GoodsReceiptReceiveAll">
+		<detail>
+			GoodsReceiptReceiveAll
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.950"
+			timeRelativeToTestModuleStartTime="00:02.950"
+			timeWallClock="10:45:54"
+			time="00:02.950"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FrmMain.CreateRequisition' at 51;22.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='FrmMain']/element[@controlname='ribbon']//toolbar[@accessiblename='Stock Requisitions']/button[@accessiblename='Create Requisition']"
+				itempath="element[@controlname='ribbon']//toolbar[@accessiblename='Stock Requisitions']/button[@accessiblename='Create Requisition']"
+				fullname="Genesis_Desktop_TestSuite_InventoryRepository.FrmMain.CreateRequisition"
+				id="54910adc070f4c6e916f7be84c138647"
+				timeout="60000"
+				codefile="c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.Inventory\Recordings\GoodsReceiptReceiveAll.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.885"
+			timeRelativeToTestModuleStartTime="00:04.885"
+			timeWallClock="10:45:56"
+			time="00:04.885"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

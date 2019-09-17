@@ -1,0 +1,10 @@
+C:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\Genesis.Desktop\bin\Debug\Genesis.Desktop.rxtmg
+C:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\Genesis.Desktop\bin\Debug\Genesis_Desktop_Inventory.rxtst
+C:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\Genesis.Desktop\bin\Debug\Genesis.Desktop.exe.config
+C:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\Genesis.Desktop\bin\Debug\Genesis.Desktop.xml
+C:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\Genesis.Desktop\bin\Debug\Genesis.Desktop.exe
+C:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\Genesis.Desktop\bin\Debug\Genesis.Desktop.pdb
+C:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\Genesis.Desktop\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\Genesis.Desktop\obj\x86\Debug\Genesis.Desktop.csprojResolveAssemblyReference.cache
+C:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\Genesis.Desktop\obj\x86\Debug\Genesis.Desktop.exe
+C:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\Genesis.Desktop\obj\x86\Debug\Genesis.Desktop.pdb

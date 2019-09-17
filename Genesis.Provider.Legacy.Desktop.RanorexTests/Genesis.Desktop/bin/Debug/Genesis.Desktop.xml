@@ -1,0 +1,2011 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Genesis.Desktop</name>
+    </assembly>
+    <members>
+        <member name="T:Genesis.Desktop.Genesis_DesktopRepository">
+            <summary>
+            The class representing the Genesis_DesktopRepository element repository.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.Genesis_DesktopRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the Genesis_DesktopRepository element repository.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepository.FrmLogin">
+            <summary>
+            The FrmLogin folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepository.FrmMain">
+            <summary>
+            The FrmMain folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepository.FrmCreateRequisition">
+            <summary>
+            The FrmCreateRequisition folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepository.GenesisAutomation">
+            <summary>
+            The GenesisAutomation folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepository.GenesisAutomation1">
+            <summary>
+            The GenesisAutomation1 folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepository.PurchaseOrder">
+            <summary>
+            The PurchaseOrder folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepository.Explorer">
+            <summary>
+            The Explorer folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepository.TheTestSuiteStructureRanorexStudi">
+            <summary>
+            The TheTestSuiteStructureRanorexStudi folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepository.JumpListForGenesisAutomation">
+            <summary>
+            The JumpListForGenesisAutomation folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepository.Cortana">
+            <summary>
+            The Cortana folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepository.Explorer1">
+            <summary>
+            The Explorer1 folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepository.NewTab">
+            <summary>
+            The NewTab folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepository.WebDocumentPRVDSK2793GoodsReceipt">
+            <summary>
+            The WebDocumentPRVDSK2793GoodsReceipt folder.
+            </summary>
+        </member>
+        <member name="T:Genesis.Desktop.Genesis_DesktopRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:Genesis.Desktop.Genesis_DesktopRepositoryFolders.FrmLoginAppFolder">
+            <summary>
+            The FrmLoginAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.Genesis_DesktopRepositoryFolders.FrmLoginAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new FrmLogin  folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.FrmLoginAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.FrmLoginAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.FrmLoginAppFolder.NoCapsMsgTextBoxMaskBox">
+            <summary>
+            The NoCapsMsgTextBoxMaskBox item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.FrmLoginAppFolder.NoCapsMsgTextBoxMaskBoxInfo">
+            <summary>
+            The NoCapsMsgTextBoxMaskBox item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.FrmLoginAppFolder.SignIn">
+            <summary>
+            The SignIn item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.FrmLoginAppFolder.SignInInfo">
+            <summary>
+            The SignIn item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.FrmLoginAppFolder.TextMaskBox">
+            <summary>
+            The TextMaskBox item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.FrmLoginAppFolder.TextMaskBoxInfo">
+            <summary>
+            The TextMaskBox item info.
+            </summary>
+        </member>
+        <member name="T:Genesis.Desktop.Genesis_DesktopRepositoryFolders.FrmMainAppFolder">
+            <summary>
+            The FrmMainAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.Genesis_DesktopRepositoryFolders.FrmMainAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new FrmMain  folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.FrmMainAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.FrmMainAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.FrmMainAppFolder.CreateRequisition">
+            <summary>
+            The CreateRequisition item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.FrmMainAppFolder.CreateRequisitionInfo">
+            <summary>
+            The CreateRequisition item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.FrmMainAppFolder.NewOrders">
+            <summary>
+            The NewOrders item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.FrmMainAppFolder.NewOrdersInfo">
+            <summary>
+            The NewOrders item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.FrmMainAppFolder.ReleaseRow0">
+            <summary>
+            The ReleaseRow0 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.FrmMainAppFolder.ReleaseRow0Info">
+            <summary>
+            The ReleaseRow0 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.FrmMainAppFolder.Ribbon">
+            <summary>
+            The Ribbon item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.FrmMainAppFolder.RibbonInfo">
+            <summary>
+            The Ribbon item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.FrmMainAppFolder.ChartBarTransactions">
+            <summary>
+            The ChartBarTransactions item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.FrmMainAppFolder.ChartBarTransactionsInfo">
+            <summary>
+            The ChartBarTransactions item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.FrmMainAppFolder.MasterData">
+            <summary>
+            The MasterData item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.FrmMainAppFolder.MasterDataInfo">
+            <summary>
+            The MasterData item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.FrmMainAppFolder.Tasks">
+            <summary>
+            The Tasks item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.FrmMainAppFolder.TasksInfo">
+            <summary>
+            The Tasks item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.FrmMainAppFolder.TextBoxMaskBox">
+            <summary>
+            The TextBoxMaskBox item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.FrmMainAppFolder.TextBoxMaskBoxInfo">
+            <summary>
+            The TextBoxMaskBox item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.FrmMainAppFolder.SplitControl">
+            <summary>
+            The SplitControl folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.FrmMainAppFolder.LayoutControl1">
+            <summary>
+            The LayoutControl1 folder.
+            </summary>
+        </member>
+        <member name="T:Genesis.Desktop.Genesis_DesktopRepositoryFolders.SplitControlFolder">
+            <summary>
+            The SplitControlFolder folder.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.Genesis_DesktopRepositoryFolders.SplitControlFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new SplitControl  folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.SplitControlFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.SplitControlFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.SplitControlFolder.OutstandingOrders">
+            <summary>
+            The OutstandingOrders item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.SplitControlFolder.OutstandingOrdersInfo">
+            <summary>
+            The OutstandingOrders item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.SplitControlFolder.DataPanel">
+            <summary>
+            The DataPanel item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.SplitControlFolder.DataPanelInfo">
+            <summary>
+            The DataPanel item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.SplitControlFolder.GoodsReceiptRow0">
+            <summary>
+            The GoodsReceiptRow0 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.SplitControlFolder.GoodsReceiptRow0Info">
+            <summary>
+            The GoodsReceiptRow0 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.SplitControlFolder.PriorityRow0">
+            <summary>
+            The PriorityRow0 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.SplitControlFolder.PriorityRow0Info">
+            <summary>
+            The PriorityRow0 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.SplitControlFolder.EditingControl">
+            <summary>
+            The EditingControl item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.SplitControlFolder.EditingControlInfo">
+            <summary>
+            The EditingControl item info.
+            </summary>
+        </member>
+        <member name="T:Genesis.Desktop.Genesis_DesktopRepositoryFolders.LayoutControl1Folder">
+            <summary>
+            The LayoutControl1Folder folder.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.Genesis_DesktopRepositoryFolders.LayoutControl1Folder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new LayoutControl1  folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.LayoutControl1Folder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.LayoutControl1Folder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.LayoutControl1Folder.Close">
+            <summary>
+            The Close item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.LayoutControl1Folder.CloseInfo">
+            <summary>
+            The Close item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.LayoutControl1Folder.Open">
+            <summary>
+            The Open item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.LayoutControl1Folder.OpenInfo">
+            <summary>
+            The Open item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.LayoutControl1Folder.DeleteRow0">
+            <summary>
+            The DeleteRow0 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.LayoutControl1Folder.DeleteRow0Info">
+            <summary>
+            The DeleteRow0 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.LayoutControl1Folder.ResetFilters">
+            <summary>
+            The ResetFilters item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.LayoutControl1Folder.ResetFiltersInfo">
+            <summary>
+            The ResetFilters item info.
+            </summary>
+        </member>
+        <member name="T:Genesis.Desktop.Genesis_DesktopRepositoryFolders.FrmCreateRequisitionAppFolder">
+            <summary>
+            The FrmCreateRequisitionAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.Genesis_DesktopRepositoryFolders.FrmCreateRequisitionAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new FrmCreateRequisition  folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.FrmCreateRequisitionAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.FrmCreateRequisitionAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.FrmCreateRequisitionAppFolder.Open">
+            <summary>
+            The Open item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.FrmCreateRequisitionAppFolder.OpenInfo">
+            <summary>
+            The Open item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.FrmCreateRequisitionAppFolder.Open1">
+            <summary>
+            The Open1 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.FrmCreateRequisitionAppFolder.Open1Info">
+            <summary>
+            The Open1 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.FrmCreateRequisitionAppFolder.AddRequisition">
+            <summary>
+            The AddRequisition item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.FrmCreateRequisitionAppFolder.AddRequisitionInfo">
+            <summary>
+            The AddRequisition item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.FrmCreateRequisitionAppFolder.Confirm">
+            <summary>
+            The Confirm item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.FrmCreateRequisitionAppFolder.ConfirmInfo">
+            <summary>
+            The Confirm item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.FrmCreateRequisitionAppFolder.Close">
+            <summary>
+            The Close item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.FrmCreateRequisitionAppFolder.CloseInfo">
+            <summary>
+            The Close item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.FrmCreateRequisitionAppFolder.Item">
+            <summary>
+            The Item item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.FrmCreateRequisitionAppFolder.ItemInfo">
+            <summary>
+            The Item item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.FrmCreateRequisitionAppFolder.Close1">
+            <summary>
+            The Close1 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.FrmCreateRequisitionAppFolder.Close1Info">
+            <summary>
+            The Close1 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.FrmCreateRequisitionAppFolder.Items">
+            <summary>
+            The Items item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.FrmCreateRequisitionAppFolder.ItemsInfo">
+            <summary>
+            The Items item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.FrmCreateRequisitionAppFolder.Open2">
+            <summary>
+            The Open2 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.FrmCreateRequisitionAppFolder.Open2Info">
+            <summary>
+            The Open2 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.FrmCreateRequisitionAppFolder.TextSelectItem">
+            <summary>
+            The TextSelectItem item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.FrmCreateRequisitionAppFolder.TextSelectItemInfo">
+            <summary>
+            The TextSelectItem item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.FrmCreateRequisitionAppFolder.ReplenishFromSupplier">
+            <summary>
+            The ReplenishFromSupplier item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.FrmCreateRequisitionAppFolder.ReplenishFromSupplierInfo">
+            <summary>
+            The ReplenishFromSupplier item info.
+            </summary>
+        </member>
+        <member name="T:Genesis.Desktop.Genesis_DesktopRepositoryFolders.GenesisAutomationAppFolder">
+            <summary>
+            The GenesisAutomationAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.Genesis_DesktopRepositoryFolders.GenesisAutomationAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new GenesisAutomation  folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.GenesisAutomationAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.GenesisAutomationAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.GenesisAutomationAppFolder.DescriptionRow9">
+            <summary>
+            The DescriptionRow9 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.GenesisAutomationAppFolder.DescriptionRow9Info">
+            <summary>
+            The DescriptionRow9 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.GenesisAutomationAppFolder.DescriptionRow0">
+            <summary>
+            The DescriptionRow0 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.GenesisAutomationAppFolder.DescriptionRow0Info">
+            <summary>
+            The DescriptionRow0 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.GenesisAutomationAppFolder.DescriptionRow1">
+            <summary>
+            The DescriptionRow1 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.GenesisAutomationAppFolder.DescriptionRow1Info">
+            <summary>
+            The DescriptionRow1 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.GenesisAutomationAppFolder.Row2">
+            <summary>
+            The Row2 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.GenesisAutomationAppFolder.Row2Info">
+            <summary>
+            The Row2 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.GenesisAutomationAppFolder.Row1">
+            <summary>
+            The Row1 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.GenesisAutomationAppFolder.Row1Info">
+            <summary>
+            The Row1 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.GenesisAutomationAppFolder.TextMaskBox">
+            <summary>
+            The TextMaskBox item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.GenesisAutomationAppFolder.TextMaskBoxInfo">
+            <summary>
+            The TextMaskBox item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.GenesisAutomationAppFolder.TextMaskBox1">
+            <summary>
+            The TextMaskBox1 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.GenesisAutomationAppFolder.TextMaskBox1Info">
+            <summary>
+            The TextMaskBox1 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.GenesisAutomationAppFolder.Find">
+            <summary>
+            The Find item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.GenesisAutomationAppFolder.FindInfo">
+            <summary>
+            The Find item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.GenesisAutomationAppFolder.Delete">
+            <summary>
+            The Delete item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.GenesisAutomationAppFolder.DeleteInfo">
+            <summary>
+            The Delete item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.GenesisAutomationAppFolder.GenesisAutomationMasterDataImport">
+            <summary>
+            The GenesisAutomationMasterDataImport item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.GenesisAutomationAppFolder.GenesisAutomationMasterDataImportInfo">
+            <summary>
+            The GenesisAutomationMasterDataImport item info.
+            </summary>
+        </member>
+        <member name="T:Genesis.Desktop.Genesis_DesktopRepositoryFolders.GenesisAutomation1AppFolder">
+            <summary>
+            The GenesisAutomation1AppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.Genesis_DesktopRepositoryFolders.GenesisAutomation1AppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new GenesisAutomation1  folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.GenesisAutomation1AppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.GenesisAutomation1AppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.GenesisAutomation1AppFolder.ButtonOK">
+            <summary>
+            The ButtonOK item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.GenesisAutomation1AppFolder.ButtonOKInfo">
+            <summary>
+            The ButtonOK item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.GenesisAutomation1AppFolder.ButtonYes">
+            <summary>
+            The ButtonYes item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.GenesisAutomation1AppFolder.ButtonYesInfo">
+            <summary>
+            The ButtonYes item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.GenesisAutomation1AppFolder.DetailsRow0">
+            <summary>
+            The DetailsRow0 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.GenesisAutomation1AppFolder.DetailsRow0Info">
+            <summary>
+            The DetailsRow0 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.GenesisAutomation1AppFolder.RibbonStatusBar">
+            <summary>
+            The RibbonStatusBar item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.GenesisAutomation1AppFolder.RibbonStatusBarInfo">
+            <summary>
+            The RibbonStatusBar item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.GenesisAutomation1AppFolder.FooterPanel">
+            <summary>
+            The FooterPanel item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.GenesisAutomation1AppFolder.FooterPanelInfo">
+            <summary>
+            The FooterPanel item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.GenesisAutomation1AppFolder.EditingControl">
+            <summary>
+            The EditingControl item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.GenesisAutomation1AppFolder.EditingControlInfo">
+            <summary>
+            The EditingControl item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.GenesisAutomation1AppFolder.ButtonNo">
+            <summary>
+            The ButtonNo item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.GenesisAutomation1AppFolder.ButtonNoInfo">
+            <summary>
+            The ButtonNo item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.GenesisAutomation1AppFolder.RefreshTasks">
+            <summary>
+            The RefreshTasks item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.GenesisAutomation1AppFolder.RefreshTasksInfo">
+            <summary>
+            The RefreshTasks item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.GenesisAutomation1AppFolder.ImportData">
+            <summary>
+            The ImportData item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.GenesisAutomation1AppFolder.ImportDataInfo">
+            <summary>
+            The ImportData item info.
+            </summary>
+        </member>
+        <member name="T:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder">
+            <summary>
+            The PurchaseOrderAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new PurchaseOrder  folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.ButtonOK">
+            <summary>
+            The ButtonOK item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.ButtonOKInfo">
+            <summary>
+            The ButtonOK item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.CloseWindow">
+            <summary>
+            The CloseWindow item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.CloseWindowInfo">
+            <summary>
+            The CloseWindow item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.ReceiptRow0">
+            <summary>
+            The ReceiptRow0 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.ReceiptRow0Info">
+            <summary>
+            The ReceiptRow0 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.TextMaskBox">
+            <summary>
+            The TextMaskBox item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.TextMaskBoxInfo">
+            <summary>
+            The TextMaskBox item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.Receive">
+            <summary>
+            The Receive item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.ReceiveInfo">
+            <summary>
+            The Receive item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.Close">
+            <summary>
+            The Close item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.CloseInfo">
+            <summary>
+            The Close item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.CloseWindow1">
+            <summary>
+            The CloseWindow1 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.CloseWindow1Info">
+            <summary>
+            The CloseWindow1 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.Close1">
+            <summary>
+            The Close1 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.Close1Info">
+            <summary>
+            The Close1 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.GenesisAccount">
+            <summary>
+            The GenesisAccount item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.GenesisAccountInfo">
+            <summary>
+            The GenesisAccount item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.GenesisE2e">
+            <summary>
+            The GenesisE2e item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.GenesisE2eInfo">
+            <summary>
+            The GenesisE2e item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.TestConnection">
+            <summary>
+            The TestConnection item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.TestConnectionInfo">
+            <summary>
+            The TestConnection item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.Save">
+            <summary>
+            The Save item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.SaveInfo">
+            <summary>
+            The Save item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.Text">
+            <summary>
+            The Text item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.TextInfo">
+            <summary>
+            The Text item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.Exit">
+            <summary>
+            The Exit item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.ExitInfo">
+            <summary>
+            The Exit item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.TextMaskBox1">
+            <summary>
+            The TextMaskBox1 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.TextMaskBox1Info">
+            <summary>
+            The TextMaskBox1 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.TextMaskBox2">
+            <summary>
+            The TextMaskBox2 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.TextMaskBox2Info">
+            <summary>
+            The TextMaskBox2 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.ReceiveAll">
+            <summary>
+            The ReceiveAll item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.ReceiveAllInfo">
+            <summary>
+            The ReceiveAll item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.GetTemplate">
+            <summary>
+            The GetTemplate item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.GetTemplateInfo">
+            <summary>
+            The GetTemplate item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.ButtonSave">
+            <summary>
+            The ButtonSave item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.ButtonSaveInfo">
+            <summary>
+            The ButtonSave item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.ButtonYes">
+            <summary>
+            The ButtonYes item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.ButtonYesInfo">
+            <summary>
+            The ButtonYes item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.ButtonYes1">
+            <summary>
+            The ButtonYes1 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.ButtonYes1Info">
+            <summary>
+            The ButtonYes1 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.Cell5">
+            <summary>
+            The Cell5 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.Cell5Info">
+            <summary>
+            The Cell5 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.ItemImportTemplate">
+            <summary>
+            The ItemImportTemplate item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.ItemImportTemplateInfo">
+            <summary>
+            The ItemImportTemplate item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.Position">
+            <summary>
+            The Position item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.PositionInfo">
+            <summary>
+            The Position item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.Save1">
+            <summary>
+            The Save1 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.Save1Info">
+            <summary>
+            The Save1 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.Continue">
+            <summary>
+            The Continue item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.ContinueInfo">
+            <summary>
+            The Continue item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.Close2">
+            <summary>
+            The Close2 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.Close2Info">
+            <summary>
+            The Close2 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.PushButton">
+            <summary>
+            The PushButton item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.PushButtonInfo">
+            <summary>
+            The PushButton item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.Text1148">
+            <summary>
+            The Text1148 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.Text1148Info">
+            <summary>
+            The Text1148 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.ButtonOK1">
+            <summary>
+            The ButtonOK1 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.ButtonOK1Info">
+            <summary>
+            The ButtonOK1 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.Import">
+            <summary>
+            The Import item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.ImportInfo">
+            <summary>
+            The Import item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.TextBoxMaskBox">
+            <summary>
+            The TextBoxMaskBox item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.TextBoxMaskBoxInfo">
+            <summary>
+            The TextBoxMaskBox item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.Close3">
+            <summary>
+            The Close3 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.Close3Info">
+            <summary>
+            The Close3 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.Font">
+            <summary>
+            The Font item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.FontInfo">
+            <summary>
+            The Font item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.FormulaBar">
+            <summary>
+            The FormulaBar item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.FormulaBarInfo">
+            <summary>
+            The FormulaBar item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.Minimise">
+            <summary>
+            The Minimise item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.MinimiseInfo">
+            <summary>
+            The Minimise item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.PurchaseOrderAppFolder.ItemImportTemplate1">
+            <summary>
+            The ItemImportTemplate1 folder.
+            </summary>
+        </member>
+        <member name="T:Genesis.Desktop.Genesis_DesktopRepositoryFolders.ItemImportTemplate1Folder">
+            <summary>
+            The ItemImportTemplate1Folder folder.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.Genesis_DesktopRepositoryFolders.ItemImportTemplate1Folder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ItemImportTemplate1  folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.ItemImportTemplate1Folder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.ItemImportTemplate1Folder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.ItemImportTemplate1Folder.CellD3">
+            <summary>
+            The CellD3 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.ItemImportTemplate1Folder.CellD3Info">
+            <summary>
+            The CellD3 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.ItemImportTemplate1Folder.CellC4">
+            <summary>
+            The CellC4 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.ItemImportTemplate1Folder.CellC4Info">
+            <summary>
+            The CellC4 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.ItemImportTemplate1Folder.CellE4">
+            <summary>
+            The CellE4 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.ItemImportTemplate1Folder.CellE4Info">
+            <summary>
+            The CellE4 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.ItemImportTemplate1Folder.CellF4">
+            <summary>
+            The CellF4 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.ItemImportTemplate1Folder.CellF4Info">
+            <summary>
+            The CellF4 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.ItemImportTemplate1Folder.CellJ4">
+            <summary>
+            The CellJ4 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.ItemImportTemplate1Folder.CellJ4Info">
+            <summary>
+            The CellJ4 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.ItemImportTemplate1Folder.CellL4">
+            <summary>
+            The CellL4 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.ItemImportTemplate1Folder.CellL4Info">
+            <summary>
+            The CellL4 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.ItemImportTemplate1Folder.CellM4">
+            <summary>
+            The CellM4 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.ItemImportTemplate1Folder.CellM4Info">
+            <summary>
+            The CellM4 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.ItemImportTemplate1Folder.CellN4">
+            <summary>
+            The CellN4 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.ItemImportTemplate1Folder.CellN4Info">
+            <summary>
+            The CellN4 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.ItemImportTemplate1Folder.CellO4">
+            <summary>
+            The CellO4 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.ItemImportTemplate1Folder.CellO4Info">
+            <summary>
+            The CellO4 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.ItemImportTemplate1Folder.CellA5">
+            <summary>
+            The CellA5 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.ItemImportTemplate1Folder.CellA5Info">
+            <summary>
+            The CellA5 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.ItemImportTemplate1Folder.CellB5">
+            <summary>
+            The CellB5 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.ItemImportTemplate1Folder.CellB5Info">
+            <summary>
+            The CellB5 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.ItemImportTemplate1Folder.CellB6">
+            <summary>
+            The CellB6 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.ItemImportTemplate1Folder.CellB6Info">
+            <summary>
+            The CellB6 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.ItemImportTemplate1Folder.CellF5">
+            <summary>
+            The CellF5 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.ItemImportTemplate1Folder.CellF5Info">
+            <summary>
+            The CellF5 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.ItemImportTemplate1Folder.CellC5">
+            <summary>
+            The CellC5 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.ItemImportTemplate1Folder.CellC5Info">
+            <summary>
+            The CellC5 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.ItemImportTemplate1Folder.CellC6">
+            <summary>
+            The CellC6 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.ItemImportTemplate1Folder.CellC6Info">
+            <summary>
+            The CellC6 item info.
+            </summary>
+        </member>
+        <member name="T:Genesis.Desktop.Genesis_DesktopRepositoryFolders.ExplorerAppFolder">
+            <summary>
+            The ExplorerAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.Genesis_DesktopRepositoryFolders.ExplorerAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Explorer  folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.ExplorerAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.ExplorerAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.ExplorerAppFolder.Text4101">
+            <summary>
+            The Text4101 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.ExplorerAppFolder.Text4101Info">
+            <summary>
+            The Text4101 item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.ExplorerAppFolder.RunningApplications">
+            <summary>
+            The RunningApplications folder.
+            </summary>
+        </member>
+        <member name="T:Genesis.Desktop.Genesis_DesktopRepositoryFolders.RunningApplicationsFolder">
+            <summary>
+            The RunningApplicationsFolder folder.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.Genesis_DesktopRepositoryFolders.RunningApplicationsFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new RunningApplications  folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.RunningApplicationsFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.RunningApplicationsFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.RunningApplicationsFolder.GenesisAutomation">
+            <summary>
+            The GenesisAutomation item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.RunningApplicationsFolder.GenesisAutomationInfo">
+            <summary>
+            The GenesisAutomation item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.RunningApplicationsFolder.GenesisAutomation1RunningWindow">
+            <summary>
+            The GenesisAutomation1RunningWindow item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.RunningApplicationsFolder.GenesisAutomation1RunningWindowInfo">
+            <summary>
+            The GenesisAutomation1RunningWindow item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.RunningApplicationsFolder.GenesisAutomation2RunningWindows">
+            <summary>
+            The GenesisAutomation2RunningWindows item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.RunningApplicationsFolder.GenesisAutomation2RunningWindowsInfo">
+            <summary>
+            The GenesisAutomation2RunningWindows item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.RunningApplicationsFolder.GenesisAutomation1RunningWindow1">
+            <summary>
+            The GenesisAutomation1RunningWindow1 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.RunningApplicationsFolder.GenesisAutomation1RunningWindow1Info">
+            <summary>
+            The GenesisAutomation1RunningWindow1 item info.
+            </summary>
+        </member>
+        <member name="T:Genesis.Desktop.Genesis_DesktopRepositoryFolders.TheTestSuiteStructureRanorexStudiAppFolder">
+            <summary>
+            The TheTestSuiteStructureRanorexStudiAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.Genesis_DesktopRepositoryFolders.TheTestSuiteStructureRanorexStudiAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new TheTestSuiteStructureRanorexStudi  folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.TheTestSuiteStructureRanorexStudiAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.TheTestSuiteStructureRanorexStudiAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.TheTestSuiteStructureRanorexStudiAppFolder.AddingTestSuiteItemsUsingDragdrop">
+            <summary>
+            The AddingTestSuiteItemsUsingDragdrop item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.TheTestSuiteStructureRanorexStudiAppFolder.AddingTestSuiteItemsUsingDragdropInfo">
+            <summary>
+            The AddingTestSuiteItemsUsingDragdrop item info.
+            </summary>
+        </member>
+        <member name="T:Genesis.Desktop.Genesis_DesktopRepositoryFolders.JumpListForGenesisAutomationAppFolder">
+            <summary>
+            The JumpListForGenesisAutomationAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.Genesis_DesktopRepositoryFolders.JumpListForGenesisAutomationAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new JumpListForGenesisAutomation  folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.JumpListForGenesisAutomationAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.JumpListForGenesisAutomationAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.JumpListForGenesisAutomationAppFolder.DisplayNameTextBlock">
+            <summary>
+            The DisplayNameTextBlock item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.JumpListForGenesisAutomationAppFolder.DisplayNameTextBlockInfo">
+            <summary>
+            The DisplayNameTextBlock item info.
+            </summary>
+        </member>
+        <member name="T:Genesis.Desktop.Genesis_DesktopRepositoryFolders.CortanaAppFolder">
+            <summary>
+            The CortanaAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.Genesis_DesktopRepositoryFolders.CortanaAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Cortana  folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.CortanaAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.CortanaAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.CortanaAppFolder.GenesisAutomation">
+            <summary>
+            The GenesisAutomation item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.CortanaAppFolder.GenesisAutomationInfo">
+            <summary>
+            The GenesisAutomation item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.CortanaAppFolder.RunAs">
+            <summary>
+            The RunAs item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.CortanaAppFolder.RunAsInfo">
+            <summary>
+            The RunAs item info.
+            </summary>
+        </member>
+        <member name="T:Genesis.Desktop.Genesis_DesktopRepositoryFolders.Explorer1AppFolder">
+            <summary>
+            The Explorer1AppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.Genesis_DesktopRepositoryFolders.Explorer1AppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Explorer1  folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.Explorer1AppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.Explorer1AppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.Explorer1AppFolder.List1">
+            <summary>
+            The List1 item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.Explorer1AppFolder.List1Info">
+            <summary>
+            The List1 item info.
+            </summary>
+        </member>
+        <member name="T:Genesis.Desktop.Genesis_DesktopRepositoryFolders.NewTabAppFolder">
+            <summary>
+            The NewTabAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.Genesis_DesktopRepositoryFolders.NewTabAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new NewTab  folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.NewTabAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.NewTabAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:Genesis.Desktop.Genesis_DesktopRepositoryFolders.WebDocumentPRVDSK2793GoodsReceiptAppFolder">
+            <summary>
+            The WebDocumentPRVDSK2793GoodsReceiptAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.Genesis_DesktopRepositoryFolders.WebDocumentPRVDSK2793GoodsReceiptAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new WebDocumentPRVDSK2793GoodsReceipt  folder.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.WebDocumentPRVDSK2793GoodsReceiptAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Genesis_DesktopRepositoryFolders.WebDocumentPRVDSK2793GoodsReceiptAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:Genesis.Desktop.Recordings.General.Login">
+             <summary>
+            The Login recording.
+             </summary>
+        </member>
+        <member name="F:Genesis.Desktop.Recordings.General.Login.repo">
+            <summary>
+            Holds an instance of the global::Genesis.Desktop.Genesis_DesktopRepository repository.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.Recordings.General.Login.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.Recordings.General.Login.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Genesis.Desktop.Recordings.General.Login.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.Recordings.General.Login.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Genesis.Desktop.Recordings.General.Login.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Recordings.General.Login.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Genesis.Desktop.Recordings.Inventory.CreateReleasePOTeardown">
+             <summary>
+            The CreateReleasePOTeardown recording.
+             </summary>
+        </member>
+        <member name="F:Genesis.Desktop.Recordings.Inventory.CreateReleasePOTeardown.repo">
+            <summary>
+            Holds an instance of the global::Genesis.Desktop.Genesis_DesktopRepository repository.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.Recordings.Inventory.CreateReleasePOTeardown.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.Recordings.Inventory.CreateReleasePOTeardown.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Genesis.Desktop.Recordings.Inventory.CreateReleasePOTeardown.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.Recordings.Inventory.CreateReleasePOTeardown.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Genesis.Desktop.Recordings.Inventory.CreateReleasePOTeardown.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Recordings.Inventory.CreateReleasePOTeardown.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Genesis.Desktop.Recordings.Inventory.CreateRequisition">
+             <summary>
+            The CreateRequisition recording.
+             </summary>
+        </member>
+        <member name="F:Genesis.Desktop.Recordings.Inventory.CreateRequisition.repo">
+            <summary>
+            Holds an instance of the global::Genesis.Desktop.Genesis_DesktopRepository repository.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.Recordings.Inventory.CreateRequisition.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.Recordings.Inventory.CreateRequisition.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Genesis.Desktop.Recordings.Inventory.CreateRequisition.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.Recordings.Inventory.CreateRequisition.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Genesis.Desktop.Recordings.Inventory.CreateRequisition.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Recordings.Inventory.CreateRequisition.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Genesis.Desktop.Recordings.Inventory.GoodsReceipt">
+             <summary>
+            The GoodsReceipt recording.
+             </summary>
+        </member>
+        <member name="F:Genesis.Desktop.Recordings.Inventory.GoodsReceipt.repo">
+            <summary>
+            Holds an instance of the global::Genesis.Desktop.Genesis_DesktopRepository repository.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.Recordings.Inventory.GoodsReceipt.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.Recordings.Inventory.GoodsReceipt.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Genesis.Desktop.Recordings.Inventory.GoodsReceipt.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.Recordings.Inventory.GoodsReceipt.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Genesis.Desktop.Recordings.Inventory.GoodsReceipt.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Recordings.Inventory.GoodsReceipt.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Genesis.Desktop.Recordings.Inventory.GoodsReceiptNonRecall">
+             <summary>
+            The GoodsReceiptNonRecall recording.
+             </summary>
+        </member>
+        <member name="F:Genesis.Desktop.Recordings.Inventory.GoodsReceiptNonRecall.repo">
+            <summary>
+            Holds an instance of the global::Genesis.Desktop.Genesis_DesktopRepository repository.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.Recordings.Inventory.GoodsReceiptNonRecall.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.Recordings.Inventory.GoodsReceiptNonRecall.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Genesis.Desktop.Recordings.Inventory.GoodsReceiptNonRecall.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.Recordings.Inventory.GoodsReceiptNonRecall.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Genesis.Desktop.Recordings.Inventory.GoodsReceiptNonRecall.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Recordings.Inventory.GoodsReceiptNonRecall.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Genesis.Desktop.Recordings.Inventory.GoodsReceiptRecalled">
+             <summary>
+            The GoodsReceiptRecalled recording.
+             </summary>
+        </member>
+        <member name="F:Genesis.Desktop.Recordings.Inventory.GoodsReceiptRecalled.repo">
+            <summary>
+            Holds an instance of the global::Genesis.Desktop.Genesis_DesktopRepository repository.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.Recordings.Inventory.GoodsReceiptRecalled.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.Recordings.Inventory.GoodsReceiptRecalled.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Genesis.Desktop.Recordings.Inventory.GoodsReceiptRecalled.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.Recordings.Inventory.GoodsReceiptRecalled.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Genesis.Desktop.Recordings.Inventory.GoodsReceiptRecalled.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Recordings.Inventory.GoodsReceiptRecalled.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Genesis.Desktop.Recordings.Inventory.GoodsReceiptRecalledAllLotNumbers">
+             <summary>
+            The GoodsReceiptRecalledAllLotNumbers recording.
+             </summary>
+        </member>
+        <member name="F:Genesis.Desktop.Recordings.Inventory.GoodsReceiptRecalledAllLotNumbers.repo">
+            <summary>
+            Holds an instance of the global::Genesis.Desktop.Genesis_DesktopRepository repository.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.Recordings.Inventory.GoodsReceiptRecalledAllLotNumbers.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.Recordings.Inventory.GoodsReceiptRecalledAllLotNumbers.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Genesis.Desktop.Recordings.Inventory.GoodsReceiptRecalledAllLotNumbers.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.Recordings.Inventory.GoodsReceiptRecalledAllLotNumbers.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Genesis.Desktop.Recordings.Inventory.GoodsReceiptRecalledAllLotNumbers.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Recordings.Inventory.GoodsReceiptRecalledAllLotNumbers.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Genesis.Desktop.Recordings.Inventory.GoodsReceiptReceiveAll">
+             <summary>
+            The GoodsReceiptReceiveAll recording.
+             </summary>
+        </member>
+        <member name="F:Genesis.Desktop.Recordings.Inventory.GoodsReceiptReceiveAll.repo">
+            <summary>
+            Holds an instance of the global::Genesis.Desktop.Genesis_DesktopRepository repository.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.Recordings.Inventory.GoodsReceiptReceiveAll.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.Recordings.Inventory.GoodsReceiptReceiveAll.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Genesis.Desktop.Recordings.Inventory.GoodsReceiptReceiveAll.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.Recordings.Inventory.GoodsReceiptReceiveAll.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Genesis.Desktop.Recordings.Inventory.GoodsReceiptReceiveAll.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Recordings.Inventory.GoodsReceiptReceiveAll.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Genesis.Desktop.Recordings.Inventory.GoodsReceiptSameItemLotDifferentSupplier">
+             <summary>
+            The GoodsReceiptSameItemLotDifferentSupplier recording.
+             </summary>
+        </member>
+        <member name="F:Genesis.Desktop.Recordings.Inventory.GoodsReceiptSameItemLotDifferentSupplier.repo">
+            <summary>
+            Holds an instance of the global::Genesis.Desktop.Genesis_DesktopRepository repository.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.Recordings.Inventory.GoodsReceiptSameItemLotDifferentSupplier.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.Recordings.Inventory.GoodsReceiptSameItemLotDifferentSupplier.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Genesis.Desktop.Recordings.Inventory.GoodsReceiptSameItemLotDifferentSupplier.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.Recordings.Inventory.GoodsReceiptSameItemLotDifferentSupplier.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Genesis.Desktop.Recordings.Inventory.GoodsReceiptSameItemLotDifferentSupplier.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Recordings.Inventory.GoodsReceiptSameItemLotDifferentSupplier.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Genesis.Desktop.Recordings.Inventory.GoodsReceiptTeardown">
+             <summary>
+            The GoodsReceiptTeardown recording.
+             </summary>
+        </member>
+        <member name="F:Genesis.Desktop.Recordings.Inventory.GoodsReceiptTeardown.repo">
+            <summary>
+            Holds an instance of the global::Genesis.Desktop.Genesis_DesktopRepository repository.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.Recordings.Inventory.GoodsReceiptTeardown.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.Recordings.Inventory.GoodsReceiptTeardown.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Genesis.Desktop.Recordings.Inventory.GoodsReceiptTeardown.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.Recordings.Inventory.GoodsReceiptTeardown.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Genesis.Desktop.Recordings.Inventory.GoodsReceiptTeardown.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Recordings.Inventory.GoodsReceiptTeardown.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Genesis.Desktop.Recordings.Inventory.ReleaseRequisition">
+             <summary>
+            The ReleaseRequisition recording.
+             </summary>
+        </member>
+        <member name="F:Genesis.Desktop.Recordings.Inventory.ReleaseRequisition.repo">
+            <summary>
+            Holds an instance of the global::Genesis.Desktop.Genesis_DesktopRepository repository.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.Recordings.Inventory.ReleaseRequisition.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.Recordings.Inventory.ReleaseRequisition.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Genesis.Desktop.Recordings.Inventory.ReleaseRequisition.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Genesis.Desktop.Recordings.Inventory.ReleaseRequisition.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Genesis.Desktop.Recordings.Inventory.ReleaseRequisition.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Genesis.Desktop.Recordings.Inventory.ReleaseRequisition.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

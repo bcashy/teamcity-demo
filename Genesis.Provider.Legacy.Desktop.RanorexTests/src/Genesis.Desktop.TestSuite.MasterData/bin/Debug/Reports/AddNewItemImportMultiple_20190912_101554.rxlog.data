@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="4be2a7450aa32"
+		totalerrorcount="0"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="BrianCashman"
+		rxversion="9.1.1.0"
+		host="DESKTOP-LUI4H5C"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="5206x1091"
+		timestamp="12/09/2019 10:15:57"
+		timestampiso="2019-09-12T09:15:57"
+		endtime="12/09/2019 10:16:07"
+		timeoutfactor="1"
+		module="AddNewItemImportMultiple">
+		<detail>
+			AddNewItemImportMultiple
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.890"
+			timeRelativeToTestModuleStartTime="00:02.890"
+			timeWallClock="10:16:00"
+			time="00:02.890"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FrmMain.MasterData' at 43;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='FrmMain']/element[@controlname='ribbon']/?/?/tabpage[@accessiblename='Master Data']"
+				itempath="element[@controlname='ribbon']/?/?/tabpage[@accessiblename='Master Data']"
+				fullname="Genesis_Desktop_TestSuite_MasterDataRepository.FrmMain.MasterData"
+				id="ec1fa4c54e684b1c9005e671df7b13f4"
+				timeout="60000"
+				codefile="c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.MasterData\Recordings\AddNewItemImportMultiple.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.146"
+			timeRelativeToTestModuleStartTime="00:04.146"
+			timeWallClock="10:16:01"
+			time="00:04.146"
+			level="Warn"
+			category="WinForms">
+			<message>
+				Something is limiting object recognition for WinForms. Missing privileges are a common cause of this. Try starting all Ranorex tools and the AUT with the same privileges, preferably as an administrator. <br/>Process: 'GenesisAutomation' (pid 2044)<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v9.1/interfaces-connectivity/technology-instrumentation/general-troubleshooting/#DotNetWinForms<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="PotentiallyWinForms"
+				showInProgressDialog="False"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.690"
+			timeRelativeToTestModuleStartTime="00:04.690"
+			timeWallClock="10:16:02"
+			time="00:04.690"
+			level="Warn"
+			category="WinForms">
+			<message>
+				Something is limiting object recognition for WinForms. This is caused by one of the following:<br/>- Your AUT uses obfuscated controls or is a mixed-mode executable.<br/>- Your AUT and the test executable target different platforms/processors. This causes issues on 64-bit OS.<br/>Process: 'Flow' (pid 18016)<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v9.1/interfaces-connectivity/technology-instrumentation/general-troubleshooting/#DotNetWinForms<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="WinFormsResolving"
+				showInProgressDialog="False"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.754"
+			timeRelativeToTestModuleStartTime="00:05.754"
+			timeWallClock="10:16:03"
+			time="00:05.754"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 3s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.MasterData\Recordings\AddNewItemImportMultiple.cs"
+				codeline="86"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.758"
+			timeRelativeToTestModuleStartTime="00:08.758"
+			timeWallClock="10:16:06"
+			time="00:08.758"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FrmMain1.Items' at 24;28.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controltypename='FrmMain']/element[@controlname='ribbon']//toolbar[@accessiblename='Inventory']/button[@accessiblename='Items']"
+				itempath="element[@controlname='ribbon']//toolbar[@accessiblename='Inventory']/button[@accessiblename='Items']"
+				fullname="Genesis_Desktop_TestSuite_MasterDataRepository.FrmMain1.Items"
+				id="7168c425fbc247cc9d64f6dcceb3ab1d"
+				timeout="60000"
+				codefile="c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.MasterData\Recordings\AddNewItemImportMultiple.cs"
+				codeline="89"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

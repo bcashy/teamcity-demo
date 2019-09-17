@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="21.12s"
+		durationms="21120"
+		type="root"
+		rid="1dfb21e27f90d928"
+		totalerrorcount="1"
+		totalwarningcount="4"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="BrianCashman"
+		rxversion="9.1.1.0"
+		host="DESKTOP-LUI4H5C"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="5206x1091"
+		timestamp="13/09/2019 10:48:05"
+		timestampiso="2019-09-13T09:48:05"
+		endtime="13/09/2019 10:48:26"
+		timeoutfactor="1"
+		module="CreateNewItemWizardImplants">
+		<detail>
+			CreateNewItemWizardImplants
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.909"
+			timeRelativeToTestModuleStartTime="00:02.909"
+			timeWallClock="10:48:08"
+			time="00:02.909"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>NewVariable
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.932"
+			timeRelativeToTestModuleStartTime="00:02.932"
+			timeWallClock="10:48:08"
+			time="00:02.932"
+			level="Info"
+			category="Wait">
+			<message>
+				Waiting 5s to exist. Associated repository item: 'FrmMain1.MasterData'
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controltypename='FrmMain']/?/?/tabpagelist/tabpage[@accessiblename='Master Data']"
+				itempath="?/?/tabpagelist/tabpage[@accessiblename='Master Data']"
+				fullname="Genesis_Desktop_TestSuite_MasterDataRepository.FrmMain1.MasterData"
+				id="9410d3702c8144d68d557798c5513c71"
+				timeout="5000"
+				codefile="c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.MasterData\Recordings\CreateNewItemWizardImplants.cs"
+				codeline="95"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.221"
+			timeRelativeToTestModuleStartTime="00:04.221"
+			timeWallClock="10:48:09"
+			time="00:04.221"
+			level="Warn"
+			category="WinForms">
+			<message>
+				Something is limiting object recognition for WinForms. Missing privileges are a common cause of this. Try starting all Ranorex tools and the AUT with the same privileges, preferably as an administrator. <br/>Process: 'GenesisAutomation' (pid 3036)<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v9.1/interfaces-connectivity/technology-instrumentation/general-troubleshooting/#DotNetWinForms<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="PotentiallyWinForms"
+				showInProgressDialog="False"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.811"
+			timeRelativeToTestModuleStartTime="00:04.811"
+			timeWallClock="10:48:10"
+			time="00:04.811"
+			level="Warn"
+			category="WinForms">
+			<message>
+				Something is limiting object recognition for WinForms. This is caused by one of the following:<br/>- Your AUT uses obfuscated controls or is a mixed-mode executable.<br/>- Your AUT and the test executable target different platforms/processors. This causes issues on 64-bit OS.<br/>Process: 'Flow' (pid 17804)<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v9.1/interfaces-connectivity/technology-instrumentation/general-troubleshooting/#DotNetWinForms<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="WinFormsResolving"
+				showInProgressDialog="False"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.442"
+			timeRelativeToTestModuleStartTime="00:05.442"
+			timeWallClock="10:48:11"
+			time="00:05.442"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FrmMain1.MasterData' at 4;20.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controltypename='FrmMain']/?/?/tabpagelist/tabpage[@accessiblename='Master Data']"
+				itempath="?/?/tabpagelist/tabpage[@accessiblename='Master Data']"
+				fullname="Genesis_Desktop_TestSuite_MasterDataRepository.FrmMain1.MasterData"
+				id="9410d3702c8144d68d557798c5513c71"
+				timeout="60000"
+				codefile="c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.MasterData\Recordings\CreateNewItemWizardImplants.cs"
+				codeline="98"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.472"
+			timeRelativeToTestModuleStartTime="00:06.472"
+			timeWallClock="10:48:12"
+			time="00:06.472"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'GenesisAutomation1.NewItemWizard' at 47;56.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Genesis Automation']/element[@controlname='ribbon']//toolbar[@accessiblename='Inventory']/button[@accessiblename='New Item Wizard']"
+				itempath="element[@controlname='ribbon']//toolbar[@accessiblename='Inventory']/button[@accessiblename='New Item Wizard']"
+				fullname="Genesis_Desktop_TestSuite_MasterDataRepository.GenesisAutomation1.NewItemWizard"
+				id="cfc3e79ee7d8421aa21a33384edfa7c6"
+				timeout="60000"
+				codefile="c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.MasterData\Recordings\CreateNewItemWizardImplants.cs"
+				codeline="102"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.700"
+			timeRelativeToTestModuleStartTime="00:18.700"
+			timeWallClock="10:48:24"
+			time="00:18.700"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'PurchaseOrder.BtnNext' at 51;19.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form/?/?/element[@controlname='btnNext']"
+				itempath="?/?/element[@controlname='btnNext']"
+				fullname="Genesis_Desktop_TestSuite_MasterDataRepository.PurchaseOrder.BtnNext"
+				id="25b4622b13e94843adecd3ccddf444e8"
+				timeout="33000"
+				codefile="c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.MasterData\Recordings\CreateNewItemWizardImplants.cs"
+				codeline="114"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.126"
+			timeRelativeToTestModuleStartTime="00:19.126"
+			timeWallClock="10:48:24"
+			time="00:19.126"
+			level="Warn"
+			category="CEF">
+			<message>
+				UI elements in your CEF AUT can&#8217;t be identified because the remote debugging port isn&#8217;t enabled in your AUT or can&#8217;t be found. Make sure you&#8217;ve enabled it and set it to 8081.<br/>Process: 'GitHubDesktop' (pid 15432)<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v9.1/interfaces-connectivity/technology-instrumentation/testing-cef-applications/<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="cef-chrome-debug-protocol-NotFound"
+				showInProgressDialog="False"
+				codefile="c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.MasterData\Recordings\CreateNewItemWizardImplants.cs"
+				codeline="115"
+				loglvl="Warn"
+				itemindex="5">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.971"
+			timeRelativeToTestModuleStartTime="00:20.971"
+			timeWallClock="10:48:26"
+			time="00:20.971"
+			level="Info"
+			category="Wait">
+			<message>
+				Waiting 5s to exist. Associated repository item: 'PurchaseOrder.UcStep1Item.TextSelectSupplier'
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form/?/?/container[@controlname='wpItem']/?/?/container[@controlname='ucStep1Item']/?/?/element[@controlname='ddlPreferredSupplier']/?/?/text[@accessiblename='[Select Supplier]']"
+				itempath="?/?/element[@controlname='ddlPreferredSupplier']/?/?/text[@accessiblename='[Select Supplier]']"
+				fullname="Genesis_Desktop_TestSuite_MasterDataRepository.PurchaseOrder.UcStep1Item.TextSelectSupplier"
+				id="df262fec019d4b76992ebf3b54fe9d5b"
+				timeout="5000"
+				codefile="c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.MasterData\Recordings\CreateNewItemWizardImplants.cs"
+				codeline="118"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.121"
+			timeRelativeToTestModuleStartTime="00:21.121"
+			timeWallClock="10:48:26"
+			time="00:21.121"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

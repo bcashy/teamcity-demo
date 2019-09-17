@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="d96a2a6e-e483-4965-87fd-37d7be77294f"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="GoodsReceiptTeardown"
+	namespace="Genesis.Desktop.TestSuite.Inventory.Recordings">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="5000ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="789aea86-93ac-4db3-bcd8-dca9b13222eb">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="06304a54-cddb-40d0-85ae-2cdf596ede6c"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/form[@controlname='FrmMain']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="30df7f11-25c9-42fd-bb7f-2b66eef9aaf4"
+	name="Genesis_Desktop_TestSuite_InventoryRepository"
+	relativepath="..\Genesis.Desktop.TestSuite.InventoryRepository.rxrep">
+		<codegen
+		classname="Genesis_Desktop_TestSuite_InventoryRepository"
+		namespace="Genesis.Desktop.TestSuite.Inventory">
+		</codegen>
+		<rootfolder
+		id="83f4b445-5a61-4eaa-9ea2-62bd31129349"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		GoodsReceiptTeardown.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

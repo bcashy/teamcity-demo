@@ -1,0 +1,1540 @@
+﻿<repository
+id="e2a7a2e4-1bc7-4991-b21b-460747a575b7"
+name="Genesis_DesktopRepository">
+	<codegen
+	classname="Genesis_DesktopRepository"
+	namespace="Genesis.Desktop">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="fbf92dd0-5707-4b94-9aea-7f6c9e693ffa"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		capname="form"
+		id="b1d53944-7306-4c82-855e-214c2296e1b2"
+		isrooted="True"
+		name="FrmLogin"
+		refimgid="825192ac-e297-4027-a1a8-c08616c7aecd"
+		refpath="/form[@controlname='FrmLogin']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,control,nativewindow"
+			capname="text"
+			id="5acd989b-ae3b-4ed7-a6ca-af40819ae9e3"
+			name="NoCapsMsgTextBoxMaskBox"
+			refimgid="226e370d-6439-4286-9bc2-de61c03d12c9"
+			refpath="/form[@controlname='FrmLogin']/container/element[@controlname='txtPassword']/text[@controltypename='NoCapsMsgTextBoxMaskBox']"
+			searchtimeout="30000ms">
+				/form[@controlname='FrmLogin']/?/?/element[@controlname='txtPassword']/text[@controltypename='NoCapsMsgTextBoxMaskBox']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="222a261b-df96-43b4-8a71-cac13305a351"
+			name="SignIn"
+			refimgid="4668aad7-c7c8-48cb-8d70-7d817cc8d99d"
+			refpath="/form[@controlname='FrmLogin']/container/element[@controlname='btnLogin']/button[@accessiblename='Sign in']"
+			searchtimeout="30000ms">
+				/form[@controlname='FrmLogin']/?/?/element[@controlname='btnLogin']/button[@accessiblename='Sign in']
+			</item>
+			<item
+			addcaps="text,control,nativewindow"
+			capname="text"
+			id="0cfc50b5-1489-4fd1-a9ac-4cdb5034ec91"
+			name="TextMaskBox"
+			refimgid="4cb89468-28bc-4605-8d2e-6eec83198deb"
+			refpath="/form[@controlname='FrmLogin']/container/element[@controlname='txtUsername']/text[@controlname='_maskBox']"
+			searchtimeout="30000ms">
+				/form[@controlname='FrmLogin']/?/?/element[@controlname='txtUsername']/text[@controlname='_maskBox']
+			</item>
+			<basepath>
+				/form[@controlname='FrmLogin']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAiFJREFUOE99k19IU3EUx6/s98uXgiRoDz5IhC8ZPQQGFpQjAvHf5jbY
+QyAIVsSe6iGCfIkMIaiI6CEfBQ19SmEQmoorSLmuWYkxjDVZDxfGYIgytOLbOcfd291tdOHwY7vn
+8z3ne37nGgDqvHEo/LHZFzFfqIi5RbHni5pLOpoaqJVbJVAfM0+qto2i1gVoXYQ+akH781AnslCn
+N6GufAIJj7gZR4BeBPVhCw26VBOOP7LwYKwA1UEiITNVJcCV/wer1g2oS+u4cGsT525noKKrHAlH
+gNuuBR+/mMX00jalAOMLJajeNCaSRajIClT4A3xhM2DwwLyeAzELv34Lh3ujFo4E1/E1X5bK85+3
+BVZ97+lc3jJ42jZ86rwl0P5PIHA9J22zZ67cOEgnCcytUScMh5JyGnxVDL9NlgVu6Saw7cCzDVc8
+o+laGq+SNEiGg4v0bl4E9uJ3i/iW25eB3XlmQbWTgAdm31cfZ/B0mubDcM8sVPcbGLwk/rN5DA4R
+SJX56Rqi6Xtg9v0lt4vQQ+qsAvNp8IbJVVXaPnMjIyI3X5IVF8xt89MQo+oMd87IfwfXSBvm9nys
+Py3Ja993BZ58V5DfpR2yacMdr2krV5+LAK9nLc/DU3kB+59QdzQwN8ztM/t3lWk9vZ7lumhg9yey
+nIwfhTJ0J8Ek4oukLjPnCHAQnPDCTuWuhFPZhv8R4OD1lM/YFuCJc9DA2HN1Pur+AN4LaIBQ3EyY
+AAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="86ab941b-4cfa-4088-8aa2-2a99588a29bf"
+		isrooted="True"
+		name="FrmMain"
+		refpath="/form[@controlname='FrmMain']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<folder
+			capname="container"
+			id="8e44746c-854d-4c35-9f27-386adec171cf"
+			isrooted="True"
+			name="SplitControl"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="892869a2-4683-4861-8d85-3bba01012654"
+				name="OutstandingOrders"
+				refimgid="dc37182f-0ec5-4f6f-be52-b81bb350f590"
+				refpath="/form[@controlname='FrmMain']/element[@controltypename='MdiClient']/form/container/container/container[@controlname='panel1']/container/element[@controlname='lblOutstandingOrders']/text[@accessiblename='Outstanding Orders']"
+				searchtimeout="30000ms">
+					/form[@controlname='FrmMain']/?/?/form[@controlname='FrmBoards']/?/?/container[@controlname='splitControl']/container[@controlname='panel1']//text[@accessiblename='Outstanding Orders']
+				</item>
+				<item
+				addcaps="container,accessible"
+				capname="container"
+				id="df4fe663-2af9-416f-926f-d82aa16df874"
+				name="DataPanel"
+				refimgid="48fd4d9a-83e4-4d16-ad97-054ee8177750"
+				refpath="/form[@controlname='FrmMain']/element[@controltypename='MdiClient']/form/container/container/container[@controlname='panel2']/element/container[@controlname='xtbNewStockRequisitions']/container/container/element[@controlname='gcNewRequisitions']/table/container[@accessiblename='Data Panel']"
+				searchtimeout="30000ms">
+					/form[@controlname='FrmMain']/?/?/form[@controlname='FrmBoards']/?/?/container[@controlname='splitControl']/container[@controlname='panel2']/?/?/container[@controlname='xtbNewStockRequisitions']//element[@controlname='gcNewRequisitions']/?/?/container[@accessiblename='Data Panel']
+				</item>
+				<item
+				addcaps="cell,accessible"
+				capname="cell"
+				id="69b84b41-33d6-4c09-907a-c7097c15a4c2"
+				name="GoodsReceiptRow0"
+				refimgid="93900452-a729-4b2b-8bec-b15507bbbba7"
+				refpath="/form[@controlname='FrmMain']/element[@controltypename='MdiClient']/form/container/container/container[@controlname='panel2']/element/container[@controlname='xtbOutstandingOrders']/container/container/element[@controlname='gcPOExpectingDelivery']/table/container/row[@accessiblename='Row 1']/cell[@accessiblename='Goods Receipt row 0']"
+				searchtimeout="30000ms">
+					/form[@controlname='FrmMain']/?/?/form[@controlname='FrmBoards']/?/?/container[@controlname='splitControl']/container[@controlname='panel2']/?/?/container[@controlname='xtbOutstandingOrders']//element[@controlname='gcPOExpectingDelivery']//row[@accessiblename='Row 1']/cell[@accessiblename='Goods Receipt row 0']
+				</item>
+				<item
+				addcaps="cell,accessible"
+				capname="cell"
+				id="3d772cf4-82fb-4dea-a7e0-96ad35b1b248"
+				name="PriorityRow0"
+				refimgid="e4116008-7e9f-4591-b2b0-50a85292f345"
+				refpath="/form[@controlname='FrmMain']/element[@controltypename='MdiClient']/form/container/container/container[@controlname='panel2']/element/container[@controlname='xtbOutstandingOrders']/container/container/element[@controlname='gcPOExpectingDelivery']/table/container/row[@accessiblename='Row 1']/cell[@accessiblename='Priority row 0']"
+				searchtimeout="30000ms">
+					/form[@controlname='FrmMain']/?/?/form[@controlname='FrmBoards']/?/?/container[@controlname='splitControl']/container[@controlname='panel2']/?/?/container[@controlname='xtbOutstandingOrders']//element[@controlname='gcPOExpectingDelivery']//row[@accessiblename='Row 1']/cell[@accessiblename='Priority row 0']
+				</item>
+				<item
+				addcaps="button,accessible"
+				capname="button"
+				id="2255a829-87c1-4b22-92ab-d2b6d7f0695e"
+				name="EditingControl"
+				refimgid="29cd5601-7e26-4c89-8195-b1a33ce32c60"
+				refpath="/form[@controlname='FrmMain']/element[@controltypename='MdiClient']/form/container/container/container[@controlname='panel2']/element/container[@controlname='xtbNewOrders']/container/container/element[@controlname='gcPOWaitingRelease']/element[@controltypename='ButtonEdit']/text/button[@accessiblename='Editing control']"
+				searchtimeout="30000ms">
+					/form[@controlname='FrmMain']/?/?/form[@controlname='FrmBoards']/?/?/container[@controlname='splitControl']/container[@controlname='panel2']/?/?/container[@controlname='xtbNewOrders']/?/?/container[@controlname='layoutControl1']/element[@controlname='gcPOWaitingRelease']//button[@accessiblename='Editing control']
+				</item>
+				<basepath>
+					/form[@controlname='FrmMain']/?/?/form[@controlname='FrmBoards']/?/?/container[@controlname='splitControl']
+				</basepath>
+			</folder>
+			<folder
+			capname="container"
+			id="7d1f76c5-0cc7-46d1-ac62-53e78d6d8459"
+			isrooted="True"
+			name="LayoutControl1"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="button,accessible"
+				capname="button"
+				id="370331fd-d5a8-420c-ae94-68eecca9af7e"
+				name="Close"
+				refimgid="ab348f38-e819-435b-8537-7539a7da0c8d"
+				refpath="/form[@controlname='FrmMain']/element[@controltypename='MdiClient']/form[@controlname='FrmItem']/container/element[@controlname='ddlItemGroup']/text/button[@accessiblename='Close']"
+				searchtimeout="3000ms">
+					/form[@controlname='FrmMain']/?/?/form[@controlname='FrmItem']/container[@controlname='layoutControl1']//button[@accessiblename='Close']
+				</item>
+				<item
+				addcaps="button,accessible"
+				capname="button"
+				id="386877c8-6c67-4c8d-afe9-6e843c605f99"
+				name="Open"
+				refimgid="ce3c4cc9-a7ed-46d4-b8f7-2840ee2705f3"
+				refpath="/form[@controlname='FrmMain']/element[@controltypename='MdiClient']/form[@controlname='FrmItem']/container/element[@controlname='ddlItemGroup']/text/button[@accessiblename='Open']"
+				searchtimeout="3000ms">
+					/form[@controlname='FrmMain']/?/?/form[@controlname='FrmItem']/container[@controlname='layoutControl1']/element[@controlname='ddlItemGroup']/text[@accessiblename='[All Item Groups]']/button[@accessiblename='Open']
+				</item>
+				<item
+				addcaps="cell,accessible"
+				capname="cell"
+				id="4db4393b-4e39-45f5-a137-1abc09821bd7"
+				name="DeleteRow0"
+				refimgid="9846578e-91a4-4aae-b352-2649046cfb13"
+				refpath="/form[@controlname='FrmMain']/element[@controltypename='MdiClient']/form[@controlname='FrmItem']/container/element[@controlname='gcItem']/table/container/row/cell[@accessiblename='Delete row 0']"
+				searchtimeout="30000ms">
+					/form[@controlname='FrmMain']/?/?/form[@controlname='FrmItem']/container[@controlname='layoutControl1']/element[@controlname='gcItem']//cell[@accessiblename='Delete row 0']
+				</item>
+				<item
+				addcaps="button,accessible"
+				capname="button"
+				id="ab86d9ba-3bfb-4d8d-8cae-def46d8b0171"
+				name="ResetFilters"
+				refimgid="43ec93bf-afe5-4cf1-9d92-8d67eaca23fc"
+				refpath="/form[@controlname='FrmMain']/element[@controltypename='MdiClient']/form[@controlname='FrmItem']/container/element[@controlname='btnResetFilters']/button[@accessiblename='Reset Filters']"
+				searchtimeout="30000ms">
+					/form[@controlname='FrmMain']/?/?/form[@controlname='FrmItem']/container[@controlname='layoutControl1']/?/?/button[@accessiblename='Reset Filters']
+				</item>
+				<basepath>
+					/form[@controlname='FrmMain']/?/?/form[@controlname='FrmItem']/container[@controlname='layoutControl1']
+				</basepath>
+			</folder>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="8a48eafc-5f55-484f-af35-26f8e1761b92"
+			name="CreateRequisition"
+			refimgid="f52177b0-d087-4192-a00f-303acdfdc9b7"
+			refpath="/form[@controlname='FrmMain']/element[@controlname='ribbon']/container/container/toolbar[@accessiblename='Stock Requisitions']/button[@accessiblename='Create Requisition']"
+			searchtimeout="30000ms">
+				/form[@controlname='FrmMain']/element[@controlname='ribbon']//toolbar[@accessiblename='Stock Requisitions']/button[@accessiblename='Create Requisition']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="d4e52d82-c561-43b8-8b04-0a1930e9c3a9"
+			name="NewOrders"
+			refimgid="a2cde40b-a1f7-4f30-9319-8ce56cd2f9e9"
+			refpath="/form[@controlname='FrmMain']/element[@controltypename='MdiClient']/form/container/container/container[@controlname='panel1']/container/element[@controlname='lblNewOrders']/text[@accessiblename='New Orders']"
+			searchtimeout="30000ms">
+				/form[@controlname='FrmMain']/?/?/form[@controlname='FrmBoards']/?/?/container[@controlname='splitControl']/container[@controlname='panel1']//text[@accessiblename='New Orders']
+			</item>
+			<item
+			addcaps="cell,accessible"
+			capname="cell"
+			id="5c87128a-edee-4cc7-b1e4-0e2cfb8c5d31"
+			name="ReleaseRow0"
+			refimgid="d81ceb16-b678-41a7-a9c9-83524fc1aa96"
+			refpath="/form[@controlname='FrmMain']/element[@controltypename='MdiClient']/form/container/container/container[@controlname='panel2']/element/container[@controlname='xtbNewOrders']/container/container/element[@controlname='gcPOWaitingRelease']/table/container/row/cell[@accessiblename='Release row 0']"
+			searchtimeout="30000ms">
+				/form[@controlname='FrmMain']/?/?/form[@controlname='FrmBoards']/?/?/container[@controlname='splitControl']/container[@controlname='panel2']/?/?/container[@controlname='xtbNewOrders']//element[@controlname='gcPOWaitingRelease']/table[@accessiblerole='Table']//cell[@accessiblename='Release row 0']
+			</item>
+			<item
+			addcaps="unknown,control,nativewindow"
+			capname="unknown"
+			id="7d7b8553-3ff4-4bf4-9882-52c1c30b9856"
+			name="Ribbon"
+			refimgid="9c48b08b-7f01-44b0-8ac5-0d20bb0da3ae"
+			refpath="/form[@controlname='FrmMain']/element[@controlname='ribbon']"
+			searchtimeout="30000ms">
+				/form[@controlname='FrmMain']/element[@controlname='ribbon']
+			</item>
+			<item
+			addcaps="unknown,control,nativewindow"
+			capname="unknown"
+			id="75a2165c-8aa9-4178-bf4b-67620929b0f2"
+			name="ChartBarTransactions"
+			refimgid="5e1e736d-1809-46ac-8aa8-68f11e595303"
+			refpath="/form[@controlname='FrmMain']/element[@controltypename='MdiClient']/form/container/container/container[@controlname='panel2']/element/container/container/container/element[@controlname='tabNewProducts2']/container[@controlname='tabDevXTransactions']/container/element[@controlname='chartBarTransactions']"
+			searchtimeout="30000ms">
+				/form[@controlname='FrmMain']/?/?/form[@controlname='FrmBoards']/?/?/container[@controlname='splitControl']/container[@controlname='panel2']/?/?/container[@controlname='xtbDashboardReports']/?/?/container[@controlname='layoutControl1']/?/?/container[@controlname='tabDevXTransactions']/?/?/element[@controlname='chartBarTransactions']
+			</item>
+			<item
+			addcaps="tabpage,accessible"
+			capname="tabpage"
+			id="c6a99271-634e-4392-a6bd-be8ae0d25506"
+			name="MasterData"
+			refimgid="6d9b8277-86b7-4b7c-b20e-b6178c11f84e"
+			refpath="/form[@controlname='FrmMain']/element[@controlname='ribbon']/tabpagelist/tabpage[@accessiblename='Master Data']"
+			searchtimeout="30000ms">
+				/form[@controlname='FrmMain']/element[@controlname='ribbon']/?/?/tabpage[@accessiblename='Master Data']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="d916c749-6f70-407e-9368-6944267f8725"
+			name="Tasks"
+			refimgid="c2c651e4-369b-41a9-84cb-44471dc02f40"
+			refpath="/form[@controlname='FrmMain']/element[@controlname='ribbon']/container/container/toolbar[@accessiblename='Notifications']/button[@accessiblename='Tasks']"
+			searchtimeout="30000ms">
+				/form[@controlname='FrmMain']/element[@controlname='ribbon']//toolbar[@accessiblename='Notifications']/button[@accessiblename='Tasks']
+			</item>
+			<item
+			addcaps="text,control,nativewindow"
+			capname="text"
+			id="3bf50dec-0191-48cd-82db-f56d487cf308"
+			name="TextBoxMaskBox"
+			refimgid="be7974f9-020e-4968-b7e4-602e441bf903"
+			refpath="/form[@controlname='FrmMain']/element[@controltypename='MdiClient']/form[1]/container/element[@controlname='gcItem']/container/container/element[1]/text"
+			searchtimeout="3000ms">
+				/form[@controlname='FrmMain']/?/?/form[@controlname='FrmItem']/container[@controlname='layoutControl1']/element[@controlname='gcItem']//text[@controltypename='TextBoxMaskBox']
+			</item>
+			<basepath>
+				/form[@controlname='FrmMain']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAiFJREFUOE99k19IU3EUx6/s98uXgiRoDz5IhC8ZPQQGFpQjAvHf5jbY
+QyAIVsSe6iGCfIkMIaiI6CEfBQ19SmEQmoorSLmuWYkxjDVZDxfGYIgytOLbOcfd291tdOHwY7vn
+8z3ne37nGgDqvHEo/LHZFzFfqIi5RbHni5pLOpoaqJVbJVAfM0+qto2i1gVoXYQ+akH781AnslCn
+N6GufAIJj7gZR4BeBPVhCw26VBOOP7LwYKwA1UEiITNVJcCV/wer1g2oS+u4cGsT525noKKrHAlH
+gNuuBR+/mMX00jalAOMLJajeNCaSRajIClT4A3xhM2DwwLyeAzELv34Lh3ujFo4E1/E1X5bK85+3
+BVZ97+lc3jJ42jZ86rwl0P5PIHA9J22zZ67cOEgnCcytUScMh5JyGnxVDL9NlgVu6Saw7cCzDVc8
+o+laGq+SNEiGg4v0bl4E9uJ3i/iW25eB3XlmQbWTgAdm31cfZ/B0mubDcM8sVPcbGLwk/rN5DA4R
+SJX56Rqi6Xtg9v0lt4vQQ+qsAvNp8IbJVVXaPnMjIyI3X5IVF8xt89MQo+oMd87IfwfXSBvm9nys
+Py3Ja993BZ58V5DfpR2yacMdr2krV5+LAK9nLc/DU3kB+59QdzQwN8ztM/t3lWk9vZ7lumhg9yey
+nIwfhTJ0J8Ek4oukLjPnCHAQnPDCTuWuhFPZhv8R4OD1lM/YFuCJc9DA2HN1Pur+AN4LaIBQ3EyY
+AAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="bc9bd056-9cda-4651-adff-5b2f60b3b4f8"
+		isrooted="True"
+		name="FrmCreateRequisition"
+		refpath="/form[@controlname='FrmCreateRequisition']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="168323bb-421a-48c6-b049-3e9c455d7f00"
+			name="Open"
+			refimgid="448082d7-c04c-4265-a2b8-4fe85f399fc0"
+			refpath="/form[@controlname='FrmCreateRequisition']/container/element[@controlname='ddlLocation']/text/button[@accessiblename='Open']"
+			searchtimeout="30000ms">
+				/form[@controlname='FrmCreateRequisition']/?/?/element[@controlname='ddlLocation']/?/?/button[@accessiblename='Open']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="dab5e466-fefb-41d3-b0bf-83e1d534e281"
+			name="Open1"
+			refimgid="61b04931-3b58-4d75-958c-2ae2487d7d67"
+			refpath="/form[@controlname='FrmCreateRequisition']/container/element[@controlname='ddlProfileItem']/text/button[@accessiblename='Open']"
+			searchtimeout="30000ms">
+				/form[@controlname='FrmCreateRequisition']/?/?/element[@controlname='ddlProfileItem']/?/?/button[@accessiblename='Open']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="a8a4b685-de0b-4bd4-8027-bc3a91598877"
+			name="AddRequisition"
+			refimgid="ef01db8a-4049-45d6-97ec-219cbfaaaa80"
+			refpath="/form[@controlname='FrmCreateRequisition']/container/element[@controlname='btnCreateRequisition']/button[@accessiblename='Add Requisition']"
+			searchtimeout="30000ms">
+				/form[@controlname='FrmCreateRequisition']/?/?/element[@controlname='btnCreateRequisition']/button[@accessiblename='Add Requisition']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="fc45c269-ffe7-4593-b4e8-92d579aad6d8"
+			name="Confirm"
+			refimgid="1a9cb68e-08f6-494f-85d3-e3c95e35296b"
+			refpath="/form[@controlname='FrmCreateRequisition']/container/element[@controlname='btnConfirm']/button[@accessiblename='Confirm']"
+			searchtimeout="30000ms">
+				/form[@controlname='FrmCreateRequisition']/?/?/element[@controlname='btnConfirm']/button[@accessiblename='Confirm']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="f61725b5-c502-4354-ac46-b617bb1298bc"
+			name="Close"
+			refimgid="a1d24e8c-ef60-42e3-b938-40df6159dff0"
+			refpath="/form[@controlname='FrmCreateRequisition']/container/element[@controlname='ddlProfileItem']/text/button[@accessiblename='Close']"
+			searchtimeout="30000ms">
+				/form[@controlname='FrmCreateRequisition']/?/?/element[@controlname='ddlProfileItem']/?/?/button[@accessiblename='Close']
+			</item>
+			<item
+			addcaps="cell,accessible"
+			capname="cell"
+			id="1430afe4-46dc-44ee-be7a-02ce3abec8a7"
+			name="Item"
+			refimgid="76ae9646-20ad-41f1-9ac3-9ec493b2c3fa"
+			refpath="/form[@controlname='FrmCreateRequisition']/container/table/table[@accessiblename='Details']/cell[@accessiblename='Item:']"
+			searchtimeout="30000ms">
+				/form[@controlname='FrmCreateRequisition']/?/?/table[@accessiblename='Root']/?/?/cell[@accessiblename='Item:']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="5d44f83f-bcbb-4324-a716-3109bd417add"
+			name="Close1"
+			refimgid="1f0b3160-adfc-40f7-8e13-65606ea79411"
+			refpath="/form[@controlname='FrmCreateRequisition']/container/element[@controlname='ddlLocation']/text/button[@accessiblename='Close']"
+			searchtimeout="30000ms">
+				/form[@controlname='FrmCreateRequisition']/?/?/element[@controlname='ddlLocation']/?/?/button[@accessiblename='Close']
+			</item>
+			<item
+			addcaps="table,accessible"
+			capname="table"
+			id="21813f77-6cff-4257-84c8-118b8bdccc8c"
+			name="Items"
+			refimgid="840a8d48-6370-4abd-9eed-08bd10dc7178"
+			refpath="/form[@controlname='FrmCreateRequisition']/container/table/table[@accessiblename='Items']"
+			searchtimeout="30000ms">
+				/form[@controlname='FrmCreateRequisition']/?/?/table[@accessiblename='Root']/table[@accessiblename='Items']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="ab9959f5-885b-4a8b-b425-b5b05c37f0d2"
+			name="Open2"
+			refimgid="41a15843-7b4b-4e46-b2c3-5993c1925a53"
+			refpath="/form[@controlname='FrmCreateRequisition']/container/element[@controlname='ddlReplenishSupplierLocation']/text/button[@accessiblename='Open']"
+			searchtimeout="30000ms">
+				/form[@controlname='FrmCreateRequisition']/?/?/element[@controlname='ddlReplenishSupplierLocation']/?/?/button[@accessiblename='Open']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="f354f056-767a-4e3a-b7bc-74b77afdab3d"
+			name="TextSelectItem"
+			refimgid="9ab7f44c-2f8d-4ed9-9235-e5ad03872cd7"
+			refpath="/form[@controlname='FrmCreateRequisition']/container/element[@controlname='ddlProfileItem']/text[@accessiblename='[Select Item...]']"
+			searchtimeout="30000ms">
+				/form[@controlname='FrmCreateRequisition']/?/?/element[@controlname='ddlProfileItem']/text[@accessiblename='[Select Item...]']
+			</item>
+			<item
+			addcaps="cell,accessible"
+			capname="cell"
+			id="359b9ed8-6c6f-47c5-8d70-a09f9d50712c"
+			name="ReplenishFromSupplier"
+			refimgid="6ce6901d-e707-42cd-bb57-975a89adfb08"
+			refpath="/form[@controlname='FrmCreateRequisition']/container/table/table[@accessiblename='Details']/cell[@accessiblename='Replenish From Supplier:']"
+			searchtimeout="30000ms">
+				/form[@controlname='FrmCreateRequisition']/?/?/table[@accessiblename='Root']/?/?/cell[@accessiblename='Replenish From Supplier:']
+			</item>
+			<basepath>
+				/form[@controlname='FrmCreateRequisition']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAm5JREFUOE+Fkl1IU2Ecxt+c80ytaW7NzbWmNdMUNvyC4TayAhWrZd6I
+CEmFVxKTEoqEvBHJjzJta3OebU1rlUZaN5UlNLooKugiJhF1EQijzA9CsXTu6ezsw+VHPfC7+P/O
+/3kv3veQzdPCI6Qrm3C7CghplTBiS9D/J7GxVzUcbq+XwzVhDSucuCsuQuqYgzdJbELvKDfehH9j
+XOZym5ShymoovmmU4t/ARohkNhjOjePNOy94SWbGGf0UVZceqhLC23FNGy80YyMSRRbka+5CmulA
+dt4t7C8bZj0l6PnBVIP3kigxexPTLIhmt2oAT55/xdKSD+PuL5iZXYRIQaPxwnhkh0qpLyVE3sLj
+Z1gQJks9CM/HaUxNL6D69H3GGVmvKnEhI9+Bi63uyG6CtO0l2arozEnO6kMA+50JfJuah07vZGYL
+68Kk7LNCVzkMQ/OziNuW2TNDBLmdRQKVFWcuvcDI4wkIlGY8GvuMgFtLc8cr1DQ8jMzbc43zJEXV
+KhUV9UNZcRslNfcgVtPw+fyQae0I+Gjee75DfXwwMgvzuicDdxgj1tIrDBBr+xlonO9y49dvH7S1
+w+wcQFHqxIrfjzRdX8Ql5zTS7CuIddeHpIdsiKa41oW5n4uwj3hQVj+Etx8m0dT+dHXnoA1Ukjz4
+L0gkRxJ2ltPLsnIb/oaG4fIYZpmDDB1u5NW4IK+ws9+EBWcfsOVwBEUNhfKjtF+ut2M9NmhODkB3
+6iY7Sw60fWIqccFmVITK6r3yY9aZjCoHNiO1uGmEWV1fjkqMoPCEXna4/fWuStNcepV5Qabv9qZq
+G50UX7EntBMKIX8AThOKm/qCpoQAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="ca73d9b1-6247-4ba3-893a-3fc71b3adfca"
+		isrooted="True"
+		name="GenesisAutomation"
+		refimgid="f12a9620-c4ab-48bd-b34c-4c4ab744796d"
+		refpath="/form[@title='']"
+		searchtimeout="3000ms"
+		usecache="True">
+			<item
+			addcaps="cell,accessible"
+			capname="cell"
+			id="292bc812-9dbd-46ad-8458-fcfc15f86a56"
+			name="DescriptionRow9"
+			refimgid="28072a76-e46e-4499-93b0-1899f4792c20"
+			refpath="/form[@title='']/container/container/element[@controltypename='GridControl']/table/container/row[@accessiblename='Row 10']/cell[@accessiblename='Description row 9']"
+			searchtimeout="30000ms">
+				/form[@title='']/container[@controlname='SearchEditLookUpPopup']/container[@controlname='lc']//row[@accessiblename='Row 10']/cell[@accessiblename='Description row 9']
+			</item>
+			<item
+			addcaps="cell,accessible"
+			capname="cell"
+			id="c82f1088-fd12-457b-ba3b-b0e6232a6daa"
+			name="DescriptionRow0"
+			refimgid="ce263333-8f5a-498d-91dd-ed420f452075"
+			refpath="/form[@title='']/container/container/element[@controltypename='GridControl']/table/container/row[@accessiblename='Row 1']/cell[@accessiblename='Description row 0']"
+			searchtimeout="30000ms">
+				/form[@title='']/container[@controlname='SearchEditLookUpPopup']/container[@controlname='lc']//row[@accessiblename='Row 1']/cell[@accessiblename='Description row 0']
+			</item>
+			<item
+			addcaps="cell,accessible"
+			capname="cell"
+			id="a3f93ef5-e7a0-4463-9903-0dacd243716a"
+			name="DescriptionRow1"
+			refimgid="9a3ca59e-7bfa-410e-a883-d33f417d6693"
+			refpath="/form[@title='']/container/container/element[@controltypename='GridControl']/table/container/row[@accessiblename='Row 2']/cell[@accessiblename='Description row 1']"
+			searchtimeout="30000ms">
+				/form[@title='']/container[@controlname='SearchEditLookUpPopup']/container[@controlname='lc']//row[@accessiblename='Row 2']/cell[@accessiblename='Description row 1']
+			</item>
+			<item
+			addcaps="row,accessible"
+			capname="row"
+			id="bb23ceb9-b0fb-43dc-9268-4d1dc5ea4900"
+			name="Row2"
+			refimgid="ffb61b78-1b92-46dc-880b-bfe16dd965d6"
+			refpath="/form[@title='']/container/container/element[@controltypename='GridControl']/table/container/row[@accessiblename='Row 2']"
+			searchtimeout="30000ms">
+				/form[@title='']/container[@controlname='SearchEditLookUpPopup']/container[@controlname='lc']//row[@accessiblename='Row 2']
+			</item>
+			<item
+			addcaps="row,accessible"
+			capname="row"
+			id="cc3a4cfe-eff8-4044-ae2c-815715947501"
+			name="Row1"
+			refimgid="0e91df3c-062b-49fb-9016-0af435531833"
+			refpath="/form[@title='']/container/container/element[@controltypename='GridControl']/table/container/row[@accessiblename='Row 1']"
+			searchtimeout="30000ms">
+				/form[@title='']/container[@controlname='SearchEditLookUpPopup']/container[@controlname='lc']//row[@accessiblename='Row 1']
+			</item>
+			<item
+			addcaps="text,control,nativewindow"
+			capname="text"
+			id="279c7427-0253-4580-929c-dbdc1e7c9d75"
+			name="TextMaskBox"
+			refimgid="d49f8622-50c3-41a9-af35-f38f87185591"
+			refpath="/form[@title='']/container/container/element[@controlname='teFind']/text[@controlname='_maskBox']"
+			searchtimeout="30000ms">
+				/form[@title='']/container[@controlname='SearchEditLookUpPopup']//text[@controlname='_maskBox']
+			</item>
+			<item
+			addcaps="text,control,nativewindow"
+			capname="text"
+			id="4de85ebc-2dc8-483c-aa1c-bb3acd9ea7a3"
+			name="TextMaskBox1"
+			refimgid="434f0a35-8ffa-4de3-8a80-c94c4c5e0da3"
+			refpath="/form[@title='']/container/container/element[@controlname='teFind']/text[@controlname='_maskBox']"
+			searchtimeout="30000ms">
+				/form[@title='']//element[@controlname='teFind']/text[@controlname='_maskBox']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="23bf3d56-fadc-4d6b-96be-14aeec0624ab"
+			name="Find"
+			refimgid="8db5c59c-833f-40cb-ad90-42ff8ba799bb"
+			refpath="/form[@title='']/container/container/element[@controlname='btFind']/button[@accessiblename='Find']"
+			searchtimeout="30000ms">
+				/form[@title='']/container[@controlname='SearchEditLookUpPopup']//button[@accessiblename='Find']
+			</item>
+			<item
+			addcaps="menuitem,uiautomation,uiautomationinvoke"
+			capname="menuitem"
+			id="857b3452-f0b9-4c91-a523-7b37f2bd1630"
+			name="Delete"
+			refimgid="eeb0dfd9-e6c5-4138-b625-8b9c830538f5"
+			refpath="/form[@title='']/container/container/container[2]/menuitem[@name='Delete']"
+			searchtimeout="30000ms">
+				/form[@title='']/?/?/container[@classname='NetUIPanViewer']/container[2]/menuitem[@name='Delete']
+			</item>
+			<item
+			addcaps="listitem,accessible"
+			capname="listitem"
+			id="3455170b-40ab-4bcf-acec-16b1141c9978"
+			name="GenesisAutomationMasterDataImport"
+			refimgid="c0cd049b-20d3-449a-afb2-62bd281d62d3"
+			refpath="/form[@title='']/list/listitem[@accessiblename>'Genesis Automation :: Master']"
+			searchtimeout="30000ms">
+				/form[@title='']/?/?/listitem[@accessiblename&gt;'Genesis Automation :: Master']
+			</item>
+			<basepath>
+				/form[@title='']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAfhJREFUOE+t0V1Ik2EYxvFHUHOFMnNqmewkaBRGdBARdhCEaQSBEhSK
+FLOsrIQwzQwTTQQ1FjpaM8uY5qw5sqQcNMqahIERFRls1axV23Kz+dEqOvn34XvgC8HAuuCC5+T+
+XQeP+C95MOhgPpXOZwHpKcuwMZlvE5189bYSdtcwM1rC9OM8Joc2cqU6PjIwZFAR9jTxxVXOzLNC
+ph5lM3lvLZ8H1HRULooM3G9NmrOaSciuYaI/hXFrHMayhXJgbE00ztUxPM+IZWRVHI6VCuy6xUwN
+ZxP6vWpTE+hL4NO1aHzdAn2pQg5M3+wlZDYRMOrxNp7GujyegSYloTsagv3JBHoV+Hui+Ngl8FwW
+6Eri5EDwogF/cwOeqnLeHChCr07kRoOS4K/VcUsMPrPgg0nwrkPgbhc07l8gB96fOoH7cDHO/B28
+yNlM9ZIULLUJ+K9G4ZVWxy4JXrcJnEZBfVGsHHAV7mJ0WxZPM9cxkqHhoCrtr38/t9L5LFCRmsoR
+1VKKk9LYnbiMAmU6VX1v6XTwp+134awN6q7DsW7YetwmB6SnLGVmF0Y7nLkNNVY42gX72qCg5Qfr
+tT2Rgb2GJ5y0QKkJtOchX/ed3PoAOZWvWJF7ITKQVzfInnOwsznM9lofWypesunQQzZob5Ge1SIH
+5lPp/F8ixE9tidCBteEYVgAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="602765f3-ca06-4c99-a86f-a2f6c6062b76"
+		isrooted="True"
+		name="GenesisAutomation1"
+		refimgid="5d22d58f-f6ab-4fa6-9fac-868e90d301bb"
+		refpath="/form[@title='Genesis Automation']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="8eba22ce-63c5-4cc7-a103-92faae92f93d"
+			name="ButtonOK"
+			refimgid="c6b2fad2-eb47-4190-a23a-646d95f8fcee"
+			refpath="/form[@title='Genesis Automation']/element/button[@accessiblename='&amp;OK']"
+			searchtimeout="1500ms">
+				/form[@title='Genesis Automation']/?/?/button[@accessiblename='&amp;OK']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="9a1ae892-4d9a-4c85-801d-23832e5f7545"
+			name="ButtonYes"
+			refimgid="49b6e4b7-031b-4749-9530-080d7994229f"
+			refpath="/form[@title='Genesis Automation']/element[@controltypename='SimpleButton' and @instance='0']/button[@accessiblename='&amp;Yes']"
+			searchtimeout="100ms">
+				/form[@title='Genesis Automation']/?/?/button[@accessiblename='&amp;Yes']
+			</item>
+			<item
+			addcaps="cell,accessible"
+			capname="cell"
+			id="c9055b50-72fc-499a-87e2-efd98361f66c"
+			name="DetailsRow0"
+			refimgid="5c4715ec-dea1-4f7c-b9b7-b6f2c1552f5d"
+			refpath="/form[@controlname='FrmMain']/element[@controltypename='MdiClient']/form/container/container/container[@controlname='panel2']/element/container[@controlname='xtbNewOrders']/container/container/element[@controlname='gcPOWaitingRelease']/table/container/row[@accessiblename='Row 1']/cell[@accessiblename='Details row 0']"
+			searchtimeout="30000ms">
+				/form[@title='Genesis Automation']/?/?/form[@controlname='FrmBoards']/?/?/container[@controlname='splitControl']/container[@controlname='panel2']/?/?/container[@controlname='xtbNewOrders']//element[@controlname='gcPOWaitingRelease']//row[@accessiblename='Row 1']/cell[@accessiblename='Details row 0']
+			</item>
+			<item
+			addcaps="unknown,control,nativewindow"
+			capname="unknown"
+			id="675a4866-9d74-40b8-a2f1-d1b31822a423"
+			name="RibbonStatusBar"
+			refimgid="1db0bd7d-24d8-4d13-8568-7d86b3c76dec"
+			refpath="/form[@controlname='FrmMain']/element[@controlname='ribbonStatusBar']"
+			searchtimeout="30000ms">
+				/form[@title='Genesis Automation']/element[@controlname='ribbonStatusBar']
+			</item>
+			<item
+			addcaps="row,accessible"
+			capname="row"
+			id="11d11a79-07f0-4da8-8664-cab3126532e2"
+			name="FooterPanel"
+			refimgid="b9e280b3-1b9d-4787-8614-27d09f710205"
+			refpath="/form[@controlname='FrmMain']/element[@controltypename='MdiClient']/form/container/container/container[@controlname='panel2']/element/container[@controlname='xtbNewOrders']/container/container/element[@controlname='gcPOWaitingRelease']/table/row[@accessiblename='Footer Panel']"
+			searchtimeout="30000ms">
+				/form[@title='Genesis Automation']/?/?/form[@controlname='FrmBoards']/?/?/container[@controlname='splitControl']/container[@controlname='panel2']/?/?/container[@controlname='xtbNewOrders']//element[@controlname='gcPOWaitingRelease']/?/?/row[@accessiblename='Footer Panel']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="fbac0286-2636-4541-85f6-b21ecce4f73a"
+			name="EditingControl"
+			refimgid="729d0a39-63eb-4a22-8bc1-90766e1ae7c5"
+			refpath="/form[@controlname='FrmMain']/element[@controltypename='MdiClient']/form/container/container/container[@controlname='panel2']/element/container[@controlname='xtbOutstandingOrders']/container/container/element[@controlname='gcPOExpectingDelivery']/element[@controltypename='ButtonEdit']/text/button[@accessiblename='Editing control']"
+			searchtimeout="30000ms">
+				/form[@title='Genesis Automation']/?/?/form[@controlname='FrmBoards']/?/?/container[@controlname='splitControl']/container[@controlname='panel2']/?/?/container[@controlname='xtbOutstandingOrders']/?/?/container[@controlname='layoutControl1']/element[@controlname='gcPOExpectingDelivery']//button[@accessiblename='Editing control']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="4a22371e-92ce-499b-9bca-d2547e246675"
+			name="ButtonNo"
+			refimgid="f85c4358-7dac-4c07-9ab8-1348d9f7fe5c"
+			refpath="/form[@title='Genesis Automation']/element[@controltypename='SimpleButton' and @instance='1']/button[@accessiblename='&amp;No']"
+			searchtimeout="3000ms">
+				/form[@title='Genesis Automation']/?/?/button[@accessiblename='&amp;No']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="c7d0981b-2c27-46bd-ab55-b1608d734b2e"
+			name="RefreshTasks"
+			refimgid="26e56c92-55ef-4233-b4ee-789751449350"
+			refpath="/form[@controlname='FrmMain']/element[@controlname='ribbon']/container/container/toolbar[@accessiblename='Notifications']/button[@accessiblename='Refresh Tasks']"
+			searchtimeout="30000ms">
+				/form[@title='Genesis Automation']/element[@controlname='ribbon']//toolbar[@accessiblename='Notifications']/button[@accessiblename='Refresh Tasks']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="3bca25e0-b894-4682-88b2-116b81fcfe34"
+			name="ImportData"
+			refimgid="e7baaba1-8845-49a7-9d1d-2f113bc5be65"
+			refpath="/form[@controlname='FrmMain']/element[@controltypename='MdiClient']/form[@controlname='FrmItem']/container/element[@controlname='btnImportData']/button[@accessiblename='Import Data']"
+			searchtimeout="30000ms">
+				/form[@title='Genesis Automation']/?/?/form[@controlname='FrmItem']/container[@controlname='layoutControl1']/?/?/button[@accessiblename='Import Data']
+			</item>
+			<basepath>
+				/form[@title='Genesis Automation']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAfhJREFUOE+t0V1Ik2EYxvFHUHOFMnNqmewkaBRGdBARdhCEaQSBEhSK
+FLOsrIQwzQwTTQQ1FjpaM8uY5qw5sqQcNMqahIERFRls1axV23Kz+dEqOvn34XvgC8HAuuCC5+T+
+XQeP+C95MOhgPpXOZwHpKcuwMZlvE5189bYSdtcwM1rC9OM8Joc2cqU6PjIwZFAR9jTxxVXOzLNC
+ph5lM3lvLZ8H1HRULooM3G9NmrOaSciuYaI/hXFrHMayhXJgbE00ztUxPM+IZWRVHI6VCuy6xUwN
+ZxP6vWpTE+hL4NO1aHzdAn2pQg5M3+wlZDYRMOrxNp7GujyegSYloTsagv3JBHoV+Hui+Ngl8FwW
+6Eri5EDwogF/cwOeqnLeHChCr07kRoOS4K/VcUsMPrPgg0nwrkPgbhc07l8gB96fOoH7cDHO/B28
+yNlM9ZIULLUJ+K9G4ZVWxy4JXrcJnEZBfVGsHHAV7mJ0WxZPM9cxkqHhoCrtr38/t9L5LFCRmsoR
+1VKKk9LYnbiMAmU6VX1v6XTwp+134awN6q7DsW7YetwmB6SnLGVmF0Y7nLkNNVY42gX72qCg5Qfr
+tT2Rgb2GJ5y0QKkJtOchX/ed3PoAOZWvWJF7ITKQVzfInnOwsznM9lofWypesunQQzZob5Ge1SIH
+5lPp/F8ixE9tidCBteEYVgAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="b0758ac5-d0e7-4d65-bb9e-e0baae921587"
+		isrooted="True"
+		name="PurchaseOrder"
+		refimgid="f3fd69b4-e42e-449f-b864-37621124f9cc"
+		searchtimeout="3000ms"
+		usecache="True">
+			<folder
+			capname="table"
+			id="bacfab4f-34f3-4be7-9214-efafaaa3fd7b"
+			isrooted="True"
+			name="ItemImportTemplate1"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="cell,excelrange"
+				capname="cell"
+				id="aa580cd7-c23d-4f71-b031-15452ac42619"
+				name="CellD3"
+				refimgid="db88ef74-cf20-4fa9-8442-1cd355a98567"
+				refpath="/form[@processname='EXCEL']/element[@class='XLDESK']/workbook/table/row[@index='3']/cell[@address='D3']"
+				searchtimeout="30000ms">
+					/form//table[@name='ItemImportTemplate']/row[@index='3']/cell[@address='D3']
+				</item>
+				<item
+				addcaps="cell,excelrange"
+				capname="cell"
+				id="41ce8ed3-626b-4f94-a7e4-c6d19a64da1c"
+				name="CellC4"
+				refimgid="6d8f66f6-64ab-433a-8bfb-69d07b4ed75a"
+				refpath="/form[@processname='EXCEL']/element[@class='XLDESK']/workbook/table/row[@index='4']/cell[@address='C4']"
+				searchtimeout="30000ms">
+					/form//table[@name='ItemImportTemplate']/row[@index='4']/cell[@address='C4']
+				</item>
+				<item
+				addcaps="cell,excelrange"
+				capname="cell"
+				id="f7a790ea-0995-492a-8753-b609e176188e"
+				name="CellE4"
+				refimgid="2a14a24f-163e-49fb-b455-f9d37ec16862"
+				refpath="/form[@processname='EXCEL']/element[@class='XLDESK']/workbook/table/row[@index='4']/cell[@address='E4']"
+				searchtimeout="30000ms">
+					/form//table[@name='ItemImportTemplate']/row[@index='4']/cell[@address='E4']
+				</item>
+				<item
+				addcaps="cell,excelrange"
+				capname="cell"
+				id="1a47b88e-da41-4c79-a6e7-bf7eb8011979"
+				name="CellF4"
+				refimgid="45cc297c-81ff-436f-ad34-bd1b38b5c2a2"
+				refpath="/form[@processname='EXCEL']/element[@class='XLDESK']/workbook/table/row[@index='4']/cell[@address='F4']"
+				searchtimeout="30000ms">
+					/form//table[@name='ItemImportTemplate']/row[@index='4']/cell[@address='F4']
+				</item>
+				<item
+				addcaps="cell,excelrange"
+				capname="cell"
+				id="d9e4644c-6efb-4e6b-9cf3-273e06dc4b3e"
+				name="CellJ4"
+				refimgid="da4129ba-c1b1-4958-8a1b-b704beae14e7"
+				refpath="/form[@processname='EXCEL']/element[@class='XLDESK']/workbook/table/row[@index='4']/cell[@address='J4']"
+				searchtimeout="30000ms">
+					/form//table[@name='ItemImportTemplate']/row[@index='4']/cell[@address='J4']
+				</item>
+				<item
+				addcaps="cell,excelrange"
+				capname="cell"
+				id="883b7b1a-9d46-4f3e-9106-f00bad4168f2"
+				name="CellL4"
+				refimgid="bec52807-f1d3-4b0c-b9dc-c77ab3a1cd27"
+				refpath="/form[@processname='EXCEL']/element[@class='XLDESK']/workbook/table/row[@index='4']/cell[@address='L4']"
+				searchtimeout="30000ms">
+					/form//table[@name='ItemImportTemplate']/row[@index='4']/cell[@address='L4']
+				</item>
+				<item
+				addcaps="cell,excelrange"
+				capname="cell"
+				id="93ad73bf-6614-46b6-8c3e-2998c10755e8"
+				name="CellM4"
+				refimgid="378df459-cb74-4d03-b774-f7b6f528bdfa"
+				refpath="/form[@processname='EXCEL']/element[@class='XLDESK']/workbook/table/row[@index='4']/cell[@address='M4']"
+				searchtimeout="30000ms">
+					/form//table[@name='ItemImportTemplate']/row[@index='4']/cell[@address='M4']
+				</item>
+				<item
+				addcaps="cell,excelrange"
+				capname="cell"
+				id="01d20b8e-cab1-4bf7-a43b-6c1ba3f2ccb5"
+				name="CellN4"
+				refimgid="33869cbd-3e17-4639-8e06-ce7deca0e387"
+				refpath="/form[@processname='EXCEL']/element[@class='XLDESK']/workbook/table/row[@index='4']/cell[@address='N4']"
+				searchtimeout="30000ms">
+					/form//table[@name='ItemImportTemplate']/row[@index='4']/cell[@address='N4']
+				</item>
+				<item
+				addcaps="cell,excelrange"
+				capname="cell"
+				id="1e84ca51-aafb-49ae-ace2-80c984f4ad4c"
+				name="CellO4"
+				refimgid="b30d8240-fb2c-4b35-8fd2-d716a56c6ee5"
+				refpath="/form[@processname='EXCEL']/element[@class='XLDESK']/workbook/table/row[@index='4']/cell[@address='O4']"
+				searchtimeout="30000ms">
+					/form//table[@name='ItemImportTemplate']/row[@index='4']/cell[@address='O4']
+				</item>
+				<item
+				addcaps="cell,excelrange"
+				capname="cell"
+				id="ecadaac1-d869-4138-8d74-72916bb66103"
+				name="CellA5"
+				refimgid="2182c511-3335-4fcf-af7b-2cab43cd945e"
+				refpath="/form[@processname='EXCEL']/element[@class='XLDESK']/workbook/table/row[@index='5']/cell[@address='A5']"
+				searchtimeout="30000ms">
+					/form//table[@name='ItemImportTemplate']/row[@index='5']/cell[@address='A5']
+				</item>
+				<item
+				addcaps="cell,excelrange"
+				capname="cell"
+				id="0709cb57-ee72-417a-a9a1-a5bd3975ba43"
+				name="CellB5"
+				refimgid="1203706a-b6ab-4b39-a60c-40ab3453d54b"
+				refpath="/form[@processname='EXCEL']/element[@class='XLDESK']/workbook/table/row[@index='5']/cell[@address='B5']"
+				searchtimeout="30000ms">
+					/form//table[@name='ItemImportTemplate']/row[@index='5']/cell[@address='B5']
+				</item>
+				<item
+				addcaps="cell,excelrange"
+				capname="cell"
+				id="f78cc8ae-7f93-44db-9bb5-487c7631dfa3"
+				name="CellB6"
+				refimgid="90710c15-4208-4427-8e0d-a131b95d800f"
+				refpath="/form[@processname='EXCEL']/element[@class='XLDESK']/workbook/table/row[@index='6']/cell[@address='B6']"
+				searchtimeout="30000ms">
+					/form//table[@name='ItemImportTemplate']/row[@index='6']/cell[@address='B6']
+				</item>
+				<item
+				addcaps="cell,excelrange"
+				capname="cell"
+				id="49871a3c-ece0-4644-92c0-0ab598abd85b"
+				name="CellF5"
+				refimgid="7fa1f483-16e1-4ef1-94cf-ef767a2864c8"
+				refpath="/form[@processname='EXCEL']/element[@class='XLDESK']/workbook/table/row[@index='5']/cell[@address='F5']"
+				searchtimeout="3000ms">
+					/form//table[@name='ItemImportTemplate']/row[@index='5']/cell[@address='F5']
+				</item>
+				<item
+				addcaps="cell,excelrange"
+				capname="cell"
+				id="c4a07f57-bb79-463e-a182-0bd4b9924a28"
+				name="CellC5"
+				refimgid="92b4f26d-f180-4214-9d10-09e3fc266101"
+				refpath="/form[@processname='EXCEL']/element[@class='XLDESK']/workbook/table/row[@index='5']/cell[@address='C5']"
+				searchtimeout="30000ms">
+					/form//table[@name='ItemImportTemplate']/row[@index='5']/cell[@address='C5']
+				</item>
+				<item
+				addcaps="cell,excelrange"
+				capname="cell"
+				id="1ac1be9c-1a89-4fff-bb2f-d09dd8b4351b"
+				name="CellC6"
+				refimgid="419469a3-5b2f-4212-a02b-1d7b14623a39"
+				refpath="/form[@processname='EXCEL']/element[@class='XLDESK']/workbook/table/row[@index='6']/cell[@address='C6']"
+				searchtimeout="30000ms">
+					/form//table[@name='ItemImportTemplate']/row[@index='6']/cell[@address='C6']
+				</item>
+				<basepath>
+					/form//table[@name='ItemImportTemplate']
+				</basepath>
+			</folder>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="54aebdd8-5bfa-499d-9168-0a0269c2b9c7"
+			name="ButtonOK"
+			refimgid="128d8dbd-ef54-4a7b-8e15-160c8ff38f65"
+			searchtimeout="100ms">
+				/form/?/?/button[@accessiblename='&amp;OK']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="31e940e9-b87c-4eed-b0d2-8f90cff5a0ee"
+			name="CloseWindow"
+			refimgid="41998f5e-c2b8-4839-ae87-38d81d5e400a"
+			refpath="/form[@controlname='FrmNewPurchaseOrder']/container/element[@controlname='btnCancel']/button[@accessiblename='Close Window']"
+			searchtimeout="30000ms">
+				/form/?/?/element[@controlname='btnCancel']/button[@accessiblename='Close Window']
+			</item>
+			<item
+			addcaps="cell,accessible"
+			capname="cell"
+			id="7d3ac616-e66c-4d18-bdbf-556eb2f8ab69"
+			name="ReceiptRow0"
+			refimgid="dbf879e9-3587-467f-969a-3ffecf03ff4d"
+			refpath="/form[@controlname='FrmGoodsReceipt']/container/element[@controlname='xtraTabControl1']/container/container/element[@controlname='gcItemsGrid']/table/container/row/cell[@accessiblename='Receipt row 0']"
+			searchtimeout="30000ms">
+				/form/container[@controlname='layoutControl6']/?/?/container[@controlname='xtraTabReceiveItems']/?/?/element[@controlname='gcItemsGrid']/table[@accessiblerole='Table']//cell[@accessiblename='Receipt row 0']
+			</item>
+			<item
+			addcaps="text,control,nativewindow"
+			capname="text"
+			id="035331e0-e944-44a7-9513-93196229df7a"
+			name="TextMaskBox"
+			refimgid="dce498b5-7705-44ef-a3de-a916458e6551"
+			refpath="/form[@controlname='FrmGoodsReceiptDialog']/container/element[@controlname='txtDeliveryNote']/text[@controlname='_maskBox']"
+			searchtimeout="2000ms">
+				/form/container[@controlname='layoutControl1']/element[@controlname='txtDeliveryNote']/text[@controlname='_maskBox']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="16d2b7b7-92fe-48c9-b224-85ff1e9c3a84"
+			name="Receive"
+			refimgid="771f2dbb-abd6-40c4-a053-09aa127af84b"
+			refpath="/form[@controlname='FrmGoodsReceiptDialog']/container/element[@controlname='btnReceive']/button[@accessiblename='Receive']"
+			searchtimeout="1500ms">
+				/form/container[@controlname='layoutControl1']/?/?/button[@accessiblename='Receive']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="82162801-76d7-4c49-9d09-fc1ff9f65c3b"
+			name="Close"
+			refimgid="3ac80d44-7839-47f4-9715-1996f3b91b1d"
+			refpath="/form[@controlname='PrintPreviewFormExBase']/element[@controlname='ribbonControl']/container/container/toolbar[@accessiblename='Close']/button[@accessiblename='Close']"
+			searchtimeout="30000ms">
+				/form/element[@controlname='ribbonControl']//toolbar[@accessiblename='Close']/button[@accessiblename='Close']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="1a57b405-1f70-4afa-9c29-115ff8e26286"
+			name="CloseWindow1"
+			refimgid="deeb1318-cb7f-4df7-8eba-b3690a3fb658"
+			refpath="/form[@controlname='FrmGoodsReceipt']/container/element[@controlname='xtraTabControl1']/container/container/element[@controlname='btnCloseWindow']/button[@accessiblename='Close Window']"
+			searchtimeout="30000ms">
+				/form/container[@controlname='layoutControl6']//element[@controlname='btnCloseWindow']/button[@accessiblename='Close Window']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="8549f789-147c-4eb7-8393-1258355e4d97"
+			name="Close1"
+			refimgid="05841049-48d9-4e98-94cb-fd3795dd5ff3"
+			refpath="/form[@title>'Cannot Release Purchase Order']/titlebar/button[@accessiblename='Close']"
+			searchtimeout="30000ms">
+				/form/?/?/button[@accessiblename='Close']
+			</item>
+			<item
+			addcaps="table,accessible"
+			capname="table"
+			id="0ea7e9c3-1d47-456c-a4f1-a9cb30e8f29d"
+			name="GenesisAccount"
+			refimgid="32bd5e82-0258-4806-bd28-9cde14bfc474"
+			refpath="/form[@title>'Genesis Automation :: Log']/element/table/table[@accessiblename='Genesis account']"
+			searchtimeout="30000ms">
+				/form/?/?/table[@accessiblename='Root']/table[@accessiblename='Genesis account']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="9b330ca4-fc80-4f61-b2c3-53048ba9cdc6"
+			name="GenesisE2e"
+			refimgid="22304e21-fb2d-4978-8b38-854043cc6fd3"
+			refpath="/form[@title>'Genesis Automation :: Connection']/element/element[@instance='4']/element/text[@accessiblename='Genesis.e2e']"
+			searchtimeout="30000ms">
+				/form/?/?/element[@instance='4']/?/?/text[@accessiblename='Genesis.e2e']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="b1b470fa-549f-4c78-88dd-b685138673b5"
+			name="TestConnection"
+			refimgid="c69d10b8-13e2-467a-81fe-7a5219ff8b85"
+			refpath="/form[@title>'Genesis Automation :: Connection']/element/element[@instance='1']/button[@accessiblename='Test Connection']"
+			searchtimeout="30000ms">
+				/form/?/?/element[@instance='1']/button[@accessiblename='Test Connection']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="2f5551e1-39f6-417d-b84f-cba77f694f6b"
+			name="Save"
+			refimgid="0418aa15-6e26-4aa3-8d5a-d34524acf070"
+			refpath="/form[@title>'Genesis Automation :: Connection']/element/element[@instance='9']/button[@accessiblename='Save']"
+			searchtimeout="30000ms">
+				/form/?/?/element[@instance='9']/button[@accessiblename='Save']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="6428ba91-1834-4e01-a7ff-0a0376ec8259"
+			name="Text"
+			refimgid="bb0bfce9-700b-4d8e-8f16-236bb6264fec"
+			refpath="/form[@title>'Genesis Automation :: Log']/element/element[@instance='4']/element/text[@accessiblerole='Text']"
+			searchtimeout="30000ms">
+				/form/?/?/element[@instance='4']/?/?/text[@accessiblerole='Text']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="187b7f1f-622e-4934-b70e-7081774efe6e"
+			name="Exit"
+			refimgid="95363d6b-646b-4197-9ab0-594355d4399f"
+			refpath="/form[@title>'Genesis Automation :: Log']/element/element[@instance='6']/button[@accessiblename='Exit']"
+			searchtimeout="30000ms">
+				/form/?/?/element[@instance='6']/button[@accessiblename='Exit']
+			</item>
+			<item
+			addcaps="text,control,nativewindow"
+			capname="text"
+			id="b1519c7b-8715-43b9-a205-efc718278f78"
+			name="TextMaskBox1"
+			refimgid="5ced51eb-4ffa-4738-9600-1be51d76aa34"
+			refpath="/form[@controlname='FrmGoodsReceiptDialog']/container/element[@controlname='txtLotNumber']/text[@controlname='_maskBox']"
+			searchtimeout="3000ms">
+				/form/container[@controlname='layoutControl1']/?/?/text[@controlname='_maskBox']
+			</item>
+			<item
+			addcaps="text,control,nativewindow"
+			capname="text"
+			id="4c195617-d7fc-4af1-baa1-5c8ab5a6ee36"
+			name="TextMaskBox2"
+			refimgid="4a8c36ea-d382-4ac4-b7a4-a0635cc9d661"
+			refpath="/form[@controlname='FrmGoodsReceipt']/container/element[@controlname='xtraTabControl1']/container/container/element[@controlname='memoDeliveryNote']/text[@controlname='_maskBox']"
+			searchtimeout="30000ms">
+				/form/container[@controlname='layoutControl6']//element[@controlname='memoDeliveryNote']/text[@controlname='_maskBox']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="0ce4cd08-8c6b-4b8c-92d4-83f857d5dfeb"
+			name="ReceiveAll"
+			refimgid="57469ce8-98de-4494-8797-54f8569008fc"
+			refpath="/form[@controlname='FrmGoodsReceipt']/container/element[@controlname='xtraTabControl1']/container/container/element[@controlname='btnReceiveAll']/button[@accessiblename='Receive All']"
+			searchtimeout="30000ms">
+				/form/container[@controlname='layoutControl6']//element[@controlname='btnReceiveAll']/button[@accessiblename='Receive All']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="19310af0-e3ce-4f86-8232-46b9d7a4a42f"
+			name="GetTemplate"
+			refimgid="60e8c689-ccf3-4512-aa46-6e8293d98bc0"
+			refpath="/form[@controlname='FrmSelectFileToImport']/container/element[@controlname='btnGetTemplate']/button[@accessiblename='Get Template']"
+			searchtimeout="30000ms">
+				/form/?/?/element[@controlname='btnGetTemplate']/button[@accessiblename='Get Template']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="0718ca06-6aac-4904-8f79-4fc4f4a4151a"
+			name="ButtonSave"
+			refimgid="b399a02a-344d-457c-b62e-0bda34b7da61"
+			refpath="/form[@title>'Select Path to Save Excel']/button[@text='&amp;Save']"
+			searchtimeout="1300ms">
+				/form/button[@text='&amp;Save']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="acacee34-dbfa-42ad-9ff1-ee48b60f946c"
+			name="ButtonYes"
+			refimgid="699a8c31-0693-4120-8e6c-39f4c79ce2a4"
+			refpath="/form[@title='Confirm Save As']/container/element[@class='CtrlNotifySink' and @instance='0']/button[@text='&amp;Yes']"
+			searchtimeout="10000ms">
+				/form/?/?/element[@instance='0']/button[@text='&amp;Yes']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="65eb560f-7a6b-4dea-b1bc-40667d361a78"
+			name="ButtonYes1"
+			refimgid="b79882e8-ab55-488c-a577-ca42fe72217f"
+			refpath="/form[@title='Export To...']/element[@controltypename='SimpleButton' and @instance='0']/button[@accessiblename='&amp;Yes']"
+			searchtimeout="5000ms">
+				/form/?/?/button[@accessiblename='&amp;Yes']
+			</item>
+			<item
+			addcaps="cell,uiautomation"
+			capname="cell"
+			id="e715afe0-00fa-46ae-964d-b197ade2ef63"
+			name="Cell5"
+			refimgid="b5b5bbfa-68ef-4d56-aa4c-579867555a43"
+			refpath="/form[@processname='EXCEL']/element[@class='XLDESK']/workbook/tabpagelist/tabpage[@automationid='ItemImportTemplate']/table[@automationid='Grid' and @name='Bottom Pane']/cell[@name='5']"
+			searchtimeout="30000ms">
+				/form//tabpagelist[@automationid='ImportItemTemplate.xls']/tabpage[@automationid='ItemImportTemplate']/?/?/cell[@name='5']
+			</item>
+			<item
+			addcaps="table,excelworksheet"
+			capname="table"
+			id="38274577-451b-45dd-b150-7f123001f9f9"
+			name="ItemImportTemplate"
+			refimgid="6ffa20ed-655d-4c29-b602-cf3b1a806cca"
+			refpath="/form[@processname='EXCEL']/element[@class='XLDESK']/workbook/table[@name='ItemImportTemplate']"
+			searchtimeout="30000ms">
+				/form/?/?/workbook[@name='ImportItemTemplate.xls']/table[@name='ItemImportTemplate']
+			</item>
+			<item
+			addcaps="indicator,uiautomation"
+			capname="indicator"
+			id="89462406-926e-4a4e-b856-2b5ad8e07588"
+			name="Position"
+			refimgid="55c23d61-05ca-46ae-8428-cf19297fb043"
+			refpath="/form[@processname='EXCEL']/element[@class='XLDESK']/workbook/element[@controlid='3']/container[@class='NetUIHWND']/scrollbar[@classname='NetUIScrollBar']/indicator[@name='Position']"
+			searchtimeout="30000ms">
+				/form/?/?/workbook[@name='ImportItemTemplate.xls']//scrollbar[@classname='NetUIScrollBar']/indicator[@name='Position']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="9a38e056-df63-4448-a60e-51c2cbb10a78"
+			name="Save1"
+			refimgid="dbb422b5-7b1d-448c-807b-96cf28ca6be6"
+			refpath="/form[@processname='EXCEL']/element[@class='EXCEL2' and @instance='0']/container/element/element/container[@class='NetUIHWND']/container[@name='Ribbon']/toolbar/button[@name='Save']"
+			searchtimeout="30000ms">
+				/form/element[3]//container[@name='Ribbon']/toolbar[@name='Quick Access Toolbar']/button[@name='Save']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="6d4dcb28-c778-4c0c-8bc1-e820caebb01a"
+			name="Continue"
+			refimgid="a100ed1c-464c-4e27-acb8-353949842453"
+			refpath="/form[@title>'Microsoft Excel - Compatibility']/container/button[@name='Continue']"
+			searchtimeout="3000ms">
+				/form/?/?/button[@name='Continue']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="7e45b36b-8811-428d-8594-1af2ef9b3d83"
+			name="Close2"
+			refimgid="1af4e94b-18c6-47a5-a090-31a209ac9712"
+			refpath="/form[@processname='EXCEL']/element[@class='EXCEL2' and @instance='0']/container/element/element/container[@class='NetUIHWND']/container[@name='Ribbon']/button[@name='Close']"
+			searchtimeout="30000ms">
+				/form/element[3]/container[@caption='Ribbon']//container[@name='Ribbon']/button[@name='Close']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="bea08c72-b963-47b6-b72e-0df776a0a34b"
+			name="PushButton"
+			refimgid="3d2bf7ca-30f8-4556-95c2-ccac6e5fadfe"
+			refpath="/form[@controlname='FrmSelectFileToImport']/container/element[@controlname='btnEditSelectFile']/text[@accessiblerole='Text']/button[@accessiblerole='PushButton']"
+			searchtimeout="3000ms">
+				/form/?/?/element[@controlname='btnEditSelectFile']/?/?/button[@accessiblerole='PushButton']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="538b11b7-e397-4775-a70e-8c6cf4ecfd69"
+			name="Text1148"
+			refimgid="7c65c275-13d8-4d80-bfc8-31e5eada9fa2"
+			refpath="/form[@title>'Select Excel File To Impo']/combobox[@controlid='1148']/text[@controlid='1148']"
+			searchtimeout="3000ms">
+				/form/?/?/text[@controlid='1148']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="4670d338-749d-42f8-bf52-64d8f1127d22"
+			name="ButtonOK1"
+			refimgid="0383ee20-08c6-40d0-8ebf-7896907e1050"
+			refpath="/form[@title>'Select Excel File To Impo']/container/element[@class='CtrlNotifySink' and @instance='0']/button[@text='OK']"
+			searchtimeout="30000ms">
+				/form/?/?/element[@instance='0']/button[@text='OK']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="f801c7dc-94f0-4d86-ba76-503521f7feb5"
+			name="Import"
+			refimgid="476f43a6-9203-4093-aabd-509aae724f2f"
+			refpath="/form[@controlname='FrmSelectFileToImport']/container/element[@controlname='btnConfirm']/button[@accessiblename='Import']"
+			searchtimeout="30000ms">
+				/form/?/?/element[@controlname='btnConfirm']/button[@accessiblename='Import']
+			</item>
+			<item
+			addcaps="text,control,nativewindow"
+			capname="text"
+			id="6b4d8428-fecb-4b5d-94ce-6bf1e9fd806f"
+			name="TextBoxMaskBox"
+			refpath="/form/element/form/container/element/container/container/element/text"
+			searchtimeout="30000ms">
+				/form/?/?/form/container/?/?/container//text
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="5be2d663-7adf-417a-935b-af043c9ac791"
+			name="Close3"
+			refimgid="e701f929-5306-4f2b-aa74-57ec7b0f981f"
+			refpath="/form[@title='New Tab - Google Chrome']/container/container[@accessiblename='Google Chrome']/container[2]/container[1]/container[1]/tabpagelist/tabpage[@accessiblename='New Tab']/button[@accessiblename='Close']"
+			searchtimeout="30000ms">
+				/form/container[@accessiblename='New Tab - Google Chrome']/container[@accessiblename='Google Chrome']//tabpage[@accessiblename='New Tab']/button[@accessiblename='Close']
+			</item>
+			<item
+			addcaps="container,uiautomation"
+			capname="container"
+			id="7185f7e6-ee35-4ba3-87cc-e42a2f4c92c6"
+			name="Font"
+			refimgid="3eb07258-2164-44e9-9d19-22fca9e3ce85"
+			refpath="/form[@processname='EXCEL']/element[@class='EXCEL2' and @instance='0']/container/element/element/container[@class='NetUIHWND']/container[@name='Ribbon']/container/container/container[@name='Font']"
+			searchtimeout="30000ms">
+				/form/element[3]//container[@name='Ribbon']/container[@name='Lower Ribbon']/container[@name='Home']/container[@name='Font']
+			</item>
+			<item
+			addcaps="text,uiautomation"
+			capname="text"
+			id="b6373c55-49c3-4676-942b-626b014e5c59"
+			name="FormulaBar"
+			refimgid="1d3bfe0c-1544-45f5-88fb-364c86f6a522"
+			refpath="/form[@processname='EXCEL']/element[@class='EXCEL&lt;']/text[@automationid='FormulaBar']"
+			searchtimeout="30000ms">
+				/form/?/?/text[@automationid='FormulaBar']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="f9c10117-9f43-4677-ad66-e1731f747452"
+			name="Minimise"
+			refimgid="6428ed79-7eac-4a1a-a4f0-9dfbe0d4d4c2"
+			refpath="/form[@controlname='FrmSelectFileToImport']/titlebar/button[@accessiblename='Minimise']"
+			searchtimeout="30000ms">
+				/form/?/?/button[@accessiblename='Minimise']
+			</item>
+			<basepath>
+				/form
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAfhJREFUOE+t0V1Ik2EYxvFHUHOFMnNqmewkaBRGdBARdhCEaQSBEhSK
+FLOsrIQwzQwTTQQ1FjpaM8uY5qw5sqQcNMqahIERFRls1axV23Kz+dEqOvn34XvgC8HAuuCC5+T+
+XQeP+C95MOhgPpXOZwHpKcuwMZlvE5189bYSdtcwM1rC9OM8Joc2cqU6PjIwZFAR9jTxxVXOzLNC
+ph5lM3lvLZ8H1HRULooM3G9NmrOaSciuYaI/hXFrHMayhXJgbE00ztUxPM+IZWRVHI6VCuy6xUwN
+ZxP6vWpTE+hL4NO1aHzdAn2pQg5M3+wlZDYRMOrxNp7GujyegSYloTsagv3JBHoV+Hui+Ngl8FwW
+6Eri5EDwogF/cwOeqnLeHChCr07kRoOS4K/VcUsMPrPgg0nwrkPgbhc07l8gB96fOoH7cDHO/B28
+yNlM9ZIULLUJ+K9G4ZVWxy4JXrcJnEZBfVGsHHAV7mJ0WxZPM9cxkqHhoCrtr38/t9L5LFCRmsoR
+1VKKk9LYnbiMAmU6VX1v6XTwp+134awN6q7DsW7YetwmB6SnLGVmF0Y7nLkNNVY42gX72qCg5Qfr
+tT2Rgb2GJ5y0QKkJtOchX/ed3PoAOZWvWJF7ITKQVzfInnOwsznM9lofWypesunQQzZob5Ge1SIH
+5lPp/F8ixE9tidCBteEYVgAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		capname="menubar"
+		id="ba3da37f-2424-448d-9d04-6a188fb1dcde"
+		isrooted="True"
+		name="Explorer"
+		refpath="/menubar[@processname='explorer']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<folder
+			capname="toolbar"
+			id="85e10fac-0b19-4dc1-b5da-ea33169d12ec"
+			isrooted="True"
+			name="RunningApplications"
+			refpath="/menubar[@processname='explorer']/container[@controlid='40965']/container[@caption='Running applications']/element[@class='MSTaskListWClass']/toolbar[@accessiblename='Running applications']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="button,accessible"
+				capname="button"
+				id="380f4467-be39-41ab-b1f2-1ce5d4113a85"
+				name="GenesisAutomation"
+				refimgid="6482f065-84b9-45e6-bc38-ed5e58544932"
+				refpath="/menubar[@processname='explorer' and @class='Shell_TrayWnd']/container[@controlid='40965']/container/element/toolbar/button[@accessiblename='Genesis Automation']"
+				searchtimeout="30000ms">
+					/menubar[@processname='explorer']/container[@controlid='40965']//toolbar[@accessiblename='Running applications']/button[@accessiblename='Genesis Automation']
+				</item>
+				<item
+				addcaps="button,accessible"
+				capname="button"
+				id="e80c2bf1-9c11-4284-b357-ec23eb0cf953"
+				name="GenesisAutomation1RunningWindow"
+				refimgid="07b46183-b318-4e7b-96da-0043c2c1fd83"
+				refpath="/menubar[@processname='explorer' and @class='Shell_TrayWnd']/container[@controlid='40965']/container/element/toolbar/button[@accessiblename>'Genesis Automation – 1 running']"
+				searchtimeout="5000ms">
+					/menubar[@processname='explorer']/container[@controlid='40965']//toolbar[@accessiblename='Running applications']/button[@accessiblename&gt;'Genesis Automation &#8211; 1 running']
+				</item>
+				<item
+				addcaps="button,accessible"
+				capname="button"
+				id="ff1e39ef-a9b3-4fb9-bf38-056305fe1ef9"
+				name="GenesisAutomation2RunningWindows"
+				refimgid="1f4c4b7a-9ddc-41fb-9879-e33a4715cfb1"
+				refpath="/menubar[@processname='explorer' and @class='Shell_TrayWnd']/container[@controlid='40965']/container/element/toolbar/button[@accessiblename>'Genesis Automation – 2 running']"
+				searchtimeout="5000ms">
+					/menubar[@processname='explorer']/container[@controlid='40965']//toolbar[@accessiblename='Running applications']/button[@accessiblename&gt;'Genesis Automation &#8211; 2 running']
+				</item>
+				<item
+				addcaps="separator,accessible"
+				capname="separator"
+				id="6d64a092-c777-40b4-8c02-dc8bede63fe5"
+				name="GenesisAutomation1RunningWindow1"
+				refimgid="c0bc3c8e-6e6b-41e2-a67b-3340d70c953d"
+				refpath="/menubar[@processname='explorer' and @class='Shell_TrayWnd']/container[@controlid='40965']/container/element/toolbar/separator"
+				searchtimeout="30000ms">
+					/menubar[@processname='explorer']/container[@controlid='40965']//toolbar[@accessiblename='Running applications']/separator
+				</item>
+				<basepath>
+					/menubar[@processname='explorer']/container[@controlid='40965']//toolbar[@accessiblename='Running applications']
+				</basepath>
+			</folder>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="4a0c0d85-0297-4111-9f95-6949ed125368"
+			name="Text4101"
+			refimgid="963d7c6b-9f33-45de-bbe5-e438bcdaaf6a"
+			refpath="/menubar[@processname='explorer' and @class='Shell_TrayWnd']/element[@controlid='4100']/text[@controlid='4101']"
+			searchtimeout="30000ms">
+				/menubar[@processname='explorer']/?/?/text[@controlid='4101']
+			</item>
+			<basepath>
+				/menubar[@processname='explorer']
+			</basepath>
+			<icon>
+				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
+VZB4/J8BADyZI3kwAy98AAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		capname="webdocument"
+		id="e941cd85-9758-4d69-ab42-58fe4aeb643e"
+		isrooted="True"
+		name="TheTestSuiteStructureRanorexStudi"
+		refpath="/dom[@domain='www.ranorex.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,imgtag"
+			capname="imgtag"
+			id="bdb41787-211b-43c1-a219-ce93a2b6e4bf"
+			name="AddingTestSuiteItemsUsingDragdrop"
+			refimgid="f07fe981-a207-477c-90f0-f9d6e3b4f89f"
+			refpath="/dom[@domain='www.ranorex.com']//div[#'et_builder_outer_content']/div/div/div[7]/div/div/span/img[@title>'Adding test suite items using']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.ranorex.com']//div[#'et_builder_outer_content']/div/div/div[7]//img[@title&gt;'Adding test suite items using']
+			</item>
+			<basepath>
+				/dom[@domain='www.ranorex.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		capname="windowsapp"
+		id="6b259df7-8cd8-4cb9-9af0-ff6ef550c28b"
+		isrooted="True"
+		name="JumpListForGenesisAutomation"
+		refpath="/winapp[@packagename='Microsoft.Windows.ShellExperienceHost']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,uiautomation"
+			capname="text"
+			id="321f3448-2835-4258-9f0d-1b290560a65f"
+			name="DisplayNameTextBlock"
+			refimgid="3dd9bf16-3205-4910-9a36-87897bce7b84"
+			refpath="/winapp[@packagename='Microsoft.Windows.ShellExperienceHost']/list/listitem[@automationid='Close']/text[@automationid='DisplayNameTextBlock']"
+			searchtimeout="30000ms">
+				/winapp[@packagename='Microsoft.Windows.ShellExperienceHost']/?/?/listitem[@automationid='Close']/text[@automationid='DisplayNameTextBlock']
+			</item>
+			<basepath>
+				/winapp[@packagename='Microsoft.Windows.ShellExperienceHost']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAFNJREFUOE/FjkEKACAIBHud//dFhoeVlA5aUguDaDk4iEhu6BFkw8yG
+piyIcQKtFbDjBLus8/hXa0qwghnq+wsA3soXAPS9F1TAjglOYoIbfgtIJhzzocwFPBjQAAAAAElF
+TkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		capname="windowsapp"
+		id="bc60adbe-710e-4f05-9c10-fb962ebc04d7"
+		isrooted="True"
+		name="Cortana"
+		refpath="/winapp[@packagename='Microsoft.Windows.Cortana']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="listitem,uiautomation,uiautomationinvoke"
+			capname="listitem"
+			id="22cfddec-1b1d-45d0-85cd-eb65e45023df"
+			name="GenesisAutomation"
+			refimgid="31201bde-b55b-40d9-bf07-0dfb532c2457"
+			searchtimeout="10000ms">
+				/winapp[@packagename='Microsoft.Windows.Cortana']//list[@automationid='suggestionsList']/listitem[@automationid='GenesisAutomation']
+			</item>
+			<item
+			addcaps="listitem,uiautomation,uiautomationinvoke"
+			capname="listitem"
+			id="caf35dab-d03f-49c1-9a8a-0f20d4ff24f9"
+			name="RunAs"
+			refimgid="8fb8714e-bf28-4bb4-be3a-4113ebf5ba1a"
+			refpath="/winapp[@packagename='Microsoft.Windows.Cortana']/container/container/list[@name='Context Menu']/listitem[@automationid='RunAs']"
+			searchtimeout="30000ms">
+				/winapp[@packagename='Microsoft.Windows.Cortana']//list[@name='Context Menu']/listitem[@automationid='RunAs']
+			</item>
+			<basepath>
+				/winapp[@packagename='Microsoft.Windows.Cortana']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAANFJREFUOE+dkj0OgkAQRrmJF/EeXsOSI3gEC2tbC49hYWVoLGzUWJFQ
+SBTchTdkk2EzSyKTPGD3m2/2Z8iyvPBTLLc3X9atJ5zz/nCpxjmjQUTz6x197E6ljHWx1f4+5GmD
+BvP760xtsblKEd5mAVYiLC2wPr6GHEtkm2HbUyQLiGDMx0ieJXDbHMPSNMkCtIpjWJomWQAIuWVD
+A7p0ftTpAp92+Ae47VjDzDFlHItA/yH0Ow5ZOeRrIwRzPJ9ED/42Q/iYZQYes83wrJr55rzwHTVj
+oGsvH5E7AAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		capname="desktop"
+		id="ccb30b5f-0c23-4b00-b6aa-8b320f6078bd"
+		isrooted="True"
+		name="Explorer1"
+		refpath="/desktop[@processname='explorer']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="list,nativewindow"
+			capname="list"
+			id="7adc5185-b948-4862-9016-1be2bf969bdb"
+			name="List1"
+			refimgid="796b1a7a-e9d7-4e02-af81-33b8690fbf30"
+			refpath="/desktop[@processname='explorer']/container/list[@controlid='1']"
+			searchtimeout="30000ms">
+				/desktop[@processname='explorer']/?/?/list[@controlid='1']
+			</item>
+			<basepath>
+				/desktop[@processname='explorer']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACBElEQVQ4T4WSUWgScRzHHfQcLPZcL0EQFNtTQU9FRUHSXhaTRbBA
+ixBRiIhAMIz2JERgT0bI1ALZy6BCyY0RMtuZeqPi0hlUE0JcyZXV7S6/u9/vdnezC/rDB/7c///5
+8L//net/43TmG/6m2Wxie9kYC8I6Xjc7eLL0wbH50aqMWVHm+Y2ChiMz7xGPx+3IgduStZnmmUoX
+i1IX6GsOaA8FQqEQRFG0A/kNsNzXflhQ5Pi8yhy7Vbae/zPAstphRmd/WWJvE2jJMAL6GsnEg/17
+kcvl7EDtUwv9zS8MBWiY8pp+OlMst4C3F/dBvnsYubFhFItFcOCP8tGCAor+yiQTJL5aB8sZ0bhE
+kj0eD5LJ5Hbg95oFBUz5/p1plu+97FmnGLpShtvtRjgctk/Q2XgD7aeBGRjZPcSYIkHrFPB6vYN3
+UFit6os1hgJ03J3QJZrrFHB8hReiALW3wlBg+bMtmpBM/4gjsGfqGQq1ZWjfi8xOSf363ILl8aeM
+I0CU3y1ClRegdnWB0KXRm0sDHDpxFecnLiMWi6HRaNiBXWfnMHzusUM4euoSJqem4ff7EQwGEYlE
+kEqlUKlUIMuyEZhJreDghYcYO3MdJ8evwefzIRAI8DGj0Siy2SxKpRKq1SokSUK73YaiKIZsjnw+
+j0QigXQ6DZoLgsDvWK/XBzc6hsu1BRMfpP7Bj/TsAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		capname="webdocument"
+		id="fe9934cd-0838-461b-b9b7-9aea99bce455"
+		isrooted="True"
+		name="NewTab"
+		refpath="/dom[@domain='newtab']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<basepath>
+				/dom[@domain='newtab']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		capname="webdocument"
+		id="12e085a9-68ef-45a2-96c9-d97330fa02e5"
+		isrooted="True"
+		name="WebDocumentPRVDSK2793GoodsReceipt"
+		refpath="/dom[@domain='genesisvmi.atlassian.net']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<basepath>
+				/dom[@domain='genesisvmi.atlassian.net']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

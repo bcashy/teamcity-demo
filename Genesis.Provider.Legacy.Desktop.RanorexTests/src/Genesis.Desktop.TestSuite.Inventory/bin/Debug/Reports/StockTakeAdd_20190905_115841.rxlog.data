@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="2.7m"
+		durationms="162770"
+		type="root"
+		rid="1b79f6d5585d9869"
+		totalerrorcount="1"
+		totalwarningcount="4"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="BrianCashman"
+		rxversion="9.1.1.0"
+		host="DESKTOP-LUI4H5C"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-GB"
+		dtnlanguage="en-GB"
+		screenresolution="5206x1091"
+		timestamp="05/09/2019 11:58:44"
+		timestampiso="2019-09-05T10:58:44"
+		endtime="05/09/2019 12:01:27"
+		timeoutfactor="1"
+		module="StockTakeAdd">
+		<detail>
+			StockTakeAdd
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.151"
+			timeRelativeToTestModuleStartTime="00:03.151"
+			timeWallClock="11:58:47"
+			time="00:03.151"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'GenesisAutomation1.StockTake' at 33;24.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Genesis Automation']/element[@controlname='ribbon']//toolbar[@accessiblename='Stock']/button[@accessiblename='Stock Take']"
+				itempath="element[@controlname='ribbon']//toolbar[@accessiblename='Stock']/button[@accessiblename='Stock Take']"
+				fullname="Genesis_Desktop_TestSuite_InventoryRepository.GenesisAutomation1.StockTake"
+				id="3c2fd9689f914e96a00c288785657c7f"
+				timeout="60000"
+				codefile="c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.Inventory\Recordings\StockTakeAdd.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.650"
+			timeRelativeToTestModuleStartTime="00:05.650"
+			timeWallClock="11:58:50"
+			time="00:05.650"
+			level="Warn"
+			category="WinForms">
+			<message>
+				Something is limiting object recognition for WinForms. Missing privileges are a common cause of this. Try starting all Ranorex tools and the AUT with the same privileges, preferably as an administrator. <br/>Process: 'GenesisAutomation' (pid 10908)<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v9.1/interfaces-connectivity/technology-instrumentation/general-troubleshooting/#DotNetWinForms<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="PotentiallyWinForms"
+				showInProgressDialog="False"
+				codefile="c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.Inventory\Recordings\StockTakeAdd.cs"
+				codeline="83"
+				loglvl="Warn"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.331"
+			timeRelativeToTestModuleStartTime="00:06.331"
+			timeWallClock="11:58:50"
+			time="00:06.331"
+			level="Warn"
+			category="WinForms">
+			<message>
+				Something is limiting object recognition for WinForms. This is caused by one of the following:<br/>- Your AUT uses obfuscated controls or is a mixed-mode executable.<br/>- Your AUT and the test executable target different platforms/processors. This causes issues on 64-bit OS.<br/>Process: 'Flow' (pid 20992)<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v9.1/interfaces-connectivity/technology-instrumentation/general-troubleshooting/#DotNetWinForms<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="WinFormsResolving"
+				showInProgressDialog="False"
+				codefile="c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.Inventory\Recordings\StockTakeAdd.cs"
+				codeline="83"
+				loglvl="Warn"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.263"
+			timeRelativeToTestModuleStartTime="00:07.263"
+			timeWallClock="11:58:51"
+			time="00:07.263"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'GenesisAutomation1.NewStockTake' at 84;16.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Genesis Automation']/?/?/form[@controlname='FrmStockTake']/?/?/element[@controlname='btnNewStockTake']/button[@accessiblename='New Stock Take']"
+				itempath="?/?/form[@controlname='FrmStockTake']/?/?/element[@controlname='btnNewStockTake']/button[@accessiblename='New Stock Take']"
+				fullname="Genesis_Desktop_TestSuite_InventoryRepository.GenesisAutomation1.NewStockTake"
+				id="f63f22b637d14d898abdb3585e859a7a"
+				timeout="60000"
+				codefile="c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.Inventory\Recordings\StockTakeAdd.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.362"
+			timeRelativeToTestModuleStartTime="00:09.362"
+			timeWallClock="11:58:53"
+			time="00:09.362"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'PurchaseOrder.Part' at 10;7.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form//container[@controlname='welcomeWizardPage1']/?/?/list[@accessiblename='1']/radiobutton[@accessiblename='Part']"
+				itempath=".//container[@controlname='welcomeWizardPage1']/?/?/list[@accessiblename='1']/radiobutton[@accessiblename='Part']"
+				fullname="Genesis_Desktop_TestSuite_InventoryRepository.PurchaseOrder.Part"
+				id="a74c8b3ad920424caef594872c2106d1"
+				timeout="33000"
+				codefile="c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.Inventory\Recordings\StockTakeAdd.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.210"
+			timeRelativeToTestModuleStartTime="00:11.210"
+			timeWallClock="11:58:55"
+			time="00:11.210"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'PurchaseOrder.LayoutControl1.ButtonNext' at 49;5.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form/container[@controlname='layoutControl1']//button[@accessiblename='&amp;Next >']"
+				itempath=".//button[@accessiblename='&amp;Next >']"
+				fullname="Genesis_Desktop_TestSuite_InventoryRepository.PurchaseOrder.LayoutControl1.ButtonNext"
+				id="1f4bcf40df6a4c17bae9361bfd7c9162"
+				timeout="63000"
+				codefile="c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.Inventory\Recordings\StockTakeAdd.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.946"
+			timeRelativeToTestModuleStartTime="00:11.946"
+			timeWallClock="11:58:56"
+			time="00:11.946"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'PurchaseOrder.LayoutControl1.TextBoxMaskBox1' at 119;27.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form/container[@controlname='layoutControl1']/?/?/container[@controlname='wizPageSelectLocation']//text[@controltypename='TextBoxMaskBox']"
+				itempath="?/?/container[@controlname='wizPageSelectLocation']//text[@controltypename='TextBoxMaskBox']"
+				fullname="Genesis_Desktop_TestSuite_InventoryRepository.PurchaseOrder.LayoutControl1.TextBoxMaskBox1"
+				id="12e4f90307d74cbe994f4bb87d849d22"
+				timeout="63000"
+				codefile="c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.Inventory\Recordings\StockTakeAdd.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.229"
+			timeRelativeToTestModuleStartTime="00:13.229"
+			timeWallClock="11:58:57"
+			time="00:13.229"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'automation' with focus on 'PurchaseOrder.LayoutControl1.TextBoxMaskBox1'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form/container[@controlname='layoutControl1']/?/?/container[@controlname='wizPageSelectLocation']//text[@controltypename='TextBoxMaskBox']"
+				itempath="?/?/container[@controlname='wizPageSelectLocation']//text[@controltypename='TextBoxMaskBox']"
+				fullname="Genesis_Desktop_TestSuite_InventoryRepository.PurchaseOrder.LayoutControl1.TextBoxMaskBox1"
+				id="12e4f90307d74cbe994f4bb87d849d22"
+				timeout="63000"
+				codefile="c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.Inventory\Recordings\StockTakeAdd.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.027"
+			timeRelativeToTestModuleStartTime="00:14.027"
+			timeWallClock="11:58:58"
+			time="00:14.027"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'PurchaseOrder.LayoutControl1.ButtonNext' at 26;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form/container[@controlname='layoutControl1']//button[@accessiblename='&amp;Next >']"
+				itempath=".//button[@accessiblename='&amp;Next >']"
+				fullname="Genesis_Desktop_TestSuite_InventoryRepository.PurchaseOrder.LayoutControl1.ButtonNext"
+				id="1f4bcf40df6a4c17bae9361bfd7c9162"
+				timeout="63000"
+				codefile="c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.Inventory\Recordings\StockTakeAdd.cs"
+				codeline="106"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.796"
+			timeRelativeToTestModuleStartTime="00:14.796"
+			timeWallClock="11:58:59"
+			time="00:14.796"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'PurchaseOrder.LayoutControl1.ChooseItems' at 77;14.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form/container[@controlname='layoutControl1']/?/?/container[@controlname='wizardPage_Part']//button[@accessiblename='Choose Items...']"
+				itempath="?/?/container[@controlname='wizardPage_Part']//button[@accessiblename='Choose Items...']"
+				fullname="Genesis_Desktop_TestSuite_InventoryRepository.PurchaseOrder.LayoutControl1.ChooseItems"
+				id="40e033a61c694c03a285806a19228ca2"
+				timeout="63000"
+				codefile="c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.Inventory\Recordings\StockTakeAdd.cs"
+				codeline="110"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.030"
+			timeRelativeToTestModuleStartTime="00:16.030"
+			timeWallClock="11:59:00"
+			time="00:16.030"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'PurchaseOrder.LayoutControl1.MarkRow2' at 30;20.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form/container[@controlname='layoutControl1']//row[@accessiblename='Row 3']/cell[@accessiblename='Mark row 2']"
+				itempath=".//row[@accessiblename='Row 3']/cell[@accessiblename='Mark row 2']"
+				fullname="Genesis_Desktop_TestSuite_InventoryRepository.PurchaseOrder.LayoutControl1.MarkRow2"
+				id="20eb247bcc734337aa145bb023d0dd77"
+				timeout="63000"
+				codefile="c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.Inventory\Recordings\StockTakeAdd.cs"
+				codeline="114"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:17.488"
+			timeRelativeToTestModuleStartTime="01:17.488"
+			timeWallClock="12:00:01"
+			time="01:17.488"
+			level="Warn"
+			category="Repository">
+			<message>
+				Item 'Genesis_Desktop_TestSuite_InventoryRepository.PurchaseOrder.LayoutControl1.MarkRow2' could be found using its absolute path, but not using its relative path from the cached element of parent folder 'Genesis_Desktop_TestSuite_InventoryRepository.PurchaseOrder'. This can happen if either the item search timeout is too small or if items within a rooted folder do not share a common parent element. To fix this problem, first increase the item search timeout. If this does not help, create a separate rooted folder for this item or disable caching for the specified folder.
+			</message>
+			<metainfo
+				codefile="c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.Inventory\Recordings\StockTakeAdd.cs"
+				codeline="115"
+				loglvl="Warn"
+				id="20eb247bcc734337aa145bb023d0dd77"
+				path="/form/container[@controlname='layoutControl1']//row[@accessiblename='Row 3']/cell[@accessiblename='Mark row 2']"
+				fullname="Genesis_Desktop_TestSuite_InventoryRepository.PurchaseOrder.LayoutControl1.MarkRow2"
+				itemindex="8">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:17.894"
+			timeRelativeToTestModuleStartTime="01:17.894"
+			timeWallClock="12:00:02"
+			time="01:17.894"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item 'PurchaseOrder.LayoutControl1.LineDown' at 5;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form/container[@controlname='layoutControl1']//scrollbar[@accessiblename='scroll bar']/button[@accessiblename='Line Down']"
+				itempath=".//scrollbar[@accessiblename='scroll bar']/button[@accessiblename='Line Down']"
+				fullname="Genesis_Desktop_TestSuite_InventoryRepository.PurchaseOrder.LayoutControl1.LineDown"
+				id="e8c69f0870e04badac799d2b490fab3e"
+				timeout="63000"
+				codefile="c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.Inventory\Recordings\StockTakeAdd.cs"
+				codeline="118"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:19.103"
+			timeRelativeToTestModuleStartTime="02:19.103"
+			timeWallClock="12:01:03"
+			time="02:19.103"
+			level="Warn"
+			category="Repository">
+			<message>
+				Item 'Genesis_Desktop_TestSuite_InventoryRepository.PurchaseOrder.LayoutControl1.LineDown' could be found using its absolute path, but not using its relative path from the cached element of parent folder 'Genesis_Desktop_TestSuite_InventoryRepository.PurchaseOrder'. This can happen if either the item search timeout is too small or if items within a rooted folder do not share a common parent element. To fix this problem, first increase the item search timeout. If this does not help, create a separate rooted folder for this item or disable caching for the specified folder.
+			</message>
+			<metainfo
+				codefile="c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.Inventory\Recordings\StockTakeAdd.cs"
+				codeline="119"
+				loglvl="Warn"
+				id="e8c69f0870e04badac799d2b490fab3e"
+				path="/form/container[@controlname='layoutControl1']//scrollbar[@accessiblename='scroll bar']/button[@accessiblename='Line Down']"
+				fullname="Genesis_Desktop_TestSuite_InventoryRepository.PurchaseOrder.LayoutControl1.LineDown"
+				itemindex="9">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:19.433"
+			timeRelativeToTestModuleStartTime="02:19.433"
+			timeWallClock="12:01:03"
+			time="02:19.433"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Up item 'PurchaseOrder.LayoutControl1.LineDown' at 5;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form/container[@controlname='layoutControl1']//scrollbar[@accessiblename='scroll bar']/button[@accessiblename='Line Down']"
+				itempath=".//scrollbar[@accessiblename='scroll bar']/button[@accessiblename='Line Down']"
+				fullname="Genesis_Desktop_TestSuite_InventoryRepository.PurchaseOrder.LayoutControl1.LineDown"
+				id="e8c69f0870e04badac799d2b490fab3e"
+				timeout="63000"
+				codefile="c:\Github\Genesis.Provider.Legacy.Desktop\tests\Genesis.Provider.Legacy.Desktop.RanorexTests\src\Genesis.Desktop.TestSuite.Inventory\Recordings\StockTakeAdd.cs"
+				codeline="123"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:42.771"
+			timeRelativeToTestModuleStartTime="02:42.771"
+			timeWallClock="12:01:27"
+			time="02:42.771"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

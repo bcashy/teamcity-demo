@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{E5825879-185C-45A9-8E23-7461756B50E7}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Genesis.Desktop.TestSuite.Inventory</RootNamespace>
+    <AssemblyName>Genesis.Desktop.TestSuite.Inventory</AssemblyName>
+    <NoWarn>1591</NoWarn>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <RANOREX_BIN_PATH Condition=" '$(RANOREX_BIN_PATH)' == '' ">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Ranorex\Studio', 'InstallDir', null, RegistryView.Registry64, RegistryView.Registry32))\Bin</RANOREX_BIN_PATH>
+    <RanorexTargetsPath>$(RANOREX_BIN_PATH)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>5ef9b98a-31a6-43c4-9c74-2f84fb6672b7</projectdefaultrepository>
+    <StartAction>Project</StartAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Delphi">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>426ff3cd-2b45-491a-b52e-6d1ebf5ab9cd</id>
+    </Compile>
+    <Compile Include="Genesis.Desktop.TestSuite.InventoryRepository.cs">
+      <BoundTo>5ef9b98a-31a6-43c4-9c74-2f84fb6672b7</BoundTo>
+      <DependentUpon>Genesis.Desktop.TestSuite.InventoryRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>255e2fad-3946-4dfa-be58-99d8099a3557</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>b8dd39ff-26c0-4ddc-9b87-c37105a1c62c</id>
+    </Compile>
+    <Compile Include="Recordings\StockTakeSubmit.cs">
+      <BoundTo>7dc6c218-2dff-4eb5-8898-b4ff178c6892</BoundTo>
+      <DependentUpon>StockTakeSubmit.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f4a502bb-316f-479d-ae27-a823833d260d</id>
+    </Compile>
+    <Compile Include="Recordings\StockTakeSubmit.UserCode.cs">
+      <BoundTo>7dc6c218-2dff-4eb5-8898-b4ff178c6892</BoundTo>
+      <DependentUpon>StockTakeSubmit.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>dbb1bd85-e29c-4926-9d54-230b9759ad0f</id>
+    </Compile>
+    <Compile Include="Recordings\StockTakeAdd.cs">
+      <BoundTo>92d5b027-8939-4af5-8735-55cfeb7ae62e</BoundTo>
+      <DependentUpon>StockTakeAdd.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>35858e5e-8ff1-419b-95ab-e1308f4b14c0</id>
+    </Compile>
+    <Compile Include="Recordings\StockTakeAdd.UserCode.cs">
+      <BoundTo>92d5b027-8939-4af5-8735-55cfeb7ae62e</BoundTo>
+      <DependentUpon>StockTakeAdd.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4ffe324a-f515-4d3b-aaa5-4e05e227e070</id>
+    </Compile>
+    <Compile Include="Recordings\CreateReleasePOTeardown.cs">
+      <DependentUpon>CreateReleasePOTeardown.rxrec</DependentUpon>
+      <id>1d81517a-4081-4d61-af29-f534ee5b0c16</id>
+      <BoundTo>10e3ce7f-3959-425d-a009-7c21a16a5f99</BoundTo>
+      <RecorderCode>true</RecorderCode>
+    </Compile>
+    <Compile Include="Recordings\CreateReleasePOTeardown.UserCode.cs">
+      <DependentUpon>CreateReleasePOTeardown.rxrec</DependentUpon>
+      <id>b0d20651-a63c-4357-9756-16b84a20a063</id>
+      <BoundTo>10e3ce7f-3959-425d-a009-7c21a16a5f99</BoundTo>
+      <UserCode>true</UserCode>
+    </Compile>
+    <Compile Include="Recordings\CreateRequisition.cs">
+      <DependentUpon>CreateRequisition.rxrec</DependentUpon>
+      <id>76355bd4-5b3a-4c5b-a604-d5734cd428a5</id>
+      <BoundTo>b7b36a6e-3513-400b-9c49-be6b29349cd1</BoundTo>
+      <RecorderCode>true</RecorderCode>
+    </Compile>
+    <Compile Include="Recordings\CreateRequisition.UserCode.cs">
+      <DependentUpon>CreateRequisition.rxrec</DependentUpon>
+      <id>774a6950-4462-4a75-976d-8b7e43fca665</id>
+      <BoundTo>b7b36a6e-3513-400b-9c49-be6b29349cd1</BoundTo>
+      <UserCode>true</UserCode>
+    </Compile>
+    <Compile Include="Recordings\GoodsReceiptNonRecall.cs">
+      <DependentUpon>GoodsReceiptNonRecall.rxrec</DependentUpon>
+      <id>6c2dbf89-7cb3-43ee-b697-e6f6fb6f23b1</id>
+      <BoundTo>3ea9dc75-1028-4201-8129-be127b56edbf</BoundTo>
+      <RecorderCode>true</RecorderCode>
+    </Compile>
+    <Compile Include="Recordings\GoodsReceiptNonRecall.UserCode.cs">
+      <DependentUpon>GoodsReceiptNonRecall.rxrec</DependentUpon>
+      <id>0161f5b7-f946-4f16-82db-dc37fdb510e1</id>
+      <BoundTo>3ea9dc75-1028-4201-8129-be127b56edbf</BoundTo>
+      <UserCode>true</UserCode>
+    </Compile>
+    <Compile Include="Recordings\GoodsReceiptRecalled.cs">
+      <DependentUpon>GoodsReceiptRecalled.rxrec</DependentUpon>
+      <id>70a67c8a-9f49-455b-80c5-f8259bc4952f</id>
+      <BoundTo>0dff2018-a2ca-450c-b6fb-1232777f8684</BoundTo>
+      <RecorderCode>true</RecorderCode>
+    </Compile>
+    <Compile Include="Recordings\GoodsReceiptRecalled.UserCode.cs">
+      <DependentUpon>GoodsReceiptRecalled.rxrec</DependentUpon>
+      <id>09aa1d21-7ad8-4afb-a99b-ba393495b69a</id>
+      <BoundTo>0dff2018-a2ca-450c-b6fb-1232777f8684</BoundTo>
+      <UserCode>true</UserCode>
+    </Compile>
+    <Compile Include="Recordings\GoodsReceiptRecalledAllLotNumbers.cs">
+      <DependentUpon>GoodsReceiptRecalledAllLotNumbers.rxrec</DependentUpon>
+      <id>e3629bc2-69dc-4cba-8dfb-654345c3ef7a</id>
+      <BoundTo>3a5901c5-5c87-4589-b096-e8335f732e5c</BoundTo>
+      <RecorderCode>true</RecorderCode>
+    </Compile>
+    <Compile Include="Recordings\GoodsReceiptRecalledAllLotNumbers.UserCode.cs">
+      <DependentUpon>GoodsReceiptRecalledAllLotNumbers.rxrec</DependentUpon>
+      <id>ae7e9325-f102-4ef5-aa1b-8feedf897d26</id>
+      <BoundTo>3a5901c5-5c87-4589-b096-e8335f732e5c</BoundTo>
+      <UserCode>true</UserCode>
+    </Compile>
+    <Compile Include="Recordings\GoodsReceiptReceiveAll.cs">
+      <DependentUpon>GoodsReceiptReceiveAll.rxrec</DependentUpon>
+      <id>434b80e2-e794-4f75-8068-c158bee34c20</id>
+      <BoundTo>13649316-1174-4841-b35d-d21912e4d9fa</BoundTo>
+      <RecorderCode>true</RecorderCode>
+    </Compile>
+    <Compile Include="Recordings\GoodsReceiptReceiveAll.UserCode.cs">
+      <DependentUpon>GoodsReceiptReceiveAll.rxrec</DependentUpon>
+      <id>6325717d-18d8-4e23-ab70-6aac9b21f17a</id>
+      <BoundTo>13649316-1174-4841-b35d-d21912e4d9fa</BoundTo>
+      <UserCode>true</UserCode>
+    </Compile>
+    <Compile Include="Recordings\GoodsReceiptSameItemLotDifferentSupplier.cs">
+      <DependentUpon>GoodsReceiptSameItemLotDifferentSupplier.rxrec</DependentUpon>
+      <id>0147bfe0-06ec-470b-b2d9-227616846957</id>
+      <BoundTo>4ec09c39-a735-4c44-a86e-3de1dbbd6a1e</BoundTo>
+      <RecorderCode>true</RecorderCode>
+    </Compile>
+    <Compile Include="Recordings\GoodsReceiptSameItemLotDifferentSupplier.UserCode.cs">
+      <DependentUpon>GoodsReceiptSameItemLotDifferentSupplier.rxrec</DependentUpon>
+      <id>9aa9a51b-5c9d-402c-a9e7-bec5e05e0204</id>
+      <BoundTo>4ec09c39-a735-4c44-a86e-3de1dbbd6a1e</BoundTo>
+      <UserCode>true</UserCode>
+    </Compile>
+    <Compile Include="Recordings\GoodsReceiptTeardown.cs">
+      <DependentUpon>GoodsReceiptTeardown.rxrec</DependentUpon>
+      <id>dfe63741-cff9-43dc-bad6-7436d7290d62</id>
+      <BoundTo>be8bb1f2-d4f4-4d79-8e5d-c2d768647a07</BoundTo>
+      <RecorderCode>true</RecorderCode>
+    </Compile>
+    <Compile Include="Recordings\GoodsReceiptTeardown.UserCode.cs">
+      <DependentUpon>GoodsReceiptTeardown.rxrec</DependentUpon>
+      <id>0ad4f764-22c5-4209-b6b2-fcb7ac5368b1</id>
+      <BoundTo>be8bb1f2-d4f4-4d79-8e5d-c2d768647a07</BoundTo>
+      <UserCode>true</UserCode>
+    </Compile>
+    <Compile Include="Recordings\ReleaseRequisition.cs">
+      <DependentUpon>ReleaseRequisition.rxrec</DependentUpon>
+      <id>84dec681-e816-45ef-b2c6-5fb444fdad12</id>
+      <BoundTo>4c9db0c1-9f5e-4346-9a29-e65f6b1dc34a</BoundTo>
+      <RecorderCode>true</RecorderCode>
+    </Compile>
+    <Compile Include="Recordings\ReleaseRequisition.UserCode.cs">
+      <DependentUpon>ReleaseRequisition.rxrec</DependentUpon>
+      <id>954a40c0-e29b-482a-adaf-acba5e9ed7b3</id>
+      <BoundTo>4c9db0c1-9f5e-4346-9a29-e65f6b1dc34a</BoundTo>
+      <UserCode>true</UserCode>
+    </Compile>
+    <Compile Include="Recordings\StockTakeTeardown.cs">
+      <BoundTo>af2cf800-f0d2-4d99-ac8c-e0043786e5c8</BoundTo>
+      <DependentUpon>StockTakeTeardown.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7016a9cf-ef31-466f-82d8-88ce84f3a5cb</id>
+    </Compile>
+    <Compile Include="Recordings\StockTakeTeardown.UserCode.cs">
+      <BoundTo>af2cf800-f0d2-4d99-ac8c-e0043786e5c8</BoundTo>
+      <DependentUpon>StockTakeTeardown.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>da6b2b9b-c944-4e5b-94e8-c2c8193fbe7a</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Genesis_Desktop_TestSuite_Inventory_StockTake.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>cdc263cc-a2be-493c-b384-2b33ff5c6dc7</id>
+    </Content>
+    <None Include="app.config">
+      <id>e239faca-7071-40be-81db-dc448176c12f</id>
+    </None>
+    <Content Include="Genesis.Desktop.TestSuite.Inventory.rxsqc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>e778ee6f-43a3-4f02-a06e-6cfb967b164d</id>
+    </Content>
+    <None Include="Genesis.Desktop.TestSuite.InventoryRepository.rximg">
+      <BoundTo>5ef9b98a-31a6-43c4-9c74-2f84fb6672b7</BoundTo>
+      <DependentUpon>Genesis.Desktop.TestSuite.InventoryRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>6dfdad36-54f5-47a9-9482-ae294a3f66cb</id>
+    </None>
+    <None Include="Genesis.Desktop.TestSuite.InventoryRepository.rxrep">
+      <id>5ef9b98a-31a6-43c4-9c74-2f84fb6672b7</id>
+      <repoid>30df7f11-25c9-42fd-bb7f-2b66eef9aaf4</repoid>
+      <reporootid>83f4b445-5a61-4eaa-9ea2-62bd31129349</reporootid>
+    </None>
+    <None Include="Recordings\StockTakeSubmit.rxrec">
+      <BoundTo>5ef9b98a-31a6-43c4-9c74-2f84fb6672b7</BoundTo>
+      <id>7dc6c218-2dff-4eb5-8898-b4ff178c6892</id>
+      <recordtableid>602b14dc-060e-4a48-b847-4fc295313916</recordtableid>
+    </None>
+    <None Include="Recordings\StockTakeAdd.rxrec">
+      <BoundTo>5ef9b98a-31a6-43c4-9c74-2f84fb6672b7</BoundTo>
+      <id>92d5b027-8939-4af5-8735-55cfeb7ae62e</id>
+      <recordtableid>d42c8636-66e4-4def-aa7f-b3042a665e2a</recordtableid>
+    </None>
+    <None Include="Recordings\CreateReleasePOTeardown.rxrec">
+      <id>10e3ce7f-3959-425d-a009-7c21a16a5f99</id>
+      <BoundTo>5ef9b98a-31a6-43c4-9c74-2f84fb6672b7</BoundTo>
+      <recordtableid>b3749af4-59b4-40d2-811a-e4e71783aef5</recordtableid>
+    </None>
+    <None Include="Recordings\CreateRequisition.rxrec">
+      <id>b7b36a6e-3513-400b-9c49-be6b29349cd1</id>
+      <BoundTo>5ef9b98a-31a6-43c4-9c74-2f84fb6672b7</BoundTo>
+      <recordtableid>d6b0d18b-a638-4a8a-855c-65a9fd13e52a</recordtableid>
+    </None>
+    <None Include="Recordings\GoodsReceiptNonRecall.rxrec">
+      <id>3ea9dc75-1028-4201-8129-be127b56edbf</id>
+      <BoundTo>5ef9b98a-31a6-43c4-9c74-2f84fb6672b7</BoundTo>
+      <recordtableid>bd0c7b9d-c444-4692-8601-44444fa85177</recordtableid>
+    </None>
+    <None Include="Recordings\GoodsReceiptRecalled.rxrec">
+      <id>0dff2018-a2ca-450c-b6fb-1232777f8684</id>
+      <BoundTo>5ef9b98a-31a6-43c4-9c74-2f84fb6672b7</BoundTo>
+      <recordtableid>e9fbf577-4250-477f-8a9f-a2fcdc403836</recordtableid>
+    </None>
+    <None Include="Recordings\GoodsReceiptRecalledAllLotNumbers.rxrec">
+      <id>3a5901c5-5c87-4589-b096-e8335f732e5c</id>
+      <BoundTo>5ef9b98a-31a6-43c4-9c74-2f84fb6672b7</BoundTo>
+      <recordtableid>1481a818-9edd-43dc-9bd7-9c7e103dfcc9</recordtableid>
+    </None>
+    <None Include="Recordings\GoodsReceiptReceiveAll.rxrec">
+      <id>13649316-1174-4841-b35d-d21912e4d9fa</id>
+      <BoundTo>5ef9b98a-31a6-43c4-9c74-2f84fb6672b7</BoundTo>
+      <recordtableid>f7c12ff7-8a3e-4536-93b4-a834bc85705d</recordtableid>
+    </None>
+    <None Include="Recordings\GoodsReceiptSameItemLotDifferentSupplier.rxrec">
+      <id>4ec09c39-a735-4c44-a86e-3de1dbbd6a1e</id>
+      <BoundTo>5ef9b98a-31a6-43c4-9c74-2f84fb6672b7</BoundTo>
+      <recordtableid>71919488-c6ce-4b28-81d3-4bfc10e8a5a8</recordtableid>
+    </None>
+    <None Include="Recordings\GoodsReceiptTeardown.rxrec">
+      <id>be8bb1f2-d4f4-4d79-8e5d-c2d768647a07</id>
+      <BoundTo>5ef9b98a-31a6-43c4-9c74-2f84fb6672b7</BoundTo>
+      <recordtableid>d96a2a6e-e483-4965-87fd-37d7be77294f</recordtableid>
+    </None>
+    <None Include="Recordings\ReleaseRequisition.rxrec">
+      <id>4c9db0c1-9f5e-4346-9a29-e65f6b1dc34a</id>
+      <BoundTo>5ef9b98a-31a6-43c4-9c74-2f84fb6672b7</BoundTo>
+      <recordtableid>f5e7b160-f7fc-4b51-b938-4f58881a8219</recordtableid>
+    </None>
+    <None Include="Recordings\StockTakeTeardown.rxrec">
+      <BoundTo>5ef9b98a-31a6-43c4-9c74-2f84fb6672b7</BoundTo>
+      <id>af2cf800-f0d2-4d99-ac8c-e0043786e5c8</id>
+      <recordtableid>52757b94-2841-4f86-8700-a8fef5b56031</recordtableid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Genesis.Desktop.TestSuite.Inventory.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>14edf9de-da91-4404-98d6-809086104ea6</id>
+    </Content>
+    <Content Include="Genesis_Desktop_TestSuite_InventoryTasks.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>09cf81b1-93d7-4949-ad4c-b606e9ff6107</id>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Recordings">
+      <id>d8af9bda-0fe0-421b-acca-9bd7b42f3948</id>
+    </Folder>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Genesis.Desktop.TestSuite.General\Genesis.Desktop.TestSuite.General.csproj">
+      <Project>{CF923D48-4661-4FED-AC0D-E56017E49FA6}</Project>
+      <Name>Genesis.Desktop.TestSuite.General</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

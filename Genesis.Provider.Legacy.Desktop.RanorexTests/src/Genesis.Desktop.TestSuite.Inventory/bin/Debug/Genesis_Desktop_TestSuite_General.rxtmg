@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="9.1">
+	<testsuiteentryhierarchy>
+		<flatlistofchildren>
+			<modulegroups
+			id="59a5e7b0-a753-435b-8f33-76a75afe95dc"
+			name="Genesis_Desktop_TestSuite_General">
+			</modulegroups>
+		</flatlistofchildren>
+		<childhierarchy>
+			<modulegroups
+			id="59a5e7b0-a753-435b-8f33-76a75afe95dc"
+			name="Genesis_Desktop_TestSuite_General">
+			</modulegroups>
+		</childhierarchy>
+	</testsuiteentryhierarchy>
+</modulegroupdoc>
